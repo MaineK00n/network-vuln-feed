@@ -1,0 +1,4 @@
+[submodule "dest/fortinet"]
+	path = dest/fortinet
+	url = https://github.com/vulsio/vuls-data-raw-fortinet.git
+	branch = main
