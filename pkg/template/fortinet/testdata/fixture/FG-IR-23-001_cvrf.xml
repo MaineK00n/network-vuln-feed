@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cvrfdoc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf">
+    <DocumentTitle>FortiOS / FortiProxy - Heap buffer underflow in administrative interface</DocumentTitle>
+    <DocumentType>Fortinet PSIRT Advisories</DocumentType>
+    <DocumentPublisher Type="Vendor">
+        <ContactDetails>
+            Fortinet PSIRT Contact:
+            Email: vulnwatch@fortinet.com
+            Website: fortiguard.com/psirt-pgpkey
+        </ContactDetails>
+     </DocumentPublisher>
+    <DocumentTracking>
+        
+        <Identification>
+            <ID>FG-IR-23-001</ID>
+        </Identification>
+        
+
+        
+
+        <CurrentReleaseDate>2023-03-07T00:00:00</CurrentReleaseDate>
+    </DocumentTracking>
+    <DocumentNotes>
+        
+        <Note Title="Summary" Type="Summary">
+            A buffer underwrite (&#39;buffer underflow&#39;) vulnerability in FortiOS &amp; FortiProxy administrative interface may allow a remote unauthenticated attacker to execute arbitrary code on the device and/or perform a DoS on the GUI, via specifically crafted requests.   Exploitation status: Fortinet is not aware of any instance where this vulnerability was exploited in the wild. We continuously review and test the security of our products, and this vulnerability was internally discovered within that frame.
+        </Note>
+        
+
+        
+        <Note Title="Description" Type="Description">
+            None
+        </Note>
+        
+
+        
+        <Note Title="Impact" Type="Description">
+            Execute unauthorized code or commands
+        </Note>
+        
+
+        
+        <Note Title="Affected Products" Type="Description">
+            FortiOS version 7.2.0 through 7.2.3 FortiOS version 7.0.0 through 7.0.9 FortiOS version 6.4.0 through 6.4.11 FortiOS version 6.2.0 through 6.2.12 FortiOS version 6.0.0 through 6.0.16 FortiOS 5.x all versions FortiProxy version 7.2.0 through 7.2.2 FortiProxy version 7.0.0 through 7.0.8 FortiProxy version 2.0.0 through 2.0.12 FortiProxy 1.2 all versions FortiProxy 1.1 all versions FortiOS-6K7K version 7.0.5 FortiOS-6K7K version 6.4.10 FortiOS-6K7K version 6.4.8 FortiOS-6K7K version 6.4.6 FortiOS-6K7K version 6.4.2 FortiOS-6K7K version 6.2.9 through 6.2.12 FortiOS-6K7K version 6.2.6 through 6.2.7 FortiOS-6K7K version 6.2.4 FortiOS-6K7K 6.0 all versions   Even when running a vulnerable FortiOS version, the hardware devices listed below are *only* impacted by the DoS part of the issue, *not* by the arbitrary code execution (non-listed devices are vulnerable to both):    FortiGateRugged-100C FortiGate-100D FortiGate-200C FortiGate-200D FortiGate-300C FortiGate-3600A FortiGate-5001FA2 FortiGate-5002FB2 FortiGate-60D FortiGate-620B FortiGate-621B FortiGate-60D-POE FortiWiFi-60D FortiWiFi-60D-POE FortiGate-300C-Gen2 FortiGate-300C-DC-Gen2 FortiGate-300C-LENC-Gen2 FortiWiFi-60D-3G4G-VZW FortiGate-60DH FortiWiFi-60DH FortiGateRugged-60D FortiGate-VM01-Hyper-V FortiGate-VM01-KVM FortiWiFi-60D-I FortiGate-60D-Gen2 FortiWiFi-60D-J FortiGate-60D-3G4G-VZW FortiWifi-60D-Gen2 FortiWifi-60D-Gen2-J FortiWiFi-60D-T FortiGateRugged-90D FortiWifi-60D-Gen2-U FortiGate-50E FortiWiFi-50E FortiGate-51E FortiWiFi-51E FortiWiFi-50E-2R FortiGate-52E FortiGate-40F FortiWiFi-40F FortiGate-40F-3G4G FortiWiFi-40F-3G4G FortiGate-40F-3G4G-NA FortiGate-40F-3G4G-EA FortiGate-40F-3G4G-JP FortiWiFi-40F-3G4G-NA FortiWiFi-40F-3G4G-EA FortiWiFi-40F-3G4G-JP
+        </Note>
+        
+
+        
+        <Note Title="Solutions" Type="Description">
+            Please upgrade to FortiOS version 7.4.0 or above Please upgrade to FortiOS version 7.2.4 or above Please upgrade to FortiOS version 7.0.10 or above Please upgrade to FortiOS version 6.4.12 or above Please upgrade to FortiOS version 6.2.13 or above Please upgrade to upcoming FortiOS version 6.0.17 or above Please upgrade to FortiProxy version 7.2.3 or above Please upgrade to FortiProxy version 7.0.9 or above Please upgrade to FortiOS-6K7K version 7.0.10 or above Please upgrade to FortiOS-6K7K version 6.4.12 or above Please upgrade to FortiOS-6K7K version 6.2.13 or above   Workaround for FortiOS:   Disable HTTP/HTTPS administrative interface OR Limit IP addresses that can reach the administrative interface:   config firewall address edit &#34;my_allowed_addresses&#34; set subnet &lt;MY IP&gt; &lt;MY SUBNET&gt; end   Then create an Address Group:   config firewall addrgrp edit &#34;MGMT_IPs&#34; set member &#34;my_allowed_addresses&#34; end   Create the Local in Policy to restrict access only to the predefined group on management interface (here: port1):   config firewall local-in-policy edit 1 set intf port1 set srcaddr &#34;MGMT_IPs&#34; set dstaddr &#34;all&#34; set action accept set service HTTPS HTTP set schedule &#34;always&#34; set status enable next edit 2 set intf &#34;any&#34; set srcaddr &#34;all&#34; set dstaddr &#34;all&#34; set action deny set service HTTPS HTTP set schedule &#34;always&#34; set status enable end   If using non default ports, create appropriate service object for GUI administrative access:   config firewall service custom edit GUI_HTTPS set tcp-portrange &lt;admin-sport&gt; next edit GUI_HTTP set tcp-portrange &lt;admin-port&gt; end   Use these objects instead of &#34;HTTPS HTTP &#34;in the local-in policy 1 and 2 below.   When using an HA reserved management interface, the local in policy needs to be configured slightly differently - please see: https://community.fortinet.com/t5/FortiGate/Technical-Tip-How-to-configure-a-local-in-policy-on-a-HA/ta-p/222005   Please contact customer support for assistance.
+        </Note>
+        
+
+        
+        <Note Title="Acknowledgement" Type="Description">
+            Internally discovered and reported by Kai Ni from Burnaby InfoSec team.
+        </Note>
+        
+
+    </DocumentNotes>
+
+    
+
+    
+    <Acknowledgments>
+        
+        <Acknowledgment>
+            <Description>Internally discovered and reported by Kai Ni from Burnaby InfoSec team.</Description>
+        </Acknowledgment>
+        
+    </Acknowledgments>
+    
+    <Vulnerability xmlns="http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/vuln">
+    
+        
+        
+            
+                <CVE>CVE-2023-25610</CVE>
+            
+        
+    
+        
+        <CVSSScoreSets>
+            <ScoreSetV3>
+                <BaseScoreV3>9.3</BaseScoreV3>
+                
+                <VectorV3>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C</VectorV3>
+                
+            </ScoreSetV3>
+        </CVSSScoreSets>
+        
+    </Vulnerability>
+</cvrfdoc>
