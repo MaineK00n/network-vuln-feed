@@ -1,0 +1,34 @@
+name: discover advisories
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  discover-fortinet:
+    name: discover fortinet advisories
+    runs-on: ubuntu-latest
+    steps:
+      - name: set Git config
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: update dest/fortinet submodule
+        run: git submodule update --remote --recursive dest/fortinet
+
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v4
+        with:
+          go-version-file: 'go.mod'
+
+      - name: go build
+        run: go build -a -o network-vuln-feed ./cmd
+
+      - name: discover
+        run: ./network-vuln-feed discover fortinet https://filestore.fortinet.com/fortiguard/rss/ir.xml ./dest/fortinet

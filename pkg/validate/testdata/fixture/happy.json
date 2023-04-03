@@ -1,0 +1,49 @@
+{
+  "id": "FG-IR-23-001",
+  "title": "FortiOS / FortiProxy - Heap buffer underflow in administrative interface",
+  "summary": "A buffer underwrite ('buffer underflow') vulnerability in FortiOS & FortiProxy administrative interface may allow a remote unauthenticated attacker to execute arbitrary code on the device and/or perform a DoS on the GUI, via specifically crafted requests.   Exploitation status: Fortinet is not aware of any instance where this vulnerability was exploited in the wild. We continuously review and test the security of our products, and this vulnerability was internally discovered within that frame.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-23-001",
+      "cve": "CVE-2023-25610",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "nodes": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": null
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 9.3,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2023-03-07T00:00:00Z",
+  "updated": "2023-03-07T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-001"
+}
+
