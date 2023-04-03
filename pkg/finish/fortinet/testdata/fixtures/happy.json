@@ -1,0 +1,64 @@
+{
+  "id": "FG-IR-00-000",
+  "title": "Title",
+  "summary": "Summary",
+  "description": "Description",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-00-000",
+      "cve": "CVE-0000-0000",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "nodes": [
+                {
+                  "description": "Forti: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:forti:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "0.0.0",
+                    "le": "0.0.1"
+                  },
+                  "fixed_in": ["0.0.2", "0.1.0"]
+                }
+              ],
+              "children": {
+                "nodes": [
+                  {
+                    "description": "Forti: equal Forti 000",
+                    "cpe": "cpe:2.3:h:fortinet:forti-000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    },
+                    "fixed_in": null
+                  }
+                ],
+                "children": null
+              }
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.6,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
+          },
+          "cwe": ["CWE-00"],
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p",
+      "url": "https://github.com/orangecertcc/security-research/security/advisories/GHSA-qpv8-g6qv-rf8p"
+    }
+  ],
+  "published": "2023-10-10T00:00:00Z",
+  "updated": "2023-10-10T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-167"
+}
+
