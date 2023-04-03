@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>FortiGuard Labs | FortiGuard Center - IR Advisories</title>
+    <link>https://fortiguard.fortinet.com/rss/ir.xml</link>
+    <description>The following is a list of advisories for issues resolved in Fortinet products. The
+      resolution of such issues is coordinated by the Fortinet Product Security Incident Response
+      Team (PSIRT), a dedicated, global team that manages the receipt, investigation, and public
+      reporting of information about security vulnerabilities and issues related to Fortinet
+      products and services.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Thu, 21 Sep 2023 11:30:11 +0000</lastBuildDate>
+    <pubDate>Thu, 21 Sep 2023 11:30:11 -0700</pubDate>
+    <item>
+      <title>FortiADC - Command injection in Automation/Webhook module</title>
+      <link>https://fortiguard.fortinet.com/psirt/FG-IR-22-310</link>
+      <description>An improper neutralization of special elements used in an OS command
+        vulnerability [CWE-78] in the management interface of FortiADC may allow an authenticated
+        attacker to execute unauthorized commands via specifically crafted arguments to existing
+        commands.</description>
+      <guid isPermaLink="true">https://fortiguard.fortinet.com/psirt/FG-IR-22-310</guid>
+      <pubDate>Wed, 13 Sep 2023 00:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>SQL injection in forward module</title>
+      <link>https://fortiguard.fortinet.com/psirt/#5575</link>
+      <description><![CDATA[]]></description>
+      <guid isPermaLink="true">https://fortiguard.fortinet.com/psirt/#5575</guid>
+      <pubDate>Sat, 21 Feb 2026 00:41:45 -0800</pubDate>
+    </item>
+  </channel>
+</rss>
