@@ -4,6 +4,7 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 Fixes # (issue)
 
-# Referenced Security Advisory URL
+# Reference
 
 * https://example.com
+
