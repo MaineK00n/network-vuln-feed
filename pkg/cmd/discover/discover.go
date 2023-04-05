@@ -12,15 +12,7 @@ import (
 	yamahaCmd "github.com/MaineK00n/network-vuln-feed/pkg/cmd/discover/yamaha"
 )
 
-type DiscoverOptions struct {
-	Direcotry string
-}
-
 func NewCmdDiscover() *cobra.Command {
-	opts := &DiscoverOptions{
-		Direcotry: "",
-	}
-
 	cmd := &cobra.Command{
 		Use:   "discover <vendor>",
 		Short: "discover new and updated advisories",
@@ -33,8 +25,6 @@ func NewCmdDiscover() *cobra.Command {
 	cmd.AddCommand(necCmd.NewCmdNEC())
 	cmd.AddCommand(paloaltoCmd.NewCmdPaloAlto())
 	cmd.AddCommand(yamahaCmd.NewCmdYAMAHA())
-
-	cmd.Flags().StringVarP(&opts.Direcotry, "directory", "d", "", "vuls format advisory storage directory path")
 
 	return cmd
 }
