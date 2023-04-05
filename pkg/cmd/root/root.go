@@ -1,0 +1,23 @@
+package root
+
+import (
+	"github.com/spf13/cobra"
+
+	discoverCmd "github.com/MaineK00n/network-vuln-feed/pkg/cmd/discover"
+	templateCmd "github.com/MaineK00n/network-vuln-feed/pkg/cmd/template"
+)
+
+func NewCmdRoot() *cobra.Command {
+	cmd := &cobra.Command{
+		Use:           "network-vuln-feed <command>",
+		Short:         "network-vuln-feed",
+		Long:          "network-vuln-feed: discover and collect security advisories for network devices",
+		SilenceErrors: true,
+		SilenceUsage:  true,
+	}
+
+	cmd.AddCommand(discoverCmd.NewCmdDiscover())
+	cmd.AddCommand(templateCmd.NewCmdTemplate())
+
+	return cmd
+}
