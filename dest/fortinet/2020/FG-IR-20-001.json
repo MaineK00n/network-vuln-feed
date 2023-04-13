@@ -1,0 +1,108 @@
+{
+  "id": "FG-IR-20-001",
+  "title": "XSS Vulnerability in Disclaimer Description of a Replacement Message in FortiWeb",
+  "summary": "An improper neutralization of input vulnerability in FortiWeb may allow a remote authenticated attacker to perform a stored cross site scripting attack (XSS) via the Disclaimer Description of a Replacement Message.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-001",
+      "cve": "CVE-2020-6646",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWeb: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWeb: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWeb: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWeb Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWeb Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Unauthorized code execution",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2020-03-09T00:00:00Z",
+  "updated": "2020-03-09T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-001"
+}
+

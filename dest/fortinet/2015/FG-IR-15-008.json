@@ -1,0 +1,3866 @@
+{
+  "id": "FG-IR-15-008",
+  "title": "OpenSSL vulnerabilities - March 2015",
+  "summary": "",
+  "description": "OpenSSL released a security advisory in March 2015 to announce multiple security vulnerabilities.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0291",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0290",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0207",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0286",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0208",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0287",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0289",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0292",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0293",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-1787",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0285",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0209",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-008",
+      "cve": "CVE-2015-0288",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://www.openssl.org/news/secadv_20150319.txt",
+      "url": "https://www.openssl.org/news/secadv_20150319.txt"
+    }
+  ],
+  "published": "2015-03-24T00:00:00Z",
+  "updated": "2015-03-24T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-008"
+}
+

@@ -1,0 +1,162 @@
+{
+  "id": "FG-IR-21-022",
+  "title": "FortiClientMac - Privilege escalation by abusing a Symlink following vulnerability",
+  "summary": "A UNIX symbolic link (Symlink) Following (CWE-61) vulnerability in FortiClient for MacOS may allow a local and unprivileged user to overwrite privileged shell scripts executed during the installation phase via escalating their privileges to root.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-21-022",
+      "cve": "CVE-2021-26089",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 6.3,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Arbitrary code execution",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-07-07T00:00:00Z",
+  "updated": "2021-07-07T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-022"
+}
+

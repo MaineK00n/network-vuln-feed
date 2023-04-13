@@ -1,0 +1,124 @@
+{
+  "id": "FG-IR-16-003",
+  "title": "DHCP Hostname HTML Injection",
+  "summary": "It is possible to inject malicious script through the DHCP HOSTNAME option. The malicious script code is injected into the device's \"DHCP Monitor\" page (System->Monitor->DHCP Monitor) on the web-based interface which is accessible by the webui administrators.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-16-003",
+      "cve": "CVE-2015-3626",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Cross Site Scripting",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://cwe.mitre.org/data/definitions/80.html",
+      "url": "https://cwe.mitre.org/data/definitions/80.html"
+    }
+  ],
+  "published": "2016-03-16T00:00:00Z",
+  "updated": "2016-03-16T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-003"
+}
+

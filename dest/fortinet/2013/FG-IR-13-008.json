@@ -1,0 +1,162 @@
+{
+  "id": "FG-IR-13-008",
+  "title": "Potential Man-In-The Middle Vulnerability in FortiClient VPN",
+  "summary": "Under certain conditions, FortiClient VPN may be susceptible to a certificate validation vulnerability which would allow an attacker to intercept user credentials in a man-in-the-middle attack.",
+  "description": "Under certain conditions, FortiClient VPN may be susceptible to a certificate validation vulnerability which would allow an attacker to intercept user credentials in a man-in-the-middle attack.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-13-008",
+      "cve": "",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Critical",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "<a href=\"http://archives.neohapsis.com/archives/fulldisclosure/2013-05/0001.html\">Neohapsis</a>",
+      "url": "<a href=\"http://archives.neohapsis.com/archives/fulldisclosure/2013-05/0001.html\">Neohapsis</a>"
+    }
+  ],
+  "published": "2013-05-13T00:00:00Z",
+  "updated": "2013-05-13T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-13-008"
+}
+

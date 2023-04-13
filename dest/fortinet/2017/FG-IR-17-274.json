@@ -1,0 +1,135 @@
+{
+  "id": "FG-IR-17-274",
+  "title": "Use of hardcoded credentials for communication between Meru access points and FortiWLC",
+  "summary": "FortiWLC included two hardcoded accounts which were used by Meru Access Points to report core dumps; these accounts had read/write privileges over various parts of the system.Starting with FortiWLC 7.0.13 and FortiWLC 8.4.0, the accounts are now completely removed and do not persist over firmware upgrade.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-17-274",
+      "cve": "CVE-2017-17539",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Unauthorized read/write remote access",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-274",
+      "cve": "CVE-2017-17540",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Unauthorized read/write remote access",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2018-05-04T00:00:00Z",
+  "updated": "2018-05-04T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-274"
+}
+

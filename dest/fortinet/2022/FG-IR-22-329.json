@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-22-329",
+  "title": "FortiNAC - Unauthenticated access to administrative operations",
+  "summary": "An improper authorization vulnerability [CWE-285]  in FortiNAC may allow an unauthenticated attacker to perform some administrative operations over the FortiNAC instance via crafted HTTP POST requests.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-329",
+      "cve": "CVE-2022-38375",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortinac-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 8.6,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2023-02-16T00:00:00Z",
+  "updated": "2023-02-16T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-329"
+}
+

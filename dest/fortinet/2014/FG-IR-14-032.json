@@ -1,0 +1,91 @@
+{
+  "id": "FG-IR-14-032",
+  "title": "FortiADC-E remote network access vulnerability",
+  "summary": "",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-14-032",
+      "cve": "",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Unprivileged network access",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2014-10-21T00:00:00Z",
+  "updated": "2014-10-21T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-032"
+}
+

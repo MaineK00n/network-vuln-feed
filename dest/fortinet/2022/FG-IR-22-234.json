@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-22-234",
+  "title": "FortiADC - WAF XSS Injection Bypass",
+  "summary": "An improper handling of malformed request vulnerability [CWE-228] in FortiADC may allow a remote attacker without privileges to bypass some Web Application Firewall (WAF) protection such as the SQL Injection and XSS filters via a malformed HTTP request.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-234",
+      "cve": "CVE-2022-38381",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiADC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.2,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-11-01T00:00:00Z",
+  "updated": "2022-11-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-234"
+}
+

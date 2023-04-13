@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-20-016",
+  "title": "XSS vulnerability in the ESS Profile and Radius Profile of FortiWLC",
+  "summary": "An improper neutralization of input vulnerability in FortiWLC may allow a remote authenticated attacker to perform a stored cross site scripting attack (XSS) via the ESS profile or the Radius Profile.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-016",
+      "cve": "CVE-2020-9288",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Unauthorized code execution",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2020-06-21T00:00:00Z",
+  "updated": "2020-06-21T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-016"
+}
+

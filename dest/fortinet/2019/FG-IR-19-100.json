@@ -1,0 +1,91 @@
+{
+  "id": "FG-IR-19-100",
+  "title": "FortiSIEM external authentication password reflected in external authentication profile",
+  "summary": "An information exposure vulnerability in the external authentication profile form of FortiSIEM may allow an authenticated attacker to retrieve the external authentication password via the HTML source code.This could potentially aggravate attacks targeting the authenticated admin session, should they exist (XSS, social engineering, proxy caching...).",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-19-100",
+      "cve": "CVE-2019-6700",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEMWindowsAgent: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2019-10-08T00:00:00Z",
+  "updated": "2019-10-08T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-100"
+}
+

@@ -1,0 +1,91 @@
+{
+  "id": "FG-IR-012-005",
+  "title": "Script Code Injection Vulnerability in FortiMail",
+  "summary": "FortiMail fails to sanitize user input. The vulnerability allows an attacker to bypass its input filtering routine, which could result in the execution of the injected script code.",
+  "description": "FortiMail fails to sanitize user input. The vulnerability allows an attacker to bypass its input filtering routine, which could result in the execution of the injected script code.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-012-005",
+      "cve": "",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiMail Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Arbitrary Script Code Injection",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2012-10-25T00:00:00Z",
+  "updated": "2012-10-25T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-005"
+}
+

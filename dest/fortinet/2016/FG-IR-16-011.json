@@ -1,0 +1,113 @@
+{
+  "id": "FG-IR-16-011",
+  "title": "FortiSwitch rest_admin account exposed under specific conditions",
+  "summary": "During an upgrade to version 3.4.1, a FortiSwitch device may let an attacker log in the rest_admin account without a password, if all the conditions below are met: * The FortiSwitch device is in FortiLink managed mode (not the default mode) * The FortiSwitch device does not have a management FortiGate, or is not authorized on its management FortiGate, or cannot reach its management FortiGate (network connectivity issue) * The FortiSwicth device was updated to 3.4.1 * The FortiSwitch device was rebooted at least a second time after having been upgraded Note that as soon as a connection between the FortiSwitch and its management FortiGate is established/authorized, the issue is not present. Note that the issue persists if the device is downgraded after having been upgraded to 3.4.1 (under the conditions above).",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-16-011",
+      "cve": "CVE-2016-4573",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSwitch: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSwitch: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSwitch: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSwitch Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiswitch_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSwitch Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiswitch_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Remote administrative access",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573",
+      "url": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573"
+    }
+  ],
+  "published": "2016-07-11T00:00:00Z",
+  "updated": "2016-07-11T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-011"
+}
+

@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-22-332",
+  "title": "FortiNAC - Improper access control on administrative panels",
+  "summary": "An access control vulnerability [CWE-284] in FortiNAC may allow a remote attacker authenticated on the administrative interface to perform unauthorized jsp calls via crafted HTTP requests.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-332",
+      "cve": "CVE-2022-39946",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortinac-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.2,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L/E:P/RL:X/RC:C&version=3.1"
+          },
+          "cwe": null,
+          "impact": "Improper access control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2023-06-12T00:00:00Z",
+  "updated": "2023-06-12T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-332"
+}
+

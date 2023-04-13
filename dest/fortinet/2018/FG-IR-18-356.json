@@ -1,0 +1,321 @@
+{
+  "id": "FG-IR-18-356",
+  "title": "FortiAP Bleeding Bit Vulnerability",
+  "summary": "Some FortiAP models are vulnerable to the Bleeding Bit Vulnerability (CVE-2018-16986) present in the Texas Instruments WiFi chips.CVE-2018-16986:Texas Instruments BLE-STACK v2.2.1 for SimpleLink CC2640 and CC2650 devices allows remote attackers to execute arbitrary code via a malformed packet that triggers a buffer overflow.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-18-356",
+      "cve": "CVE-2018-16986",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-C: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-C: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-C: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-S: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-S: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-S: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-U: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-U: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-U: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "Meru AP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "Meru AP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "Meru AP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://armis.com/bleedingbit/",
+      "url": "https://armis.com/bleedingbit/"
+    }
+  ],
+  "published": "2019-04-10T00:00:00Z",
+  "updated": "2019-04-10T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-356"
+}
+

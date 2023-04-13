@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-013-001",
+  "title": "Potential Web Vulnerabilities in FortiMail",
+  "summary": "Input filter bypass and exception handling vulnerabilities can be used by an attacker to hijack administrator or customer sessions within certain conditions.",
+  "description": "Input filter bypass and exception handling vulnerabilities can be used by an attacker to hijack administrator or customer sessions within certain conditions.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-013-001",
+      "cve": "CVE-2013-1471",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Exception Handling and Input Filter Bypass",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2013-01-29T00:00:00Z",
+  "updated": "2013-01-29T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-013-001"
+}
+

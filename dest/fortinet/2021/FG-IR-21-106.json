@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-21-106",
+  "title": "FortiWLM - Path traversal vulnerability",
+  "summary": "Multiple relative path traversal vulnerabilities [CWE-23] in FortiWLM management interface may allow an authenticated attacker to retrieve arbitrary files from the underlying filesystem via specially crafted web requests.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-21-106",
+      "cve": "CVE-2021-43070",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWLM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWLM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWLM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.3,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:F/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Information disclosure",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-03-01T00:00:00Z",
+  "updated": "2022-03-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-106"
+}
+

@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-20-178",
+  "title": "Insufficient validation logic in Fortisandbox sniffer's max file size",
+  "summary": "An improper input validation vulnerability in the sniffer interface of FortiSandbox may allow an authenticated attacker to silently halt the sniffer via specifically crafted requests.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-178",
+      "cve": "CVE-2020-29013",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSandbox Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.3,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:F/RL:X/RC:X"
+          },
+          "cwe": null,
+          "impact": "Denial of Service",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-09-07T00:00:00Z",
+  "updated": "2021-09-07T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-178"
+}
+

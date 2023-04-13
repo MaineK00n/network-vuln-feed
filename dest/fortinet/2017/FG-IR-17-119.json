@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-17-119",
+  "title": "FortiWLC file management OS Command Injection vulnerability",
+  "summary": "The FortiWLC file management AP script download webUI page is affected by an OS Command Injection vulnerability which may allow an authenticated admin user to execute arbitrary system console commands, and possibly subsequently \"root\" the device.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-17-119",
+      "cve": "CVE-2017-7341",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "OS Command Injection",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2017-10-13T00:00:00Z",
+  "updated": "2017-10-13T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-119"
+}
+

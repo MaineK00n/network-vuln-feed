@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-17-106",
+  "title": "FortiWLC XSS injection via crafted HTTP POST request",
+  "summary": "The FortiWLC admin webUI is affected by XSS vulnerabilities, potentially exploitable by an authenticated user, via non-sanitized parameters \"refresh\" and \"branchtotable\" present in HTTP POST requests. A successful attack would involve getting a targeted victim with an open session on the WebUI to visit a malicious URL crafted by the attacker.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-17-106",
+      "cve": "CVE-2017-7335",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWLC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Cross-site scripting (XSS)",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2017-10-13T00:00:00Z",
+  "updated": "2017-10-13T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-106"
+}
+

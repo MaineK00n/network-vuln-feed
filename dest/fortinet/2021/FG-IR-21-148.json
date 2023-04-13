@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-21-148",
+  "title": "FortiExtender - Arbitrary command execution because of missing CLI input sanitization",
+  "summary": "An improper neutralization of special elements used in a command vulnerability ('Command Injection') [CWE-77] in FortiExtender may allow an authenticated user to raise its privileges to admin user via crafted arguments of the `execute` CLI command.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-21-148",
+      "cve": "CVE-2021-41016",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiExtender: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiextender:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiExtender: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiExtender: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiExtender Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiextender_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.4,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+          },
+          "cwe": null,
+          "impact": "Escalation of privilege",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-02-01T00:00:00Z",
+  "updated": "2022-02-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-148"
+}
+

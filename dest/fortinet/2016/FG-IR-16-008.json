@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-16-008",
+  "title": "RSA-CRT key leak under certain conditions",
+  "summary": "FortiOS now includes for all SSL libraries a countermeasure against Lenstra's fault attack on RSA-CRT optimization when a RSA signature is corrupted.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-16-008",
+      "cve": "CVE-2015-5738",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiGate: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortigate:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiGate: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiGate Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Man in the middle",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf",
+      "url": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf"
+    }
+  ],
+  "published": "2016-05-16T00:00:00Z",
+  "updated": "2016-05-16T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-008"
+}
+

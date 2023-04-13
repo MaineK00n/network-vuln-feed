@@ -1,0 +1,141 @@
+{
+  "id": "FG-IR-22-056",
+  "title": "FortiSandbox / FortiDeceptor - Improper profile-based access control over APIs",
+  "summary": "An improper privilege management vulnerability [CWE-269] in FortiSandbox & FortiDeceptor may allow a remote authenticated attacker to perform unauthorized API calls via crafted HTTP or HTTPS requests.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-056",
+      "cve": "CVE-2022-27487",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiDeceptor: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiDeceptor: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiDeceptor: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortideceptor-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSandbox Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 8.3,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2023-04-11T00:00:00Z",
+  "updated": "2023-04-11T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-056"
+}
+

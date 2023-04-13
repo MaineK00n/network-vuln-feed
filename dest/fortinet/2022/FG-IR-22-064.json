@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-22-064",
+  "title": "FortiSIEM - Glassfish local credentials stored in plain text",
+  "summary": "An improper authentification vulnerability [CWE-287] in FortiSIEM may allow a local attacker with CLI access to perform operations on the Glassfish server directly via a hardcoded password.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-064",
+      "cve": "CVE-2022-26119",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEMWindowsAgent: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.4,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Improper access control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-11-01T00:00:00Z",
+  "updated": "2022-11-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-064"
+}
+

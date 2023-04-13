@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-22-312",
+  "title": "FortiNAC : Wrong use of cryptographic primitives",
+  "summary": "A wrong use of cryptographic primitives vulnerability (CWE-310) may allow an attacker to compromise FortiNAC's confidentiality and integrity via deciphering some traffic and/or forging specific packets.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-312",
+      "cve": "CVE-2022-40675",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortinac-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 6,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Information disclosure",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2023-02-16T00:00:00Z",
+  "updated": "2023-02-16T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-312"
+}
+

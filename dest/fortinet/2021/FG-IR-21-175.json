@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-21-175",
+  "title": "FortiSIEM - plaintext storage of sensitive data in Windows Agent",
+  "summary": "A plaintext storage of a password vulnerability [CWE-256] in the FortiSIEM Windows Agent may allow an authenticated user to impersonate the agent registered to the Supervisor via reading specific log files.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-21-175",
+      "cve": "CVE-2021-41023",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEMWindowsAgent: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.3,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:X/RL:O/RC:C"
+          },
+          "cwe": null,
+          "impact": "Information disclosure",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-11-02T00:00:00Z",
+  "updated": "2021-11-02T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-175"
+}
+

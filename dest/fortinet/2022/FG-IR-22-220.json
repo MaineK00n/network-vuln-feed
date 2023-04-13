@@ -1,0 +1,51 @@
+{
+  "id": "FG-IR-22-220",
+  "title": "FortiSOAR - HTML Injection Vulnerabilities",
+  "summary": "Improper neutralization of input during web page generation [CWE-79] in FortiSOAR may allow an authenticated attacker to inject HTML tags via input fields of various components within FortiSOAR.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-220",
+      "cve": "CVE-2022-38379",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSOAR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 3.4,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-12-06T00:00:00Z",
+  "updated": "2022-12-06T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-220"
+}
+

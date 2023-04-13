@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-19-140",
+  "title": "XSS vulnerability in FortiNAC admin webUI search field",
+  "summary": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") in FortiNAC admin webUI may allow an unauthenticated attacker to perform a reflected XSS attack via the search field in the webUI.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-19-140",
+      "cve": "CVE-2019-5594",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiNAC: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortinac-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Cross-site Scripting (XSS)",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2019-07-16T00:00:00Z",
+  "updated": "2019-07-16T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-140"
+}
+

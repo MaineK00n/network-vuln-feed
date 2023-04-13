@@ -1,0 +1,92 @@
+{
+  "id": "FG-IR-21-024",
+  "title": "FortiTokenMobile - Missing digital certificate validation",
+  "summary": "An improper validation of certificate with host mismatch vulnerability [CWE-297] in FortiTokenMobile may allow an unauthenticated user to spoof the validation server identity and achieve a Man-in-the-Middle attack.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-21-024",
+      "cve": "CVE-2021-22131",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiTokenAndroid: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiTokenIOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                },
+                {
+                  "description": "FortiTokenMobileWP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiToken Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortitoken_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 6.1,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:H/E:P/RL:X/RC:C"
+          },
+          "cwe": null,
+          "impact": "Improper server authentication",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-06-07T00:00:00Z",
+  "updated": "2022-06-07T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-024"
+}
+
