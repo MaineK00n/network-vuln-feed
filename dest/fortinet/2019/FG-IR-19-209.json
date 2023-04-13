@@ -1,0 +1,271 @@
+{
+  "id": "FG-IR-19-209",
+  "title": "FortiAP system command injection through ifconfig command",
+  "summary": "A system command injection vulnerability in the FortiAP CLI admin console may allow unauthorized administrators to run arbitrary system level commands via specially crafted ifconfig commands.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-19-209",
+      "cve": "CVE-2019-15708",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-C: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-C: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-C: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-S: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-S: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-S: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-U: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-U: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-U: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "system command injection",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2020-02-10T00:00:00Z",
+  "updated": "2020-02-10T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-209"
+}
+

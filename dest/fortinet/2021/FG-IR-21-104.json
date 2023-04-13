@@ -1,0 +1,51 @@
+{
+  "id": "FG-IR-21-104",
+  "title": "FortiPortal - XML parser is vulnerable to XXE attacks",
+  "summary": "An improper restriction of XML external entity reference vulnerability [CWE-611] in the parser of XML responses of FortiPortal may allow an attacker who controls the producer of XML reports consumed by FortiPortal to trigger a denial of service or read arbitrary files from the underlying file system by means of specifically crafted XML documents.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-21-104",
+      "cve": "CVE-2021-36172",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 3.8,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:W/RC:C"
+          },
+          "cwe": null,
+          "impact": "Information disclosure",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-11-02T00:00:00Z",
+  "updated": "2021-11-02T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-104"
+}
+

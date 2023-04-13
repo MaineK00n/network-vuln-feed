@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-20-231",
+  "title": "FortiProxy - Unauthenticated SSL VPN users password modification",
+  "summary": "An improper access control vulnerability in FortiProxy SSL VPN web portal may allow an unauthenticated and remote attacker to change local SSL-VPN users' passwords via specially crafted HTTP requests.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-231",
+      "cve": "CVE-2018-13382",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiProxy: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiProxy: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiProxy: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 8.9,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:F/RL:X/RC:X"
+          },
+          "cwe": null,
+          "impact": "Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-06-01T00:00:00Z",
+  "updated": "2021-06-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-231"
+}
+

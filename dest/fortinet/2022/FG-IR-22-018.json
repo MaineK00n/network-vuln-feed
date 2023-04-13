@@ -1,0 +1,68 @@
+{
+  "id": "FG-IR-22-018",
+  "title": "FortiEDR - Hardcoded AES key enable disabling local Collector",
+  "summary": "A use of hard-coded cryptographic key vulnerability [CWE-321] in the registration mechanism of FortiEDR collectors may allow a local attacker to disable and uninstall the collectors from the end-points within the same deployment.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-018",
+      "cve": "CVE-2022-23440",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.4,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Denial of service",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-04-05T00:00:00Z",
+  "updated": "2022-04-05T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-018"
+}
+

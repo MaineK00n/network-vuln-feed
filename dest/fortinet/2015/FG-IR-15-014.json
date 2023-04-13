@@ -1,0 +1,108 @@
+{
+  "id": "FG-IR-15-014",
+  "title": "OpenSSL vulnerabilities - June 2015",
+  "summary": "None",
+  "description": "OpenSSL released a security advisory in June 2015 to announce multiple security vulnerabilities.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-15-014",
+      "cve": "CVE-2014-8176",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-014",
+      "cve": "CVE-2015-1788",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-014",
+      "cve": "CVE-2015-1789",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-014",
+      "cve": "CVE-2015-1790",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-014",
+      "cve": "CVE-2015-1791",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-15-014",
+      "cve": "CVE-2015-1792",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Denial of service and memory corruption",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://openssl.org/news/secadv_20150611.txt",
+      "url": "https://openssl.org/news/secadv_20150611.txt"
+    }
+  ],
+  "published": "2015-06-11T00:00:00Z",
+  "updated": "2015-06-11T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-014"
+}
+

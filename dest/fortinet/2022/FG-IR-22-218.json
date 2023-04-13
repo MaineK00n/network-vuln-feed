@@ -1,0 +1,68 @@
+{
+  "id": "FG-IR-22-218",
+  "title": "FortiEDR CollectorWindows - protection bypass by killing the process with special tools",
+  "summary": "An improper control of a resource through its lifetime vulnerability [CWE-664] in FortiEDR CollectorWindows may allow a privileged user to terminate the FortiEDR processes with special tools and bypass the EDR protection.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-218",
+      "cve": "CVE-2022-39949",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 4,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:P/RL:U/RC:R"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-11-01T00:00:00Z",
+  "updated": "2022-11-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-218"
+}
+

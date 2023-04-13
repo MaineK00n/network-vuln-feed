@@ -1,0 +1,51 @@
+{
+  "id": "FG-IR-20-066",
+  "title": "FortiPortal - XSS vulnerability",
+  "summary": "An improper neutralization of input during web page generation vulnerability (CWE-79) in FortiPortal GUI may allow a remote and unauthenticated attacker to perform an XSS attack via sending a crafted request with an invalid lang parameter or with an invalid org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE value.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-066",
+      "cve": "CVE-2021-32602",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.7,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N/E:F/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-11-02T00:00:00Z",
+  "updated": "2021-11-02T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-066"
+}
+

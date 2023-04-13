@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-22-244",
+  "title": "FortiTester - Missing account lockout on telnet port",
+  "summary": "An improper restriction of excessive authentication attempts vulnerability [CWE-307] in FortiTester Telnet port may allow an unauthenticated attacker to guess the credentials of an admin user via a brute force attack.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-244",
+      "cve": "CVE-2022-35846",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiTester: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortitester:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiTester: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiTester: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortitester-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.7,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Improper access control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-10-10T00:00:00Z",
+  "updated": "2022-10-10T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-244"
+}
+

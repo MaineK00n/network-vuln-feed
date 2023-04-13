@@ -1,0 +1,244 @@
+{
+  "id": "FG-IR-17-114",
+  "title": "FortiPortal Multiple Vulnerabilities",
+  "summary": "Multiple vulnerabilities impacting FortiPortal were disclosed to Fortinet with details as follows:CVE-2017-7337: Improper Access Control allows a user to potentially view firewall policies and objects from a VDOM s/he is not authorized to, enumerate other customer ADOMs and view other customers' dataCVE-2017-7338: Application returns password hashes, and passwords for associated FortiAnalyzer devices via the UICVE-2017-7339: Persistent XSS via the 'Name' and 'Description' fields in the pop-up to add Revision Backups as a customerCVE-2017-7340: Reflected XSS via the 'applicationSearch' parameter in the 'View' tabCVE-2017-7342: Weak password Policy allows a user to bypass the enforced password change post a password recovery requestCVE-2017-7343: Open Redirect via the 'url' parameterCVE-2017-7731: User Enumeration through Forgotten Password due to difference in responses for when an email address exists in the system and when one doesn't",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7337",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7338",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7339",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7340",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7342",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7343",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-17-114",
+      "cve": "CVE-2017-7731",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPortal: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2017-05-15T00:00:00Z",
+  "updated": "2017-05-15T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-114"
+}
+

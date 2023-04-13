@@ -1,0 +1,91 @@
+{
+  "id": "FG-IR-17-011",
+  "title": "Unauthenticated XSS (Cross Site Scripting) in FortiMail",
+  "summary": "An unauthenticated XSS vulnerability could allow an attacker to execute arbitrary scripts in the security context of the browser of a victim logged in FortiMail, assuming the victim is social engineered into clicking an URL crafted by the attacker.",
+  "description": "An unauthenticated XSS vulnerability could allow an attacker to execute arbitrary scripts in the security context of the browser of a victim logged in FortiMail, assuming the victim is social engineered into clicking an URL crafted by the attacker.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-17-011",
+      "cve": "CVE-2017-3125",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiMail: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiMail Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Information leak",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2017-04-04T00:00:00Z",
+  "updated": "2017-04-04T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-011"
+}
+

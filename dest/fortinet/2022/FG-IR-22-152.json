@@ -1,0 +1,51 @@
+{
+  "id": "FG-IR-22-152",
+  "title": "FortiSOAR - Privilege escalation from nginx user to root",
+  "summary": "An improper privilege management vulnerability [CWE-269] in FortiSOAR may allow a GUI user who has already found a way to modify system files (via another, unrelated and hypothetical exploit) to execute arbitrary Python commands as root.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-152",
+      "cve": "CVE-2022-30298",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSOAR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 6.6,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+          },
+          "cwe": null,
+          "impact": "Improper access control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-09-06T00:00:00Z",
+  "updated": "2022-09-06T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-152"
+}
+

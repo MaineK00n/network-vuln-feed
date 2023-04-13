@@ -1,0 +1,91 @@
+{
+  "id": "FG-IR-20-041",
+  "title": "CVE-2015-0279: Expression Language Injection in FortiSIEM",
+  "summary": "An expression language injection vulnerability in FortiSIEM JBoss RichFaces library may allow a remote attacker to inject expression language (EL) expressions and execute arbitrary Java code via the do parameter.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-041",
+      "cve": "CVE-2015-0279",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSIEM: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSIEMWindowsAgent: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Unauthorized code execution",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2020-06-21T00:00:00Z",
+  "updated": "2020-06-21T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-041"
+}
+

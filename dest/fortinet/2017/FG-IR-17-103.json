@@ -1,0 +1,128 @@
+{
+  "id": "FG-IR-17-103",
+  "title": "FortiOS by default disables SMBv1 support",
+  "summary": "Server Message Block (SMB) 1.0 - a legacy file and print sharing protocol - has been deprecated by Microsoft due to multiple weaknesses (remote code execution, downgrade, man-in-the-middle, collision and pre-image attack).While it is only used as a client in FortiOS, as a measure of precaution SMBv1 support in FortiOS SSL-VPN and DLP is now disabled by default starting from 6.0.1 [1][2] and 5.6.6 [3] for High-End models (FortiGate 1000 series and higher models) and Virtual Machine models and can be re-enabled by applying the following CLI commands (not recommended):[1] FortiOS 6.2 branch (6.2.0 and above):conf vpn ssl web portaledit {portal-name}set smb-min-version smbv1 (note: default value is \"smbv2\")set smb-max-version smbv1 (note: default value is \"smbv3\")end[2] FortiOS 6.0 branch (6.0.1 and above):conf vpn ssl web portaledit {portal-name}set smbv1 enable (note: default value is “disable”)end[3] FortiOS 5.6 branch (5.6.6 and above):config vpn ssl web portaledit {portal-name}set smb-ntlmv1-auth enable (note: default value is “disable”)nextend(For FortiOS 5.6.5 and below versions, the smb-ntlmv1-auth CLI command can not disable SMBv1 protocol support).SMBv1 support is also disabled by default in the FortiOS FSSO fsso-polling feature starting from 6.2.0 [4] for High-End models and Virtual Machine models and can be enabled by applying the following CLI commands:[4] FortiOS 6.2.0 branch:config user fsso-pollingset smbv1 {enable|*disable} (default value is \"disable\")endFor Entry-Levels and Mid-Range models, SMBv1 remains the only supported SMB protocol.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-17-103",
+      "cve": "",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiOS-6K7K: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Insecure Protocol Support",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "https://blogs.technet.microsoft.com/josebda/2015/04/21/the-deprecation-of-smb1-you-should-be-planning-to-get-rid-of-this-old-smb-dialect/\n",
+      "url": "https://blogs.technet.microsoft.com/josebda/2015/04/21/the-deprecation-of-smb1-you-should-be-planning-to-get-rid-of-this-old-smb-dialect/\n"
+    },
+    {
+      "description": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010",
+      "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010"
+    }
+  ],
+  "published": "2019-06-04T00:00:00Z",
+  "updated": "2019-06-04T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-103"
+}
+

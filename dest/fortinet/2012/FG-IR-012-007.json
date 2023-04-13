@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-012-007",
+  "title": "Potential Cross Site Scripting Vulnerability in FortiDB",
+  "summary": "FortiDB does not sanitize user input properly under limited circumstances.  The vulnerability could allow an attacker to inject malicious script code.",
+  "description": "FortiDB does not sanitize user input properly under limited circumstances.  The vulnerability could allow an attacker to inject malicious script code.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-012-007",
+      "cve": "CVE-2012-6347",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiDB: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortidb:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiDB: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiDB: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortidb-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Cross Site Scripting",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "0001-01-01T00:00:00Z",
+  "updated": "0001-01-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-007"
+}
+

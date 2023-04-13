@@ -1,0 +1,79 @@
+{
+  "id": "FG-IR-19-258",
+  "title": "Authorizations Bypass in the FortiPresence portal parameters",
+  "summary": "Two authorization bypass through user-controlled key vulnerabilities in the FortiPresence administration interface may allow an attacker to gain access to some user data via portal manager or portal users parameters.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-19-258",
+      "cve": "CVE-2020-6641",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPresence: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortipresence:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-19-258",
+      "cve": "CVE-2020-6642",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiPresence: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortipresence:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Improper Access Control",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2020-03-09T00:00:00Z",
+  "updated": "2020-03-09T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-258"
+}
+

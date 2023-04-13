@@ -1,0 +1,68 @@
+{
+  "id": "FG-IR-22-052",
+  "title": "FortiEDR - Denial of service due to folder access permission change",
+  "summary": "An improper control of a resource through its lifetime [CWE-664] vulnerability in FortiEDR Collector may allow a privileged attacker to make the application unresponsive via changing its root directory access permission.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-052",
+      "cve": "CVE-2022-23446",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 4,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
+          },
+          "cwe": null,
+          "impact": "Denial of service",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-04-05T00:00:00Z",
+  "updated": "2022-04-05T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-052"
+}
+

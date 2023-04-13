@@ -1,0 +1,96 @@
+{
+  "id": "FG-IR-15-012",
+  "title": "CVE-2015-3456 \"VENOM\" vulnerability",
+  "summary": "",
+  "description": "The VENOM (Virtualized Environment Neglected Operations Manipulation) vulnerability impacts popular virtualization platforms, including QEMU, Xen, KVM, and Oracle's VirtualBox. It consists in a buffer overflow condition in the FDC (Floppy Disk Controller) emulation code. Fortinet virtual appliances including FortiOS, FortiManager, FortiAnalyzer and any other product running on Hyper-V, Xen and KVM are not affected.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-15-012",
+      "cve": "CVE-2015-3456",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiSandbox: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSandbox Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Guest VM DoS and VM escape",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "http://venom.crowdstrike.com",
+      "url": "http://venom.crowdstrike.com"
+    }
+  ],
+  "published": "2015-05-19T00:00:00Z",
+  "updated": "2015-05-19T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-012"
+}
+

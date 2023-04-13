@@ -1,0 +1,68 @@
+{
+  "id": "FG-IR-22-077",
+  "title": "FortiEDR - Cross Site Scripting (XSS) vulnerabilities over the Management Console",
+  "summary": "An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiEDR Central Manager may allow a remote authenticated attacker to perform a reflected cross site scripting attack (XSS) via injecting a malicious payload into the Management Console through various endpoints.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-22-077",
+      "cve": "CVE-2022-29057",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiEDR Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 5.1,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:P/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2022-07-05T00:00:00Z",
+  "updated": "2022-07-05T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-077"
+}
+

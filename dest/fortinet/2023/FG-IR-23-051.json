@@ -1,0 +1,51 @@
+{
+  "id": "FG-IR-23-051",
+  "title": "FortiSOAR - Server-side Template Injection in playbook execution",
+  "summary": "An improper neutralization of special elements used in a template engine vulnerability [CWE-1336] in FortiSOAR management interface may allow a remote and authenticated attacker to execute arbitrary code via a crafted payload.",
+  "description": "None",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-23-051",
+      "cve": "CVE-2023-27995",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiSOAR: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.2,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+          },
+          "cwe": null,
+          "impact": "Information disclosure",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2023-04-11T00:00:00Z",
+  "updated": "2023-04-11T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-051"
+}
+

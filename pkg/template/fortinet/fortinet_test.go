@@ -1,28 +1,56 @@
 package fortinet
 
-import "testing"
+import (
+	"encoding/json"
+	"os"
+	"strings"
+	"testing"
+
+	"github.com/google/go-cmp/cmp"
+
+	"github.com/MaineK00n/network-vuln-feed/pkg/template"
+)
 
 func TestTemplate(t *testing.T) {
-	type args struct {
-		path string
-	}
 	tests := []struct {
-		name    string
-		args    args
-		want    string
+		fixture string
+		golden  string
 		wantErr bool
 	}{
-		// TODO: Add test cases.
+		{
+			fixture: "./testdata/fixture/FG-IR-23-001_cvrf.xml",
+			golden:  "./testdata/golden/FG-IR-23-001.json",
+		},
 	}
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			got, err := Template(tt.args.path)
+		t.Run(tt.fixture, func(t *testing.T) {
+			f, err := os.Open(tt.golden)
+			if err != nil {
+				t.Errorf("unexpected error = %v", err)
+				return
+			}
+			defer f.Close()
+
+			var want template.Advisory
+			if err := json.NewDecoder(f).Decode(&want); err != nil {
+				t.Errorf("unexpected error = %v", err)
+				return
+			}
+
+			s, err := Template(tt.fixture)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("Template() error = %v, wantErr %v", err, tt.wantErr)
 				return
 			}
-			if got != tt.want {
-				t.Errorf("Template() = %v, want %v", got, tt.want)
+
+			var got template.Advisory
+			if err := json.NewDecoder(strings.NewReader(s)).Decode(&got); err != nil {
+				t.Errorf("unexpected error = %v", err)
+				return
+			}
+
+			if diff := cmp.Diff(got, want); diff != "" {
+				t.Errorf("Template() is mismatch (-v1 +v2):%s\n", diff)
 			}
 		})
 	}

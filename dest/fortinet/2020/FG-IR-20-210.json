@@ -1,0 +1,33 @@
+{
+  "id": "FG-IR-20-210",
+  "title": "FortiAP - OS command Injection through kdbg CLI command",
+  "summary": "An instance of improper neutralization of special elements used in an OS Command found in FortiAP's console may allow an authenticated attacker to execute unauthorized commands by running the kdbg CLI command with specifically crafted arguments.",
+  "description": "",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-20-210",
+      "cve": "CVE-2021-26106",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": null,
+          "cvssv2": null,
+          "cvssv3": {
+            "base_score": 7.6,
+            "temporal_score": null,
+            "environmental_score": null,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+          },
+          "cwe": null,
+          "impact": "Execute unauthorized code or commands",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2021-07-07T00:00:00Z",
+  "updated": "2021-07-07T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-210"
+}
+

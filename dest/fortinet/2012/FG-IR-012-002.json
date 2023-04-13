@@ -1,0 +1,117 @@
+{
+  "id": "FG-IR-012-002",
+  "title": "Potential Policy Bypass in FortiWeb Web Application Firewall",
+  "summary": "On May 2, 2012 a policy bypass vulnerability was publicly disclosed against Fortinet's FortiWeb Web Application Firewall. This vulnerability may exist if the unit is not configured to inspect and drop malformed / oversized requests. FortiWeb units have been protected against this vulnerability if the proper configuration is in place (see workaround).",
+  "description": "On May 2, 2012 a policy bypass vulnerability was publicly disclosed against Fortinet's FortiWeb Web Application Firewall. This vulnerability may exist if the unit is not configured to inspect and drop malformed / oversized requests. FortiWeb units have been protected against this vulnerability if the proper configuration is in place (see workaround).",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-012-002",
+      "cve": "",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWeb: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiWeb: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiWeb: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWeb Manager: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            },
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiWeb Cloud: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Policy Bypass",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "description": "Bugtraq: <a href=\"http://seclists.org/bugtraq/2012/May/14\">http://seclists.org/bugtraq/2012/May/14</a>",
+      "url": "Bugtraq: <a href=\"http://seclists.org/bugtraq/2012/May/14\">http://seclists.org/bugtraq/2012/May/14</a>"
+    },
+    {
+      "description": "Discovered By: Geffrey Velasquez at BINAR10 S.A.C.",
+      "url": "Discovered By: Geffrey Velasquez at BINAR10 S.A.C."
+    }
+  ],
+  "published": "0001-01-01T00:00:00Z",
+  "updated": "0001-01-01T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-002"
+}
+

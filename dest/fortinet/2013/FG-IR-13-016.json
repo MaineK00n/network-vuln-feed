@@ -1,0 +1,74 @@
+{
+  "id": "FG-IR-13-016",
+  "title": "FortiAuthenticator Privilege Escalation Vulnerability",
+  "summary": "",
+  "description": "Authenticated admin users may be able to obtain access to a system shell from the command line interface.",
+  "vulnerabilities": [
+    {
+      "id": "FG-IR-13-016",
+      "cve": "CVE-2013-6990",
+      "description": "",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "description": "",
+              "application": [
+                {
+                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "operating_system": [
+                {
+                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ],
+              "hardware": [
+                {
+                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "",
+                    "gt": "",
+                    "ge": "",
+                    "lt": "",
+                    "le": ""
+                  },
+                  "fixed_in": ""
+                }
+              ]
+            }
+          ],
+          "cvssv2": null,
+          "cvssv3": null,
+          "cwe": null,
+          "impact": "Privilege Escalation",
+          "exploit_status": ""
+        }
+      ]
+    }
+  ],
+  "references": null,
+  "published": "2013-12-13T00:00:00Z",
+  "updated": "2013-12-13T00:00:00Z",
+  "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-13-016"
+}
+
