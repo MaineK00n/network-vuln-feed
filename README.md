@@ -20,6 +20,7 @@ Available Commands:
   discover    discover new and updated advisories
   help        Help about any command
   template    create a template for a Vuls format advisory
+  validate    validate that a given advisory meets the Vuls format
 
 Flags:
   -h, --help   help for network-vuln-feed
