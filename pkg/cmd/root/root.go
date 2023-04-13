@@ -5,6 +5,7 @@ import (
 
 	discoverCmd "github.com/MaineK00n/network-vuln-feed/pkg/cmd/discover"
 	templateCmd "github.com/MaineK00n/network-vuln-feed/pkg/cmd/template"
+	validateCmd "github.com/MaineK00n/network-vuln-feed/pkg/cmd/validate"
 )
 
 func NewCmdRoot() *cobra.Command {
@@ -18,6 +19,7 @@ func NewCmdRoot() *cobra.Command {
 
 	cmd.AddCommand(discoverCmd.NewCmdDiscover())
 	cmd.AddCommand(templateCmd.NewCmdTemplate())
+	cmd.AddCommand(validateCmd.NewCmdValidate())
 
 	return cmd
 }
