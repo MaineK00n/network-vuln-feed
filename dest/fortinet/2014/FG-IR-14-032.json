@@ -1,89 +1,57 @@
 {
   "id": "FG-IR-14-032",
   "title": "FortiADC-E remote network access vulnerability",
-  "summary": "",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-14-032",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC: greater equal 3.1.1, less equal 4.0.4, fixed in 4.0.5",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "3.1.1",
+                    "le": "4.0.4"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "4.0.5"
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "description": "FortiADC: equal FortiADC 100E",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-100e:-:*:*:*:*:*:*:*"
+                },
                 {
-                  "description": "FortiADC Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiADC: equal FortiADC 200E",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-200e:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 300E",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-300e:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 400E",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-400e:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 600E",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-600e:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 1000E",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-1000e:-:*:*:*:*:*:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Unprivileged network access",
-          "exploit_status": ""
+          "impact": "Unprivileged network access"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2014-10-21T00:00:00Z",
   "updated": "2014-10-21T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-032"

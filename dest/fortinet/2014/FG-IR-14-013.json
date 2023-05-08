@@ -1,106 +1,32 @@
 {
   "id": "FG-IR-14-013",
   "title": "FortiWeb Cross-Site Request Forgery Vulnerability",
-  "summary": "",
   "description": "Multiple CSRF vulnerabilities exist in the FortiWeb web administration console due to lack of CSRF token protection. This could allow remote attackers to perform administrative actions under specific conditions.",
   "vulnerabilities": [
     {
       "id": "FG-IR-14-013",
       "cve": "CVE-2014-3115",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb: less equal 5.1.4, fixed in 5.2.0",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "5.1.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.0"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Authorization Bypass",
-          "exploit_status": ""
+          "impact": "Authorization Bypass"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2014-05-02T00:00:00Z",
   "updated": "2014-05-02T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-013"
