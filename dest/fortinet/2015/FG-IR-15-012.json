@@ -1,84 +1,28 @@
 {
   "id": "FG-IR-15-012",
   "title": "CVE-2015-3456 \"VENOM\" vulnerability",
-  "summary": "",
   "description": "The VENOM (Virtualized Environment Neglected Operations Manipulation) vulnerability impacts popular virtualization platforms, including QEMU, Xen, KVM, and Oracle's VirtualBox. It consists in a buffer overflow condition in the FDC (Floppy Disk Controller) emulation code. Fortinet virtual appliances including FortiOS, FortiManager, FortiAnalyzer and any other product running on Hyper-V, Xen and KVM are not affected.",
   "vulnerabilities": [
     {
       "id": "FG-IR-15-012",
       "cve": "CVE-2015-3456",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiSandbox: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox: less equal 2.0.2, fixed in 2.0.3",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "2.0.2"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSandbox: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiSandbox Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "2.0.3"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Guest VM DoS and VM escape",
-          "exploit_status": ""
+          "impact": "Guest VM DoS and VM escape"
         }
       ]
     }

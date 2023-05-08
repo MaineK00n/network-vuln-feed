@@ -6,39 +6,13 @@
   "vulnerabilities": [
     {
       "id": "FG-IR-16-022",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
-          "configurations": [
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiCloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            }
-          ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS attacks",
-          "exploit_status": ""
+          "impact": "XSS attacks"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2016-08-09T00:00:00Z",
   "updated": "2016-08-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-022"

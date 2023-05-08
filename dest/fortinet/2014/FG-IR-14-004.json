@@ -1,89 +1,62 @@
 {
   "id": "FG-IR-14-004",
   "title": "FortiADC Cross-Site Scripting Vulnerability",
-  "summary": "",
   "description": "The web administration interface on FortiADC D-series versions 3.2.0 and lower have a reflective cross-site scripting vulnerability in the locale parameter.",
   "vulnerabilities": [
     {
       "id": "FG-IR-14-004",
       "cve": "CVE-2014-0331",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC: less equal 3.2.0, fixed in 3.2.1",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "3.2.0"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "3.2.1"
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "description": "FortiADC: equal FortiADC 200D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*"
+                },
                 {
-                  "description": "FortiADC Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiADC: equal FortiADC 300D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 400D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 700D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 1500D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiADC: equal FortiADC 2000D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*"
+                }
+                ,{
+                  "description": "FortiADC: equal FortiADC 4000D",
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Cross Site Scripting",
-          "exploit_status": ""
+          "impact": "Cross Site Scripting"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2014-04-03T00:00:00Z",
   "updated": "2014-04-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-004"
