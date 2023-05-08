@@ -2,116 +2,68 @@
   "id": "FG-IR-17-231",
   "title": "Firewall information leak to regular SSL VPN web portal users",
   "summary": "A SSL VPN user logged in via the web portal can access internal FortiOS configuration information (eg: addresses) via specifically crafted URLs.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-17-231",
       "cve": "CVE-2017-14185",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
                   "description": "FortiOS: (<expression> <version>)",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "5.2.0",
+                    "le": "5.2.15"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "5.4.9"
+                },
                 {
                   "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "5.2.0",
+                    "le": "5.2.15"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_in": "5.6.3"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "5.4.0",
+                    "le": "5.4.8"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
+                  "fixed_in": "5.4.9"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "5.4.0",
+                    "le": "5.4.8"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "5.6.3"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "5.6.0",
+                    "le": "5.6.2"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.6.3"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Information Disclosure",
-          "exploit_status": ""
+          "impact": "Information Disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2018-05-18T00:00:00Z",
   "updated": "2018-05-18T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-231"

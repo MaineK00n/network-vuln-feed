@@ -6,145 +6,55 @@
   "vulnerabilities": [
     {
       "id": "FG-IR-13-008",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "description": "FortiClient Lite for Windows: equal 4.3.3.445, fixed in 4.3.4.461",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_lite:4.3.3.445:*:*:*:*:windows:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "4.3.3.445"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "4.3.4.461"
                 },
                 {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "description": "FortiClient for Windows: equal 4.3.3.445, fixed in 4.3.5.472",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:4.3.3.445:*:*:*:*:windows:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "4.3.3.445"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "4.3.5.472"
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "description": "FortiClient for MacOS: equal 4.0.2, fixed in 4.0.3.134",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:4.0.2:*:*:*:*:macos:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "4.0.2"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "4.0.3.134"
                 },
                 {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
+                  "description": "FortiClient SSL VPN for Linux: equal 4.0.2012, fixed in 4.0.2258",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:4.0.2012:*:*:*:*:linux:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "4.0.2012"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "4.0.2258"
                 },
                 {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
+                  "description": "FortiClient Lite for Android: equal 2.0, fixed in FortiClient for Android 4.0",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_lite:2.0:*:*:*:*:android:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "2.0"
                   },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for Android: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClientEMS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "cpe:2.3:a:fortinet:forticlient:4.0:*:*:*:*:android:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Critical",
-          "exploit_status": ""
+          "impact": "Critical"
         }
       ]
     }

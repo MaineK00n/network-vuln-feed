@@ -2,200 +2,212 @@
   "id": "FG-IR-22-026",
   "title": "FortiAnalyzer & FortiManager - improper authorization to template image",
   "summary": "An exposure of resource to wrong sphere vulnerability [CWE-668] in FortiAnalyzer and FortiManager GUI may allow an unauthenticated and remote attacker to access report template images via referencing the name in the URL path.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-22-026",
       "cve": "CVE-2022-26121",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortianalyzer-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAnalyzer-BigData: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiAnalyzer-BigData: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAnalyzer-BigData: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortianalyzer-bigdata-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAnalyzer Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortianalyzer_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiManager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "7.0.4"
+                },
                 {
-                  "description": "FortiManager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
+                  "description": "FortiManager: greater equal 7.0.0, less equal 7.0.3, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiManager: greater equal 6.4.0, less equal 6.4.11, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.4.0",
+                    "le": "6.4.11"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiManager: greater equal 6.4.0, less equal 6.4.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.4.0",
+                    "le": "6.4.11"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiManager: greater equal 6.2.0, less equal 6.2.x, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.10"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiManager: greater equal 6.2.0, less equal 6.2.x, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.10"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiManager: greater equal 6.0.0, less equal 6.0.11, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.11"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiManager: greater equal 6.0.0, less equal 6.0.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.11"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiManager: greater equal 5.6.0, less equal 5.6.11, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.6.0",
+                    "le": "5.6.11"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiManager: greater equal 5.6.0, less equal 5.6.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.6.0",
+                    "le": "5.6.11"
+                  },
+                  "fixed_in": "7.2.0"
                 }
               ]
             },
             {
-              "description": "",
-              "application": [
+              "operating_system": [
                 {
-                  "description": "FortiManager Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortimanager_cloud:*:*:*:*:*:*:*:*",
+                  "description": "FortiAnalyzer: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 7.0.0, less equal 7.0.3, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 6.4.0, less equal 6.4.11, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.4.0",
+                    "le": "6.4.11"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 6.4.0, less equal 6.4.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.4.0",
+                    "le": "6.4.11"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 6.2.0, less equal 6.2.10, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.10"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 6.2.0, less equal 6.2.10, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.10"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 6.0.0, less equal 6.0.11, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.11"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 6.0.0, less equal 6.0.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.11"
+                  },
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 5.6.0, less equal 5.6.11, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.6.0",
+                    "le": "5.6.11"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiAnalyzer: greater equal 5.6.0, less equal 5.6.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.6.0",
+                    "le": "5.6.11"
+                  },
+                  "fixed_in": "7.2.0"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 3.4,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:P/RL:O/RC:C"
           },
-          "cwe": null,
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "cwe": "CWE-668",
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-10-10T00:00:00Z",
   "updated": "2022-10-10T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-026"

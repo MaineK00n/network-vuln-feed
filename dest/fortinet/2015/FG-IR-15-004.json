@@ -1,445 +1,103 @@
 {
   "id": "FG-IR-15-004",
   "title": "FortiClient Android and iOS multiple vulnerabilities",
-  "summary": "",
   "description": "FortiClient Android and iOS are affected by two vulnerabilities: Android and iOS FortiClient do not check the validity of server certificates. An attacker may perform a man-in-the-middle attack between the FortiClient and the following services: A remote FortiGate with SSL VPN service running by default on port 443 A remote FortiGate with Endpoint control running by default on port 8010 Android only FortiClient uses a hardcoded encryption key for the following profile preferences settings: Client certificate pkcs12 Client certificate password IPSec pre-shared-key IPSec password SSLpassword The key having been disclosed, these settings could be decrypted by an attacker upon retrieving a FortiClient Android configuration profile from the device.",
   "vulnerabilities": [
     {
       "id": "FG-IR-15-004",
       "cve": "CVE-2015-1453",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS: less than 5.2.1, fixed in 5.2.1",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.2.1"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.1"
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android: less than 5.2.6, fixed in 5.2.6",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.2.6"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClientEMS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.6"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "MitM condition and potential credential harvesting",
-          "exploit_status": ""
+          "impact": "MitM condition and potential credential harvesting"
         }
       ]
     },
     {
       "id": "FG-IR-15-004",
       "cve": "CVE-2015-1569",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS: less than 5.2.1, fixed in 5.2.1",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.2.1"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.1"
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android: less than 5.2.6, fixed in 5.2.6",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.2.6"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClientEMS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.6"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "MitM condition and potential credential harvesting",
-          "exploit_status": ""
+          "impact": "MitM condition and potential credential harvesting"
         }
       ]
     },
     {
       "id": "FG-IR-15-004",
       "cve": "CVE-2015-1570",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS: less than 5.2.1, fixed in 5.2.1",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.2.1"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.1"
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android: less than 5.2.6, fixed in 5.2.6",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.2.6"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClientEMS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.6"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "MitM condition and potential credential harvesting",
-          "exploit_status": ""
+          "impact": "MitM condition and potential credential harvesting"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2015-02-25T00:00:00Z",
   "updated": "2015-02-25T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-004"
 }
-

@@ -2,138 +2,136 @@
   "id": "FG-IR-22-056",
   "title": "FortiSandbox / FortiDeceptor - Improper profile-based access control over APIs",
   "summary": "An improper privilege management vulnerability [CWE-269] in FortiSandbox & FortiDeceptor may allow a remote authenticated attacker to perform unauthorized API calls via crafted HTTP or HTTPS requests.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-22-056",
       "cve": "CVE-2022-27487",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiDeceptor: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiDeceptor: (<expression> <version>)",
+                  "description": "FortiDeceptor version 4.1.0",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "4.1.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_ins": ["4.1.1", "4.2.0"]
+                },
                 {
-                  "description": "FortiDeceptor: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortideceptor-:-:*:*:*:*:*:*:*",
+                  "description": "FortiDeceptor version 4.0.0 through 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "4.0.0",
+                    "lt": "4.0.2"
                   },
-                  "fixed_in": ""
+                  "fixed_ins": ["4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor version 3.3.0 through 3.3.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "3.3.0",
+                    "lt": "3.3.3"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 3.2 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "3.2.0",
+                    "le": "3.2.2"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 3.1 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "3.1.1",
+                    "le": "3.1.0"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 3.0 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "3.0.2",
+                    "le": "3.0.0"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 2.1 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "2.1.0"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 2.0 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "2.0.0"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 1.1 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "1.1.0"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                },
+                {
+                  "description": "FortiDeceptor 1.0 all versions",
+                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "1.0.0",
+                    "le": "1.0.1"
+                  },
+                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
                 }
               ]
             },
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiSandbox: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox version 4.2.0 through 4.2.2",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "4.2.0",
+                    "le": "4.2.2"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "4.2.3"
+                },
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
+                  "description": "FortiSandbox version 4.0.0 through 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "4.2.0",
+                    "le": "4.2.2"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiSandbox Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.3"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 8.3,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "cwe": "CWE-269",
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-04-11T00:00:00Z",
   "updated": "2023-04-11T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-056"

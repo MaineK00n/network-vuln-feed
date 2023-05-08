@@ -2,105 +2,31 @@
   "id": "FG-IR-17-076",
   "title": "XSS Vulnerability in FortiWeb Site Publisher",
   "summary": "The Site Publisher functionality of FortiWeb has been found vulnerable to a Cross-Site Scripting vulnerability via an improperly sanitized parameter in a POST request.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-17-076",
       "cve": "CVE-2017-3129",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
                   "description": "FortiWeb: (<expression> <version>)",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "5.7.1"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.8.0"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2017-04-19T00:00:00Z",
   "updated": "2017-04-19T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-076"

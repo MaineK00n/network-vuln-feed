@@ -2,35 +2,22 @@
   "id": "FG-IR-16-007",
   "title": "SAM and LSAD remote protocols man in the middle vulnerability (Badlock)",
   "summary": "The Security Account Manager Remote Protocol [MS-SAMR] and the Local Security Authority (Domain Policy) Remote Protocol [MS-LSAD] are both vulnerable to man in the middle attacks. These protocols are typically available on all Windows installations as well as every Samba server.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-16-007",
       "cve": "CVE-2016-2118",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user.",
-          "exploit_status": ""
+          "impact": "An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user."
         }
       ]
     },
     {
       "id": "FG-IR-16-007",
       "cve": "CVE-2016-0128",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user.",
-          "exploit_status": ""
+          "impact": "An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user."
         }
       ]
     }

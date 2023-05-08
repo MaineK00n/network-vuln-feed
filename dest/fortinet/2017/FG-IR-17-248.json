@@ -2,105 +2,31 @@
   "id": "FG-IR-17-248",
   "title": "FortiWebManager 5.8.0 improperly handles admin login access",
   "summary": "FortiWebManager 5.8.0 fails to check the admin password, granting access regardless the provided string.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-17-248",
       "cve": "CVE-2017-14189",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
               "application": [
                 {
                   "description": "FortiWeb Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:5.8.0:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "5.8.0"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWeb Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.8.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Improper Access Control",
-          "exploit_status": ""
+          "impact": "Improper Access Control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2017-11-22T00:00:00Z",
   "updated": "2017-11-22T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-248"

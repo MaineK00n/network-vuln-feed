@@ -7,102 +7,71 @@
     {
       "id": "FG-IR-012-008",
       "cve": "CVE-2012-6346",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb: less than 4.4.4, fixed in 4.4.4",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "4.4.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.4.4"
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "description": "FortiWeb: equal FortiWeb 4000C",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-4000c:-:*:*:*:*:*:*:*"
+                },
                 {
-                  "description": "FortiWeb Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "description": "FortiWeb: equal FortiWeb 3000C",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-3000c:-:*:*:*:*:*:*:*"
+                },
                 {
-                  "description": "FortiWeb Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiWeb: equal FortiWeb 3000CFsx",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-3000cfsx:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb 1000C",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-1000c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb 400C",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-400c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb VM01",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm01:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb VM02",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm02:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb VM04",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm04:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb VM08",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm08:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiWeb: equal FortiWeb VM16",
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm16:-:*:*:*:*:*:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Cross Site Scripting",
-          "exploit_status": ""
+          "impact": "Cross Site Scripting"
         }
       ]
     }
   ],
-  "references": null,
-  "published": "0001-01-01T00:00:00Z",
-  "updated": "0001-01-01T00:00:00Z",
+  "published": "2012-12-03T00:00:00Z",
+  "updated": "2012-12-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-008"
 }
 

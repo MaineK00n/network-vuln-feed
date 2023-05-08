@@ -6,79 +6,65 @@
   "vulnerabilities": [
     {
       "id": "FG-IR-012-004",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "hardware": [
                 {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiGate: equal FortiGate 5020",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5020:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5060",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5060:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5140B",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5140b:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5144C",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5144c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5001B",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001b:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5001C",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5101C",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5101c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiGate: equal FortiGate 5001D",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001d:-:*:*:*:*:*:*:*"
                 }
               ]
             },
             {
-              "description": "",
-              "application": [
+              "description": "FortiGate: equal FortiGate 3950B",
+              "hardware": [
                 {
-                  "description": "FortiGate Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiGate: equal FortiGate 3950B",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-3950b:-:*:*:*:*:*:*:*"
+                }
+              ]
+            },
+            {
+              "description": "FortiGate: equal FortiGate-3810A",
+              "hardware": [
+                {
+                  "description": "FortiGate: equal FortiGate-3810A",
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-3810a:-:*:*:*:*:*:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Remote Code Execution",
-          "exploit_status": ""
+          "impact": "Remote Code Execution"
         }
       ]
     }
@@ -97,8 +83,8 @@
       "url": "<a href=\"http://www.vulnerability-lab.com/get_content.php?id=559\">Vulnerability Research Laboratory (VL-ID 559)</a>"
     }
   ],
-  "published": "0001-01-01T00:00:00Z",
-  "updated": "0001-01-01T00:00:00Z",
+  "published": "2012-09-14T00:00:00Z",
+  "updated": "2012-09-14T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-004"
 }
 

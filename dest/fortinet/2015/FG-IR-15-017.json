@@ -1,7 +1,6 @@
 {
   "id": "FG-IR-15-017",
   "title": "FortiClient SSLVPN Linux client  local privilege escalation vulnerability",
-  "summary": "None",
   "description": "Installing Forticlient SSLVPN Linux client build 2312 and lower in a home directory that is world readable-executable yields a privilege escalation vulnerability: Any local user can then exploit the helper/subroc setuid binary to run arbitrary code with root privileges.",
   "vulnerabilities": [
     {
@@ -12,144 +11,23 @@
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "description": "FortiClient SSL VPN: less equal 2312, fixed in 2313",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:linux:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "2312"
                   },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FortiClient for Android: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClientEMS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "2313"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Privilege Escalation",
-          "exploit_status": ""
+          "impact": "Privilege Escalation"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2015-07-24T00:00:00Z",
   "updated": "2015-07-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-017"

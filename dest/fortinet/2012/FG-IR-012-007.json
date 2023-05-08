@@ -7,68 +7,43 @@
     {
       "id": "FG-IR-012-007",
       "cve": "CVE-2012-6347",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiDB: (<expression> <version>)",
+                  "description": "FortiDB: less than 4.4.2, fixed in 4.4.2",
                   "cpe": "cpe:2.3:a:fortinet:fortidb:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "4.4.2"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiDB: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.4.2"
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiDB: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortidb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiDB: equal FortiDB 2000B",
+                  "cpe": "cpe:2.3:h:fortinet:fortidb-2000b:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiDB: equal FortiDB 1000C",
+                  "cpe": "cpe:2.3:h:fortinet:fortidb-1000c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiDB: equal FortiDB 400C",
+                  "cpe": "cpe:2.3:h:fortinet:fortidb-400c:-:*:*:*:*:*:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Cross Site Scripting",
-          "exploit_status": ""
+          "impact": "Cross Site Scripting"
         }
       ]
     }
   ],
-  "references": null,
-  "published": "0001-01-01T00:00:00Z",
-  "updated": "0001-01-01T00:00:00Z",
+  "published": "2012-12-03T00:00:00Z",
+  "updated": "2012-12-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-007"
 }
 
