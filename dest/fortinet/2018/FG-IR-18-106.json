@@ -2,20 +2,13 @@
   "id": "FG-IR-18-106",
   "title": "VPNFilter botnet",
   "summary": "On May 23, 2018, Talos disclosed in a blog post the discovery of a modular malware system they deemed \"VPNFilter\", affecting multiple network devices wordwide, and embedding Botnet capabilities.As described in Talos' blog post, the devices known to be affected by VPNFilter are Linksys, MikroTik, NETGEAR and TP-Link networking equipment in the small and home office (SOHO) space, as well at QNAP network-attached storage (NAS) devices.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-18-106",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "configurations": [],
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }

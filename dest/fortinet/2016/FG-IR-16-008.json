@@ -2,83 +2,61 @@
   "id": "FG-IR-16-008",
   "title": "RSA-CRT key leak under certain conditions",
   "summary": "FortiOS now includes for all SSL libraries a countermeasure against Lenstra's fault attack on RSA-CRT optimization when a RSA signature is corrupted.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-16-008",
       "cve": "CVE-2015-5738",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less than 5.0.13, fixed in 5.0.13",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.0.13"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "5.0.13"
+                },
                 {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: less than 5.0.13, fixed in 5.2.6",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.0.13"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_in": "5.2.6"
+                },
                 {
-                  "description": "FortiGate Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: less than 5.0.13, fixed in 5.4.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.0.13"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.4.0"
+                },
+                {
+                  "description": "FortiOS: greater equal 5.2.0, less than 5.2.6, fixed in 5.2.6",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "lt": "5.2.6"
+                  },
+                  "fixed_in": "5.2.6"
+                },
+                {
+                  "description": "FortiOS: greater equal 5.2.0, less than 5.2.6, fixed in 5.4.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "lt": "5.2.6"
+                  },
+                  "fixed_in": "5.4.0"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Man in the middle",
-          "exploit_status": ""
+          "impact": "Man in the middle"
         }
       ]
     }

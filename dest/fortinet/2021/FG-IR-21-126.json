@@ -2,102 +2,50 @@
   "id": "FG-IR-21-126",
   "title": "FortiOS,  FortiWeb, FortiProxy and FortiSwitch  - Padding oracle in cookie encryption",
   "summary": "An improper verification of cryptographic signature vulnerability [CWE-347] in FortiOS, FortiWeb, FortiProxy and FortiSwitch may allow an attacker to decrypt portions of the administrative session management cookie if able to intercept the latter.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-126",
       "cve": "CVE-2021-43074",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.17, fixed in 6.4.9, 7.0.4",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.0.0",
+                    "le": "6.0.17"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_ins": ["6.4.9", "7.0.4"]
+                },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.15, fixed in 6.4.9, 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.2.0",
+                    "le": "6.2.15"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_ins": ["6.4.9", "7.0.4"]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in 6.4.9, 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.4.0",
+                    "le": "6.4.8"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
+                  "fixed_ins": ["6.4.9", "7.0.4"]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_ins": ["7.0.4"]
                 }
               ]
             },
@@ -305,21 +253,16 @@
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.1,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:P/RL:U/RC:C"
           },
-          "cwe": null,
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "cwe": "CWE-347",
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-02-16T00:00:00Z",
   "updated": "2023-02-16T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-126"

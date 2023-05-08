@@ -2,161 +2,30 @@
   "id": "FG-IR-16-037",
   "title": "FortiDDoS Command Injection Vulnerability Announcement",
   "summary": "A vulnerability in FortiDDoS allows escalation of privilege via remote OS injection through crafted URLs sent to the GUI. The user is required to be logged in for an exploit to work.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-16-037",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiDDoS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiddos:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiDDoS: (<expression> <version>)",
+                  "description": "FortiDDoS: less equal 4.2.2, fixed in 4.2.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.2.2"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiDDoS-F: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS-F: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS-F: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiDDoS-CM: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS-CM: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS-CM: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.3"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Escalation of Privilege",
-          "exploit_status": ""
+          "impact": "Escalation of Privilege"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2016-09-28T00:00:00Z",
   "updated": "2016-09-28T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-037"

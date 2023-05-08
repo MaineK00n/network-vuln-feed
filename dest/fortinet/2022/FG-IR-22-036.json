@@ -2,121 +2,100 @@
   "id": "FG-IR-22-036",
   "title": "FortiOS -- Inter-VDOM information leaking",
   "summary": "An improper access control vulnerability [CWE-284] in FortiOS may allow an authenticated attacker with a restricted user profile to gather the checksum information about the other VDOMs via CLI commands.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-22-036",
       "cve": "CVE-2022-23442",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.5, fixed in 7.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.5"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "7.0.6"
+                },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.5, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.5"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_in": "7.2.0"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in 6.4.9",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.4.0",
+                    "le": "6.4.8"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
+                  "fixed_in": "6.4.9"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in 7.0.6",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.4.0",
+                    "le": "6.4.8"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "7.0.6"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.4.0",
+                    "le": "6.4.8"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "7.2.0"
+                },
+                {
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.11, fixed in 6.4.9",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.11"
+                  },
+                  "fixed_in": "6.4.9"
+                },
+                {
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.11, fixed in 7.0.6",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.11"
+                  },
+                  "fixed_in": "7.0.6"
+                },
+                {
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.11, fixed in 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.11"
+                  },
+                  "fixed_in": "7.2.0"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.3,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "cwe": "CWE-284",
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-08-02T00:00:00Z",
   "updated": "2022-08-02T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-036"

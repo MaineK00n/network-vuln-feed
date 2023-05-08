@@ -2,78 +2,87 @@
   "id": "FG-IR-23-013",
   "title": "FortiNAC - Stored XSS triggering RCE via license key forgery",
   "summary": "An improper neutralization of input during web page generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiNAC License Management would permit an authenticated attacker to trigger remote code execution via crafted licenses.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-23-013",
       "cve": "CVE-2023-22637",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiNAC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortinac:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiNAC: (<expression> <version>)",
+                  "description": "FortiNAC-F: equal 7.2.0, fixed in 7.2.1",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac-f:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "7.2.0"
+                  },
+                  "fixed_in": "7.2.1"
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiNAC: greater equal 9.4.0, less equal 9.4.2, fixed in 9.4.3",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "9.4.0",
+                    "le": "9.4.2"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "9.4.3"
+                },
                 {
-                  "description": "FortiNAC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortinac-:-:*:*:*:*:*:*:*",
+                  "description": "FortiNAC: equal 9.2.0, less equal 9.2.8, fixed in 9.4.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "9.2.0",
+                    "le": "9.2.8"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "9.4.3"
+                },
+                {
+                  "description": "FortiNAC: greater equal 9.1.0, less equal 9.1.10, fixed in 9.4.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "9.1.0",
+                    "le": "9.1.10"
+                  },
+                  "fixed_in": "9.4.3"
+                },
+                {
+                  "description": "FortiNAC: greater equal 8.8.0, less equal 8.8.11, fixed in 9.4.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "8.8.0",
+                    "le": "8.8.11"
+                  },
+                  "fixed_in": "9.4.3"
+                },
+                {
+                  "description": "FortiNAC: greater equal 8.7.0, less equal 8.7.6, fixed in 9.4.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "8.7.0",
+                    "le": "8.7.6"
+                  },
+                  "fixed_in": "9.4.3"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 5.9,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "cwe": "CWE-79",
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
-  "published": "2023-05-03T00:00:00Z",
-  "updated": "2023-05-03T00:00:00Z",
+  "published": "2023-04-13T00:00:00Z",
+  "updated": "2023-04-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-013"
 }
 

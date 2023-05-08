@@ -7,90 +7,744 @@
     {
       "id": "FG-IR-15-014",
       "cve": "CVE-2014-8176",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service and memory corruption",
-          "exploit_status": ""
+          "impact": "Denial of service and memory corruption"
         }
       ]
     },
     {
       "id": "FG-IR-15-014",
       "cve": "CVE-2015-1788",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service and memory corruption",
-          "exploit_status": ""
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiManager: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAnalyzer: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiMail: less equal 5.0.8",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.0.8"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.1.0, less equal 5.1.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.1.0",
+                    "le": "5.1.5"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.2.0, less equal 5.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "le": "5.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAuthenticator: less equal 4.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "AscenLink: less equal 7.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "7.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiRecorder: less equal 2.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "2.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiWAN: less equal 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.2"
+                  }
+                }
+              ]
+            },
+            {
+              "application": [
+                {
+                  "description": "FortiClient for Windows: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOSX: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for Android: less equal 5.2.5",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "le": "5.2.5"
+                  }
+                }
+              ]
+            }
+          ],
+          "impact": "Denial of service"
         }
       ]
     },
     {
       "id": "FG-IR-15-014",
       "cve": "CVE-2015-1789",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service and memory corruption",
-          "exploit_status": ""
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiManager: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAnalyzer: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiMail: less equal 5.0.8",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.0.8"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.1.0, less equal 5.1.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.1.0",
+                    "le": "5.1.5"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.2.0, less equal 5.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "le": "5.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAuthenticator: less equal 4.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "AscenLink: less equal 7.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "7.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiRecorder: less equal 2.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "2.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiWAN: less equal 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.2"
+                  }
+                }
+              ]
+            },
+            {
+              "application": [
+                {
+                  "description": "FortiClient for Windows: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOSX: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for Android: less equal 5.2.5",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "le": "5.2.5"
+                  }
+                }
+              ]
+            }
+          ],
+          "impact": "Denial of service and memory corruption"
         }
       ]
     },
     {
       "id": "FG-IR-15-014",
       "cve": "CVE-2015-1790",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service and memory corruption",
-          "exploit_status": ""
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiManager: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAnalyzer: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiMail: less equal 5.0.8",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.0.8"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.1.0, less equal 5.1.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.1.0",
+                    "le": "5.1.5"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.2.0, less equal 5.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "le": "5.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAuthenticator: less equal 4.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "AscenLink: less equal 7.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "7.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiRecorder: less equal 2.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "2.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiWAN: less equal 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.2"
+                  }
+                }
+              ]
+            },
+            {
+              "application": [
+                {
+                  "description": "FortiClient for Windows: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOSX: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for Android: less equal 5.2.5",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "le": "5.2.5"
+                  }
+                }
+              ]
+            }
+          ],
+          "impact": "memory corruption"
         }
       ]
     },
     {
       "id": "FG-IR-15-014",
       "cve": "CVE-2015-1791",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service and memory corruption",
-          "exploit_status": ""
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiManager: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAnalyzer: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiMail: less equal 5.0.8",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.0.8"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.1.0, less equal 5.1.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.1.0",
+                    "le": "5.1.5"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.2.0, less equal 5.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "le": "5.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAuthenticator: less equal 4.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "AscenLink: less equal 7.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "7.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiRecorder: less equal 2.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "2.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiWAN: less equal 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.2"
+                  }
+                }
+              ]
+            },
+            {
+              "application": [
+                {
+                  "description": "FortiClient for Windows: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOSX: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for Android: less equal 5.2.5",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "le": "5.2.5"
+                  }
+                }
+              ]
+            }
+          ],
+          "impact": "memory corruption"
         }
       ]
     },
     {
       "id": "FG-IR-15-014",
       "cve": "CVE-2015-1792",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service and memory corruption",
-          "exploit_status": ""
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiManager: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAnalyzer: less equal 5.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.2.2"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiMail: less equal 5.0.8",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "5.0.8"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.1.0, less equal 5.1.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.1.0",
+                    "le": "5.1.5"
+                  }
+                },
+                {
+                  "description": "FortiMail: greater equal 5.2.0, less equal 5.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "5.2.0",
+                    "le": "5.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiAuthenticator: less equal 4.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "AscenLink: less equal 7.2.4",
+                  "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "7.2.4"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiRecorder: less equal 2.0.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "2.0.0"
+                  }
+                }
+              ]
+            },
+            {
+              "operating_system": [
+                {
+                  "description": "FortiWAN: less equal 4.0.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "4.0.2"
+                  }
+                }
+              ]
+            },
+            {
+              "application": [
+                {
+                  "description": "FortiClient for Windows: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOS: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for MacOSX: less equal 5.2.3",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
+                  "affected": {
+                    "le": "5.2.3"
+                  }
+                },
+                {
+                  "description": "FortiClient for Android: less equal 5.2.5",
+                  "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
+                  "affected": {
+                    "le": "5.2.5"
+                  }
+                }
+              ]
+            }
+          ],
+          "impact": "Denial of service"
         }
       ]
     }

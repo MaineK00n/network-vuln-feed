@@ -2,161 +2,50 @@
   "id": "FG-IR-16-045",
   "title": "FortiWAN Multiple Vulnerabilities",
   "summary": "FortWan 4.2.4 and below is exposed to cross site scripting, information leak and escalation of privilege vulnerabilities.CVE-2016-4965: Non-administrative authenticated user having access privileges to the nslookup functionality can perform OS command injection in the root user contextCVE-2016-4966: Non-administrative authenticated user having access privileges to change the HTTP Get param \"UserName\" to \"Administrator\" may access PCAP filesCVE-2016-4967: Non-administrative authenticated user may access configuration information and/or PCAP files via specific URLsCVE-2016-4968: Non-administrative authenticated user may obtain administrator cookie via specific GET requestsCVE-2016-4969: Persistent XSS",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-16-045",
       "cve": "CVE-2016-4965",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiWAN: (<expression> <version>)",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.2.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwan-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.5"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS, information leak, escalation of privilege",
-          "exploit_status": ""
+          "impact": "XSS, information leak, escalation of privilege"
         }
       ]
     },
     {
       "id": "FG-IR-16-045",
       "cve": "CVE-2016-4966",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiWAN: (<expression> <version>)",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.2.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwan-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.5"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS, information leak, escalation of privilege",
-          "exploit_status": ""
+          "impact": "XSS, information leak, escalation of privilege"
         }
       ]
     },
@@ -168,73 +57,19 @@
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiWAN: (<expression> <version>)",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.2.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwan-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.5"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS, information leak, escalation of privilege",
-          "exploit_status": ""
+          "impact": "XSS, information leak, escalation of privilege"
         }
       ]
     },
@@ -246,73 +81,19 @@
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiWAN: (<expression> <version>)",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.2.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwan-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.5"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS, information leak, escalation of privilege",
-          "exploit_status": ""
+          "impact": "XSS, information leak, escalation of privilege"
         }
       ]
     },
@@ -324,73 +105,19 @@
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiWAN: (<expression> <version>)",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.2.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWAN: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwan-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWAN Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwan_manager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.2.5"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS, information leak, escalation of privilege",
-          "exploit_status": ""
+          "impact": "XSS, information leak, escalation of privilege"
         }
       ]
     }

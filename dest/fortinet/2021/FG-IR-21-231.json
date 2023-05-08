@@ -2,102 +2,50 @@
   "id": "FG-IR-21-231",
   "title": "FortiOS & FortiProxy - Information disclosure in web proxy error pages",
   "summary": "A server-generated error message containing sensitive information vulnerability [CWE-550] in FortiOS and FortiProxy web proxy may allow a malicious webserver to retrieve a web proxy's client username and IP via same origin HTTP requests triggering proxy-generated HTTP status codes pages.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-231",
       "cve": "CVE-2021-43206",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.17, fixed in 6.2.11, 6.4.10, 7.0.4, 7.2.0",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.0.0",
+                    "le": "6.0.17"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_ins": ["6.2.11", "6.4.10", "7.0.4", "7.2.0"]
+                },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.10, fixed in 6.2.11, 6.4.10, 7.0.4, 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.2.0",
+                    "le": "6.2.10"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_ins": ["6.2.11", "6.4.10", "7.0.4", "7.2.0"]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.9, fixed in 6.4.10, 7.0.4, 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.4.0",
+                    "le": "6.4.9"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
+                  "fixed_ins": ["6.4.10", "7.0.4", "7.2.0"]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4, 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_ins": ["7.0.4", "7.2.0"]
                 }
               ]
             },
@@ -147,21 +95,16 @@
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.1,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N/E:P/RL:U/RC:C"
           },
-          "cwe": null,
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "cwe": "CWE-550",
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-05-03T00:00:00Z",
   "updated": "2022-05-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-231"

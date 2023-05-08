@@ -1,255 +1,100 @@
 {
   "id": "FG-IR-15-003",
   "title": "FortiAuthenticator multiple vulnerabilities",
-  "summary": "",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-15-003",
       "cve": "CVE-2015-1455",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator: less than 3.2.0, fixed in 3.2.1",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "3.2.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "3.2.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS",
-          "exploit_status": ""
+          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS"
         }
       ]
     },
     {
       "id": "FG-IR-15-003",
       "cve": "CVE-2015-1456",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator: less than 3.2.0, fixed in 3.2.1",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "3.2.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "3.2.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS",
-          "exploit_status": ""
+          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS"
         }
       ]
     },
     {
       "id": "FG-IR-15-003",
       "cve": "CVE-2015-1457",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator: less than 3.2.0, fixed in 3.2.1",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "3.2.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "3.2.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS",
-          "exploit_status": ""
+          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS"
         }
       ]
     },
     {
       "id": "FG-IR-15-003",
       "cve": "CVE-2015-1459",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator: less than 3.2.1, fixed in 3.2.1",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "3.2.1"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "3.2.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS",
-          "exploit_status": ""
+          "impact": "Local file disclosure, Local passwords disclosure, reflected XSS"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2015-02-05T00:00:00Z",
   "updated": "2015-02-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-003"
