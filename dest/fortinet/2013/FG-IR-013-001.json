@@ -7,66 +7,57 @@
     {
       "id": "FG-IR-013-001",
       "cve": "CVE-2013-1471",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail: less than 4.3.4, fixed in 4.3.4",
                   "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "4.3.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
+                  "fixed_in": "4.3.4"
+                },
                 {
-                  "description": "FortiMail: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                  "description": "FortiMail: less than 4.3.4, fixed in 5.0.0",
+                  "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "4.3.4"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.0.0"
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "description": "FortiMail: equal FortiMail 200D",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-200d:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiMail: equal FortiMail 400C",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-400c:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiMail: equal FortiMail VM2000",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-vm2000:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiMail: equal FortiMail 2000B",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-2000b:-:*:*:*:*:*:*:*"
+                },
+                {
+                  "description": "FortiMail: equal FortiMail 5002B",
+                  "cpe": "cpe:2.3:h:fortinet:fortimail-5002b:-:*:*:*:*:*:*:*"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Exception Handling and Input Filter Bypass",
-          "exploit_status": ""
+          "impact": "Exception Handling and Input Filter Bypass"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2013-01-29T00:00:00Z",
   "updated": "2013-01-29T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-013-001"

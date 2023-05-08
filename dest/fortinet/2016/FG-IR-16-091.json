@@ -6,16 +6,9 @@
   "vulnerabilities": [
     {
       "id": "FG-IR-16-091",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Denial of service",
-          "exploit_status": ""
+          "impact": "Denial of service"
         }
       ]
     }

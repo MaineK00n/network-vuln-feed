@@ -7,168 +7,24 @@
     {
       "id": "FG-IR-012-001",
       "cve": "CVE-2012-0941",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 4.3.0, less equal 4.3.5, fixed in 4.3.6",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "4.3.0",
+                    "le": "4.3.5"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiGate Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "4.3.6"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Information Disclosure",
-          "exploit_status": ""
+          "impact": "Information Disclosure"
         }
       ]
     }
@@ -191,8 +47,8 @@
       "url": "<a href=\"http://xforce.iss.net/xforce/xfdb/72761\">IBM ISS (72761)</a>"
     }
   ],
-  "published": "0001-01-01T00:00:00Z",
-  "updated": "0001-01-01T00:00:00Z",
+  "published": "2012-02-01T00:00:00Z",
+  "updated": "2012-03-26T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-001"
 }
 

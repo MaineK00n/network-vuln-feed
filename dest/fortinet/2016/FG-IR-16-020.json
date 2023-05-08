@@ -6,84 +6,27 @@
   "vulnerabilities": [
     {
       "id": "FG-IR-16-020",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
+                  "description": "FortiVoice: less equal 5.0.4, fixed in 5.0.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "5.0.4"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiVoice Cloud Unified Communications: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortivoice_cloud_unified_communications:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.0.5"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "XSS attacks",
-          "exploit_status": ""
+          "impact": "XSS attacks"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2016-08-09T00:00:00Z",
   "updated": "2016-08-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-020"

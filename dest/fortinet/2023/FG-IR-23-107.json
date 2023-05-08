@@ -2,93 +2,135 @@
   "id": "FG-IR-23-107",
   "title": "FortiADC - Command injection in diagnose system df CLI command",
   "summary": "An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in FortiADC CLI may allow a local and authenticated attacker to execute unauthorized commands via specifically crafted arguments in diagnose system df CLI command.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-23-107",
       "cve": "CVE-2023-28000",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC: equal 7.1.0, fixed in 7.1.1",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "7.1.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "7.1.1"
+                },
                 {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                  "description": "FortiADC: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_in": "7.0.4"
+                },
                 {
-                  "description": "FortiADC Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
+                  "description": "FortiADC: greater equal 7.0.0, less equal 7.0.3, fixed in 7.1.1",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.3"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "7.1.1"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in 6.2.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.4"
+                  },
+                  "fixed_in": "6.2.5"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.4"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in 7.1.1",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.2.0",
+                    "le": "6.2.4"
+                  },
+                  "fixed_in": "7.1.1"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in 6.2.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.1.0",
+                    "le": "6.1.6"
+                  },
+                  "fixed_in": "6.2.5"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.1.0",
+                    "le": "6.1.6"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in 7.1.1",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.1.0",
+                    "le": "6.1.6"
+                  },
+                  "fixed_in": "7.1.1"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in 6.2.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.4"
+                  },
+                  "fixed_in": "6.2.5"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in 7.0.4",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.4"
+                  },
+                  "fixed_in": "7.0.4"
+                },
+                {
+                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in 7.1.1",
+                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "6.0.0",
+                    "le": "6.0.4"
+                  },
+                  "fixed_in": "7.1.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 6.3,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:R&version=3.1"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "cwe": "CWE-78",
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-06-12T00:00:00Z",
   "updated": "2023-06-12T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-107"

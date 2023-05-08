@@ -1,51 +1,28 @@
 {
   "id": "FG-IR-15-006",
   "title": "FSSO stack-based buffer overflow",
-  "summary": "",
   "description": "Prior to build 237, the Windows version of FSSO can be remotely exploited to run arbitrary code over the TCP/8000 port without being authenticated.",
   "vulnerabilities": [
     {
       "id": "FG-IR-15-006",
       "cve": "CVE-2015-2281",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FSSO",
+                  "description": "FSSO: less than 5.0.0237, fixed in 5.0.0237",
                   "cpe": "cpe:2.3:a:fortinet:fortinet_single_sign-on:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "lt": "5.0.0237"
                   },
-                  "fixed_in": ""
-                },
-                {
-                  "description": "FSSO CA",
-                  "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.0.0237"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Remote code execution",
-          "exploit_status": ""
+          "impact": "Remote code execution"
         }
       ]
     }

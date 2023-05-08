@@ -13,91 +13,51 @@
           "configurations": [
             {
               "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS version 6.0.0 through 6.0.14",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.0.0",
+                    "le": "6.0.14"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_ins": [ "6.2.11", "6.4.9", "7.0.6", "7.2.1" ]
+                },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS version 6.2.0 through 6.2.10",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.2.0",
+                    "le": "6.2.10"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_ins": [ "6.2.11", "6.4.9", "7.0.6", "7.2.1" ]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS version 6.4.0 through 6.4.8",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.4.0",
+                    "le": "6.4.8"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
+                  "fixed_ins": [ "6.4.9", "7.0.6", "7.2.1" ]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS version 7.0.0 through 7.0.5",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.0.0",
+                    "le": "7.0.5"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_ins": [ "7.0.6", "7.2.1" ]
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS version 7.2.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.2.0",
+                    "lt": "7.2.1"
                   },
-                  "fixed_in": ""
+                  "fixed_ins": [ "7.2.1" ]
                 }
               ]
             }
@@ -109,7 +69,7 @@
             "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H/E:F/RL:U/RC:C"
           },
-          "cwe": null,
+          "cwe": "CWE-940",
           "impact": "Denial of service",
           "exploit_status": ""
         }

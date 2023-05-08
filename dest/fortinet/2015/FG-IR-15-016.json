@@ -1,112 +1,43 @@
 {
   "id": "FG-IR-15-016",
   "title": "\"POODLE has friends\" vulnerability",
-  "summary": "",
   "description": "The SSL-VPN feature of FortiOS 4.3.12 and lower only checks the first byte of the TLS MAC in the finished message. An attacker may intercept encrypted packets in transit and modifying their contents by changing the middle or the end of the MAC field in the TLS finished message.",
   "vulnerabilities": [
     {
       "id": "FG-IR-15-016",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 4.3.12, fixed in 4.3.13",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.3.12"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_in": "4.3.13"
+                },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: less equal 4.3.12, fixed in 5.0.x",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.3.12"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_in": "5.0.x"
+                },
                 {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+                  "description": "FortiOS: less equal 4.3.12, fixed in 5.2.x",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "4.3.12"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "5.2.x"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Man in the middle",
-          "exploit_status": ""
+          "impact": "Man in the middle"
         }
       ]
     }

@@ -13,91 +13,15 @@
           "configurations": [
             {
               "description": "",
-              "application": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: 7.2 all versions",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.2.0",
+                    "lt": "7.3.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "7.4.0"
                 }
               ]
             },
@@ -154,7 +78,7 @@
             "environmental_score": null,
             "vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:C&version=3.1"
           },
-          "cwe": null,
+          "cwe": "CWE-532",
           "impact": "Information disclosure",
           "exploit_status": ""
         }
