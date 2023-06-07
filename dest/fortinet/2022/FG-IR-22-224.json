@@ -109,7 +109,7 @@
             "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C"
           },
-          "cwe": null,
+          "cwe": "CWE-79",
           "impact": "Execute unauthorized code or commands",
           "exploit_status": ""
         }
