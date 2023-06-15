@@ -2,48 +2,37 @@
   "id": "FG-IR-23-050",
   "title": "FortiSOAR - Improper Authorization in request headers",
   "summary": "An improper access control vulnerability [CWE-284] in FortiSOAR's playbook component may allow an attacker authenticated on the administrative interface to perform unauthorized actions via crafted HTTP requests.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-23-050",
       "cve": "CVE-2023-25605",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
+              "operating_system": [
                 {
-                  "description": "FortiSOAR: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
+                  "description": "FortiSOAR: greater equal 7.3.0, less equal 7.3.1, fixed in 7.3.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortisoar:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "7.3.0",
+                    "le": "7.3.1"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "7.3.2"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 7.5,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:X/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "cwe": "CWE-284",
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-03-07T00:00:00Z",
   "updated": "2023-03-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-050"
