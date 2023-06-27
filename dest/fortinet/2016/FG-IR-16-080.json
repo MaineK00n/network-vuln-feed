@@ -10,17 +10,107 @@
       "description": "",
       "definitions": [
         {
-          "configurations": null,
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Privilege escalation",
-          "exploit_status": ""
+          "configurations": [
+            {
+              "application": [
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.2.0.0",
+                    "lt": "14.2.0.12"
+                  },
+                  "fixed_in": "14.2.0.12"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.2.0.0",
+                    "lt": "14.2.0.12"
+                  },
+                  "fixed_in": "14.10.0.5"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.2.0.0",
+                    "lt": "14.2.0.12"
+                  },
+                  "fixed_in": "15.10.0.3"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.2.0.0",
+                    "lt": "14.2.0.12"
+                  },
+                  "fixed_in": "16.7.0.1"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.10.0.0",
+                    "lt": "14.10.0.5"
+                  },
+                  "fixed_in": "14.10.0.5"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.10.0.0",
+                    "lt": "14.10.0.5"
+                  },
+                  "fixed_in": "15.10.0.3"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "14.10.0.0",
+                    "lt": "14.10.0.5"
+                  },
+                  "fixed_in": "16.7.0.1"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "15.10.0.0",
+                    "lt": "15.10.0.3"
+                  },
+                  "fixed_in": "15.10.0.3"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "15.10.0.0",
+                    "lt": "15.10.0.3"
+                  },
+                  "fixed_in": "16.7.0.1"
+                },
+                {
+                  "description": "Connect: (<expression> <version>)",
+                  "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "ge": "16.7.0.0",
+                    "lt": "16.7.0.1"
+                  },
+                  "fixed_in": "16.7.0.1"
+                }
+              ]
+            }
+          ],
+          "impact": "Privilege escalation"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2017-02-09T00:00:00Z",
   "updated": "2017-02-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-080"
