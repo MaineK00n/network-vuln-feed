@@ -2,71 +2,31 @@
   "id": "FG-IR-17-115",
   "title": "FortiWLM upgrade user account hard-coded credentials",
   "summary": "FortiWLM has a hard-coded password for its \"upgrade\" user account, which it uses to transfer files to and from the FortiWLC controller. Having the upgrade account credentials would allow an attacker to transfer files to any attached or previously attached controllers as an admin user, thus raising potential further security issues.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-17-115",
       "cve": "CVE-2017-7336",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiWLM: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
                   "description": "FortiWLM: (<expression> <version>)",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "8.3.0"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWLM: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "8.3.1"
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Hardcoded credentials",
-          "exploit_status": ""
+          "impact": "Hardcoded credentials"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2017-06-30T00:00:00Z",
   "updated": "2017-06-30T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-115"
