@@ -2,133 +2,166 @@
   "id": "FG-IR-22-007",
   "title": "Multiple vulnerabilities in PJSIP library",
   "summary": "Some advisories were released affecting  the version of PJSIP library used in some Fortinet  products: CVE-2021-43845: PJSIP is a free and open source multimedia communication library. In version 2.11.1 and prior, if incoming RTCP XR message contain block, the data field is not checked against the received packet size, potentially resulting in an out-of-bound read access. This affects all users that use PJMEDIA and RTCP XR. A malicious actor can send a RTCP XR message with an invalid packet size. CVE-2021-37706: PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In affected versions if the incoming STUN message contains an ERROR-CODE attribute, the header length is not checked before performing a subtraction operation, potentially resulting in an integer underflow scenario.  This issue affects all users that use STUN. A malicious actor located within the victims network may forge and send a specially crafted UDP (STUN) message that could remotely execute arbitrary code on the victims machine. Users are advised to upgrade as soon as possible. There are no known workarounds. CVE-2021-43804: PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In affected versions if the incoming RTCP BYE message contains a reason's length, this declared length is not checked against the actual received packet size, potentially resulting in an out-of-bound read access. This issue affects all users that use PJMEDIA and RTCP. A malicious actor can send a RTCP BYE message with an invalid reason length. Users are advised to upgrade as soon as possible. There are no known workarounds. CVE-2021-32686: PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In PJSIP before version 2.11.1, there are a couple of issues found in the SSL socket. First, a race condition between callback and destroy, due to the accepted socket having no group lock. Second, the SSL socket parent/listener may get destroyed during handshake. Both issues were reported to happen intermittently in heavy load TLS connections. They cause a crash, resulting in a denial of service. These are fixed in version 2.11.1. CVE-2021-21375: PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In PJSIP version 2.10 and earlier, after an initial INVITE has been sent, when two 183 responses are received, with the first one causing negotiation failure, a crash will occur. This results in a denial of service. CVE-2020-15260: PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In version 2.10 and earlier, PJSIP transport can be reused if they have the same IP address + port + protocol. However, this is insufficient for secure transport since it lacks remote hostname authentication. Suppose we have created a TLS connection to `sip.foo.com`, which has an IP address `100.1.1.1`. If we want to create a TLS connection to another hostname, say `sip.bar.com`, which has the same IP address, then it will reuse that existing connection, even though `100.1.1.1` does not have certificate to authenticate as `sip.bar.com`. The vulnerability allows for an insecure interaction without user awareness. It affects users who need access to connections to different destinations that translate to the same address, and allows man-in-the-middle attack if attacker can route a connection to another destination such as in the case of DNS spoofing.",
-  "description": "None",
   "vulnerabilities": [
     {
       "id": "FG-IR-22-007",
-      "cve": "CVE-2021-37706",
-      "description": "",
+      "cve": "CVE-2021-43845",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiFone: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortifone:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
                   "description": "FortiFone: (<expression> <version>)",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "le": "3.0.11"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiFone: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortifone-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiVoice Cloud Unified Communications: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortivoice_cloud_unified_communications:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_in": "3.0.12"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 9,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "impact": "Execute unauthorized code or commands"
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-22-007",
+      "cve": "CVE-2021-37706",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiFone: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "3.0.11"
+                  },
+                  "fixed_in": "3.0.12"
+                }
+              ]
+            }
+          ],
+          "cvssv3": {
+            "base_score": 9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
+          },
+          "impact": "Execute unauthorized code or commands"
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-22-007",
+      "cve": "CVE-2021-43804",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiFone: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "3.0.11"
+                  },
+                  "fixed_in": "3.0.12"
+                }
+              ]
+            }
+          ],
+          "cvssv3": {
+            "base_score": 9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
+          },
+          "impact": "Execute unauthorized code or commands"
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-22-007",
+      "cve": "CVE-2021-32686",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiFone: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "3.0.11"
+                  },
+                  "fixed_in": "3.0.12"
+                }
+              ]
+            }
+          ],
+          "cvssv3": {
+            "base_score": 9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
+          },
+          "impact": "Execute unauthorized code or commands"
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-22-007",
+      "cve": "CVE-2021-21375",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiFone: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "3.0.11"
+                  },
+                  "fixed_in": "3.0.12"
+                }
+              ]
+            }
+          ],
+          "cvssv3": {
+            "base_score": 9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
+          },
+          "impact": "Execute unauthorized code or commands"
+        }
+      ]
+    },
+    {
+      "id": "FG-IR-22-007",
+      "cve": "CVE-2020-15260",
+      "definitions": [
+        {
+          "configurations": [
+            {
+              "operating_system": [
+                {
+                  "description": "FortiFone: (<expression> <version>)",
+                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                  "affected": {
+                    "le": "3.0.11"
+                  },
+                  "fixed_in": "3.0.12"
+                }
+              ]
+            }
+          ],
+          "cvssv3": {
+            "base_score": 9,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
+          },
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }

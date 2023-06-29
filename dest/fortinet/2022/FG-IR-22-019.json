@@ -2,7 +2,6 @@
   "id": "FG-IR-22-019",
   "title": "FortiEDR - Insecure RSA key transport",
   "summary": "A use of hard-coded cryptographic key vulnerability [CWE-321] in FortiEDR may allow an unauthenticated attacker on the network to disguise as and forge messages from other collectors.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-22-019",
@@ -12,55 +11,37 @@
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
+              "operating_system": [
                 {
-                  "description": "FortiEDR: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
+                  "description": "FortiEDR: equal 4.0.0, fixed in 5.0.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortiedr:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "eq": "4.0.0"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
+                  "fixed_in": "5.0.3"
+                },
                 {
-                  "description": "FortiEDR Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
+                  "description": "FortiEDR: greater equal 5.0.0, less equal 5.0.2, fixed in 5.0.3",
+                  "cpe": "cpe:2.3:o:fortinet:fortiedr:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "5.0.0",
+                    "le": "5.0.2"
                   },
-                  "fixed_in": ""
+                  "fixed_in": "5.0.3"
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 7.9,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:U/RC:C"
           },
-          "cwe": null,
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "cwe": "CWE-321",
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-04-05T00:00:00Z",
   "updated": "2022-04-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-019"
