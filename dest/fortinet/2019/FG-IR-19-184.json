@@ -2,88 +2,45 @@
   "id": "FG-IR-19-184",
   "title": "XSS vulnerability in FortiGate DHCP monitor page",
   "summary": "An Improper Neutralization of Input vulnerability in the hostname parameter of a DHCP packet under DHCP monitor page may allow an unauthenticated attacker in the same network as the FortiGate to perform a Stored Cross Site Scripting attack (XSS) by sending a crafted DHCP packet.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-19-184",
       "cve": "CVE-2019-6697",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.6, fixed in 6.0.7, 6.2.2",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.0.0",
+                    "le": "6.0.6"
                   },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
+                  "fixed_ins": ["6.0.7", "6.2.2"]
+                },
                 {
-                  "description": "FortiGate: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.0.1, fixed in 6.2.2",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+                    "ge": "6.2.0",
+                    "le": "6.2.1"
                   },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiGate Cloud: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                  "fixed_ins": ["6.2.2"]
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Execute Unauthorized Code or Commands",
-          "exploit_status": ""
+          "cvssv3": {
+            "base_score": 5.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
+          },
+          "impact": "Execute Unauthorized Code or Commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2019-11-25T00:00:00Z",
   "updated": "2019-11-25T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-184"
