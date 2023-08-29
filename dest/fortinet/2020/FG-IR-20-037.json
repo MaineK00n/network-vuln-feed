@@ -2,12 +2,10 @@
   "id": "FG-IR-20-037 ",
   "title": "AV Engine evasion via malformed RAR file",
   "summary": "FortiClient and FortiOS AV engines may not immediately detect certain types of malformed or non-standard RAR archives, potentially containing malicious files.Based on the samples provided, FortiClient will detect the malicious files upon trying extraction by real-time scanning and FortiGate will detect the malicious archive if Virus Outbreak Prevention is enabled.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-037 ",
       "cve": "CVE-2020-9295",
-      "description": "",
       "definitions": [
         {
           "configurations": [
@@ -143,96 +141,6 @@
               "description": "",
               "application": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "operating_system": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiOS-6K7K: (<expression> <version>)",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
-                }
-              ]
-            },
-            {
-              "description": "",
-              "application": [
-                {
                   "description": "AV Engine: (<expression> <version>)",
                   "cpe": "cpe:2.3:a:fortinet:antivirus_engine:*:*:*:*:*:*:*:*",
                   "affected": {
@@ -247,21 +155,15 @@
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.7,
-            "temporal_score": null,
-            "environmental_score": null,
-            "vector": ""
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Bypass Protection Mechanism",
-          "exploit_status": ""
+          "impact": "Bypass Protection Mechanism"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2020-12-01T00:00:00Z",
   "updated": "2020-12-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-037 "
