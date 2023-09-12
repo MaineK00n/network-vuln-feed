@@ -7,7 +7,6 @@
     {
       "id": "FG-IR-16-030",
       "cve": "CVE-2016-7561",
-      "description": "",
       "definitions": [
         {
           "configurations": [
@@ -22,35 +21,35 @@
                 },
                 {
                   "description": "FortiWLC: equal 7.0-9-1",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:7.0-9-1:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "7.0-9-1"
                   }
                 },
                 {
                   "description": "FortiWLC: equal 7.0-10-0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:7.0-10-0:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "7.0-10-0"
                   }
                 },
                 {
                   "description": "FortiWLC: equal 8.0-5-0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:8.0-5-0:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "8.0-5-0"
                   }
                 },
                 {
                   "description": "FortiWLC: equal 8.1-2-0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:8.1-2-0:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "8.1-2-0"
                   }
                 },
                 {
                   "description": "FortiWLC: equal 8.2-4-0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:8.2-4-0:*:*:*:*:*:*:*",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "8.2-4-0"
                   }
@@ -67,4 +66,3 @@
   "updated": "2016-09-30T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-030"
 }
-

@@ -13,54 +13,86 @@
             {
               "application": [
                 {
-                  "description": "FortiWeb: less than 4.4.4, fixed in 4.4.4",
+                  "description": "FortiWeb: less than 4.4.4, fixed in [4.4.4]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "4.4.4"
                   },
-                  "fixed_in": "4.4.4"
+                  "fixed_in": [
+                    "4.4.4"
+                  ]
                 }
               ],
               "hardware": [
                 {
                   "description": "FortiWeb: equal FortiWeb 4000C",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-4000c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-4000c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb 3000C",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-3000c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-3000c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb 3000CFsx",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-3000cfsx:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-3000cfsx:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb 1000C",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-1000c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-1000c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb 400C",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-400c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-400c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb VM01",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm01:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm01:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb VM02",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm02:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm02:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb VM04",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm04:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm04:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb VM08",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm08:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm08:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiWeb: equal FortiWeb VM16",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm16:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-vm16:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -74,4 +106,3 @@
   "updated": "2012-12-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-008"
 }
-

@@ -12,31 +12,40 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.10, fixed in 6.2.11, 6.4.9, 7.0.4",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.10, fixed in [6.2.11, 6.4.9, 7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.10"
                   },
-                  "fixed_ins": ["6.2.11", "6.4.9", "7.0.4"]
+                  "fixed_in": [
+                    "6.2.11",
+                    "6.4.9",
+                    "7.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in 6.4.9, 7.0.4",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in [6.4.9, 7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.8"
                   },
-                  "fixed_ins": ["6.4.9", "7.0.4"]
+                  "fixed_in": [
+                    "6.4.9",
+                    "7.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in [7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.3"
                   },
-                  "fixed_ins": ["7.0.4"]
+                  "fixed_in": [
+                    "7.0.4"
+                  ]
                 }
               ]
             }
@@ -45,7 +54,9 @@
             "base_score": 6.2,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:H/RL:W/RC:C"
           },
-          "cwe": "CWE-284",
+          "cwe": [
+            "CWE-284"
+          ],
           "impact": "Information disclosure"
         }
       ]
@@ -55,4 +66,3 @@
   "updated": "2022-05-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-147"
 }
-

@@ -12,13 +12,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiMail: greater equal 5.0.3, less equal 5.2.3, fixed in 5.2.4",
+                  "description": "FortiMail: greater equal 5.0.3, less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.3",
                     "le": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }
@@ -32,4 +34,3 @@
   "updated": "2015-04-10T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-009"
 }
-

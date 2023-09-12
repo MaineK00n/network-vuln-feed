@@ -9,7 +9,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -22,7 +22,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -35,7 +35,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -48,7 +48,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -61,7 +61,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -74,7 +74,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -87,7 +87,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -100,7 +100,7 @@
       "definitions": [
         {
           "cvssv3": {
-            "base_score": 0.0,
+            "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
           "impact": "Denial of Service (DoS)"
@@ -118,4 +118,3 @@
   "updated": "2019-09-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-225"
 }
-

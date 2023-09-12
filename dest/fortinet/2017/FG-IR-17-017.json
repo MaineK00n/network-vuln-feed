@@ -12,17 +12,23 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.2.0, less equal 5.2.10, fixed in [5.2.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.10"
                   },
-                  "fixed_in": "5.2.11"
+                  "fixed_in": [
+                    "5.2.11"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -32,4 +38,3 @@
   "updated": "2017-04-19T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-017"
 }
-

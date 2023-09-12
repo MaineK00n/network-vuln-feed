@@ -12,12 +12,14 @@
             {
               "application": [
                 {
-                  "description": "FortiWeb: less equal 5.1.4, fixed in 5.2.0",
+                  "description": "FortiWeb: less equal 5.1.4, fixed in [5.2.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.1.4"
                   },
-                  "fixed_in": "5.2.0"
+                  "fixed_in": [
+                    "5.2.0"
+                  ]
                 }
               ]
             }
@@ -31,4 +33,3 @@
   "updated": "2014-05-02T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-013"
 }
-

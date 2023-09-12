@@ -12,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiSandbox: less equal 2.0.2, fixed in 2.0.3",
+                  "description": "FortiSandbox: less equal 2.0.2, fixed in [2.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "2.0.2"
                   },
-                  "fixed_in": "2.0.3"
+                  "fixed_in": [
+                    "2.0.3"
+                  ]
                 }
               ]
             }
@@ -37,4 +39,3 @@
   "updated": "2015-05-19T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-012"
 }
-

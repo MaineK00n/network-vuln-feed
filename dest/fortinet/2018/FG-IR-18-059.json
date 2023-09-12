@@ -12,17 +12,22 @@
             {
               "application": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator: greater equal 4.0.0, less than 5.3.0, fixed in [5.3.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.0.0",
                     "lt": "5.3.0"
                   },
-                  "fixed_in": "5.3.0"
+                  "fixed_in": [
+                    "5.3.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Cross-site Scripting (XSS)"
         }
       ]
@@ -32,4 +37,3 @@
   "updated": "2019-02-12T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-059"
 }
-

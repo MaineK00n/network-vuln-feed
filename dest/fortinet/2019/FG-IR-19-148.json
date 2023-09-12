@@ -2,20 +2,17 @@
   "id": "FG-IR-19-148",
   "title": "FortiClient Windows Service or Process Tampering",
   "summary": "FortiClient for Windows could be subject to the following shut down or tampering attempts:a) User Interface or Command Line shut downBy default a privileged user can close the FortiClient for Windows program b) Service or Process shut downMalicious privileged programs can stop the FortiClient for Windows process via the taskkill command c) Uninstall By default a privileged user can unintall the FortiClient for Windows program d) Code InjectionA component of FortiClient for Windows will search a specific un-existing Windows Dynamic Link library when starting related to the programming framework used in FortiClient. A malicious and privileged program can forge that DLL, leading to arbitrary code execution.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-19-148",
       "cve": "CVE-2019-6692",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "eq": "",
@@ -23,11 +20,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "description": "FortiClient for MacOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "eq": "",
@@ -35,11 +31,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "description": "FortiClient for MacOSX:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "eq": "",
@@ -47,11 +42,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "description": "FortiClient for Linux:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "eq": "",
@@ -59,11 +53,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "eq": "",
@@ -71,11 +64,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
                     "eq": "",
@@ -83,16 +75,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -100,16 +90,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "description": "FortiClientEMS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -117,16 +105,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "description": "FortiClient Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -134,17 +120,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "cvssv3": {
+            "base_score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+          },
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
@@ -159,4 +144,3 @@
   "updated": "2019-10-18T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-148"
 }
-

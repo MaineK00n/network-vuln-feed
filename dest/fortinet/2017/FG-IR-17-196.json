@@ -12,7 +12,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -20,7 +20,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -28,7 +28,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -40,7 +40,7 @@
             {
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.0.0, less equal 8.0.0",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -48,7 +48,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -56,7 +56,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -66,6 +66,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -79,14 +83,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.6"
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: greater equal 5.4.0, less equal 5.4.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -94,8 +98,8 @@
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:5.6.0:*:*:*:*:*:*:*",
+                  "description": "FortiAP: equal 5.6.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   }
@@ -105,14 +109,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.11"
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.8",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -120,7 +124,7 @@
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.2",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
@@ -132,14 +136,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -147,7 +151,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -155,7 +159,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -167,14 +171,14 @@
             {
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.0.0, less equal 8.0.0",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -182,7 +186,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -190,7 +194,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -200,6 +204,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -213,14 +221,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.6"
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: greater equal 5.4.0, less equal 5.4.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -228,8 +236,8 @@
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:5.6.0:*:*:*:*:*:*:*",
+                  "description": "FortiAP: equal 5.6.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   }
@@ -239,14 +247,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.11"
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.8",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -254,7 +262,7 @@
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.2",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
@@ -266,14 +274,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -281,7 +289,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -289,7 +297,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -301,14 +309,14 @@
             {
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.0.0, less equal 8.0.0",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -316,7 +324,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -324,7 +332,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -334,6 +342,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -347,14 +359,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.6"
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: greater equal 5.4.0, less equal 5.4.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -362,8 +374,8 @@
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:5.6.0:*:*:*:*:*:*:*",
+                  "description": "FortiAP: equal 5.6.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   }
@@ -373,14 +385,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.11"
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.8",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -388,7 +400,7 @@
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.2",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
@@ -400,14 +412,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -415,7 +427,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -423,7 +435,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -435,14 +447,14 @@
             {
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.0.0, less equal 8.0.0",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -450,7 +462,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -458,7 +470,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -468,6 +480,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -481,14 +497,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.6"
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: greater equal 5.4.0, less equal 5.4.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -496,8 +512,8 @@
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:5.6.0:*:*:*:*:*:*:*",
+                  "description": "FortiAP: equal 5.6.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   }
@@ -507,14 +523,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.11"
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.8",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -522,7 +538,7 @@
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.2",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
@@ -534,14 +550,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -549,7 +565,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -557,7 +573,7 @@
                   }
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -569,14 +585,14 @@
             {
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.11"
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.0.0, less equal 8.0.0",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
@@ -584,7 +600,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.2.0, less equal 8.2.7",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.2.0",
@@ -592,7 +608,7 @@
                   }
                 },
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP: greater equal 8.3.0, less equal 8.3.3",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.3.0",
@@ -602,6 +618,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -615,14 +635,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.6"
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: greater equal 5.4.0, less equal 5.4.3",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -630,8 +650,8 @@
                   }
                 },
                 {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:5.6.0:*:*:*:*:*:*:*",
+                  "description": "FortiAP: equal 5.6.0",
+                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   }
@@ -641,14 +661,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.11"
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.8",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
@@ -656,7 +676,7 @@
                   }
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.2",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
@@ -666,6 +686,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -675,7 +699,10 @@
       "cve": "CVE-2017-13084",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -685,7 +712,10 @@
       "cve": "CVE-2017-13086",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -695,7 +725,10 @@
       "cve": "CVE-2017-13087",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -705,7 +738,10 @@
       "cve": "CVE-2017-13088",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 5.9,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle attacks"
         }
       ]
@@ -721,4 +757,3 @@
   "updated": "2018-01-19T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-196"
 }
-

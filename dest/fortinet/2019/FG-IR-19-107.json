@@ -12,7 +12,7 @@
             {
               "application": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -20,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -34,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -65,13 +57,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -79,30 +70,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -110,13 +94,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -124,30 +107,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -155,13 +131,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -169,30 +144,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -200,13 +168,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -214,30 +181,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -245,29 +205,29 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.1, fixed in 6.2.2",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.1, fixed in [6.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.1"
                   },
-                  "fixed_ins": ["6.2.2"]
+                  "fixed_in": [
+                    "6.2.2"
+                  ]
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -275,13 +235,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -289,30 +248,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:a:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -320,13 +272,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:o:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -334,22 +285,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:h:meru:mc:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -369,10 +314,9 @@
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -380,13 +324,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -394,30 +337,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -425,13 +361,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -439,30 +374,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -470,13 +398,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -484,30 +411,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -515,13 +435,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -529,30 +448,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -560,13 +472,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -574,30 +485,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -605,29 +509,29 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.1, fixed in 6.2.2",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.1, fixed in [6.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.1"
                   },
-                  "fixed_ins": ["6.2.2"]
+                  "fixed_in": [
+                    "6.2.2"
+                  ]
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -635,13 +539,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -649,30 +552,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:a:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -680,13 +576,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:o:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -694,22 +589,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:h:meru:mc:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -725,15 +614,13 @@
     {
       "id": "FG-IR-19-107",
       "cve": "CVE-2019-9496",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -741,13 +628,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -755,30 +641,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -786,13 +665,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -800,30 +678,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -831,13 +702,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -845,30 +715,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -876,13 +739,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -890,30 +752,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -921,13 +776,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -935,30 +789,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -966,29 +813,29 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.2, fixed in 6.2.3",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.2, fixed in [6.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.2"
                   },
-                  "fixed_ins": ["6.2.3"]
+                  "fixed_in": [
+                    "6.2.3"
+                  ]
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -996,13 +843,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1010,30 +856,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:a:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1041,13 +880,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:o:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1055,22 +893,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:h:meru:mc:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -1086,15 +918,13 @@
     {
       "id": "FG-IR-19-107",
       "cve": "CVE-2019-9497",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1102,13 +932,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1116,30 +945,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1147,13 +969,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1161,30 +982,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1192,13 +1006,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1206,30 +1019,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1237,13 +1043,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1251,30 +1056,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1282,13 +1080,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1296,30 +1093,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1327,16 +1117,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1344,13 +1132,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1358,30 +1145,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:a:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1389,13 +1169,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:o:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1403,22 +1182,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:h:meru:mc:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -1434,15 +1207,13 @@
     {
       "id": "FG-IR-19-107",
       "cve": "CVE-2019-9498",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1450,13 +1221,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1464,30 +1234,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1495,13 +1258,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1509,30 +1271,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1540,13 +1295,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1554,30 +1308,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1585,13 +1332,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1599,30 +1345,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1630,13 +1369,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1644,30 +1382,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1675,16 +1406,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1692,13 +1421,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1706,30 +1434,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:a:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1737,13 +1458,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:o:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1751,22 +1471,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:h:meru:mc:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -1782,15 +1496,13 @@
     {
       "id": "FG-IR-19-107",
       "cve": "CVE-2019-9499",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1798,13 +1510,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1812,30 +1523,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1843,13 +1547,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1857,30 +1560,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-C: (<expression> <version>)",
+                  "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1888,13 +1584,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1902,30 +1597,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1933,13 +1621,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1947,30 +1634,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-U: (<expression> <version>)",
+                  "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1978,13 +1658,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -1992,30 +1671,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAP Cloud: (<expression> <version>)",
+                  "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -2023,16 +1695,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -2040,13 +1710,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -2054,30 +1723,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:a:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -2085,13 +1747,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:o:fortinet:meru_controller:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -2099,22 +1760,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru Controller: (<expression> <version>)",
+                  "description": "Meru Controller:",
                   "cpe": "cpe:2.3:h:meru:mc:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -2138,4 +1793,3 @@
   "updated": "2020-01-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-107"
 }
-

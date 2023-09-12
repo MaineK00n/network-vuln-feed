@@ -6,7 +6,6 @@
     {
       "id": "FG-IR-15-015",
       "cve": "CVE-2015-1793",
-      "description": "",
       "definitions": [
         {
           "impact": "Certificate Forgery"
@@ -24,4 +23,3 @@
   "updated": "2015-07-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-015"
 }
-

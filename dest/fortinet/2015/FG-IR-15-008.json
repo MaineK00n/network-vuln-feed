@@ -1,7 +1,6 @@
 {
   "id": "FG-IR-15-008",
   "title": "OpenSSL vulnerabilities - March 2015",
-  "summary": "",
   "description": "OpenSSL released a security advisory in March 2015 to announce multiple security vulnerabilities.",
   "vulnerabilities": [
     {
@@ -13,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiADC: less than 4.2.2, fixed in 4.2.2",
+                  "description": "FortiADC: less than 4.2.2, fixed in [4.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "4.2.2"
                   },
-                  "fixed_in": "4.2.2"
+                  "fixed_in": [
+                    "4.2.2"
+                  ]
                 }
               ]
             }
@@ -36,29 +37,26 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: less equal 5.0.11, fixed in 5.0.12",
+                  "description": "FortiOS: less equal 5.0.11, fixed in [5.0.12, 5.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.0.11"
                   },
-                  "fixed_in": "5.0.12"
+                  "fixed_in": [
+                    "5.0.12",
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: less equal 5.0.11, fixed in 5.2.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.0.11"
-                  },
-                  "fixed_in": "5.2.4"
-                },
-                {
-                  "description": "FortiOS: greater equal 5.2.0, less equal 5.2.3, fixed in 5.2.4",
+                  "description": "FortiOS: greater equal 5.2.0, less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }
@@ -76,44 +74,54 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: less than 5.2.4, fixed in 5.2.4",
+                  "description": "FortiClient for Windows: less than 5.2.4, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "lt": "5.2.4"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOS: less than 5.2.4, fixed in 5.2.4",
+                  "description": "FortiClient for MacOS: less than 5.2.4, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "lt": "5.2.4"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOSX: less than 5.2.4, fixed in 5.2.4",
+                  "description": "FortiClient for MacOSX: less than 5.2.4, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "lt": "5.2.4"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiClient for iOS: less than 5.2.1, fixed in 5.2.1",
+                  "description": "FortiClient for iOS: less than 5.2.1, fixed in [5.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "lt": "5.2.1"
                   },
-                  "fixed_in": "5.2.1"
+                  "fixed_in": [
+                    "5.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiClient for Android: less than 5.2.6, fixed in 5.2.6",
+                  "description": "FortiClient for Android: less than 5.2.6, fixed in [5.2.6]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
                     "lt": "5.2.6"
                   },
-                  "fixed_in": "5.2.6"
+                  "fixed_in": [
+                    "5.2.6"
+                  ]
                 }
               ]
             }
@@ -131,44 +139,54 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: less than 5.2.4, fixed in 5.2.4",
+                  "description": "FortiClient for Windows: less than 5.2.4, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "lt": "5.2.4"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOS: less than 5.2.4, fixed in 5.2.4",
+                  "description": "FortiClient for MacOS: less than 5.2.4, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "lt": "5.2.4"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOSX: less than 5.2.4, fixed in 5.2.4",
+                  "description": "FortiClient for MacOSX: less than 5.2.4, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "lt": "5.2.4"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiClient for iOS: less than 5.2.1, fixed in 5.2.1",
+                  "description": "FortiClient for iOS: less than 5.2.1, fixed in [5.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "lt": "5.2.1"
                   },
-                  "fixed_in": "5.2.1"
+                  "fixed_in": [
+                    "5.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiClient for Android: less than 5.2.6, fixed in 5.2.6",
+                  "description": "FortiClient for Android: less than 5.2.6, fixed in [5.2.6]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
                     "lt": "5.2.6"
                   },
-                  "fixed_in": "5.2.6"
+                  "fixed_in": [
+                    "5.2.6"
+                  ]
                 }
               ]
             }
@@ -186,12 +204,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiADC: less than 4.2.2, fixed in 4.2.2",
+                  "description": "FortiADC: less than 4.2.2, fixed in [4.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "4.2.2"
                   },
-                  "fixed_in": "4.2.2"
+                  "fixed_in": [
+                    "4.2.2"
+                  ]
                 }
               ]
             }
@@ -211,4 +231,3 @@
   "updated": "2015-03-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-008"
 }
-

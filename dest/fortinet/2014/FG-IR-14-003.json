@@ -12,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: less equal 5.0.5, fixed in 5.0.6",
+                  "description": "FortiOS: less equal 5.0.5, fixed in [5.0.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.0.5"
                   },
-                  "fixed_in": "5.0.6"
+                  "fixed_in": [
+                    "5.0.6"
+                  ]
                 }
               ]
             }
@@ -31,4 +33,3 @@
   "updated": "2014-02-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-003"
 }
-

@@ -12,32 +12,32 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows: less equal 5.4.3, fixed in [5.4.4, 5.6.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "le": "5.4.3"
                   },
-                  "fixed_in": "5.4.4"
+                  "fixed_in": [
+                    "5.4.4",
+                    "5.6.1"
+                  ]
                 },
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows: equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
-                  "affected": {
-                    "le": "5.4.3"
-                  },
-                  "fixed_in": "5.6.1"
-                },
-                {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:forticlient:5.6.0:*:*:*:*:windows:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Escalation of privilege"
         }
       ]
@@ -53,4 +53,3 @@
   "updated": "2017-12-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-070"
 }
-

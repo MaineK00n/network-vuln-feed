@@ -2,20 +2,17 @@
   "id": "FG-IR-21-168",
   "title": "FortiWeb - Open redirect in redir handler due to direct input interpolation",
   "summary": "An URL redirection to untrusted site ('Open Redirect') [CWE-601] vulnerability in FortiWeb may allow an authenticated attacker to use the device as a proxy and reach external or protected hosts via redirection handlers.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-168",
       "cve": "CVE-2021-43064",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb:",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb:",
                   "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb Manager: (<expression> <version>)",
+                  "description": "FortiWeb Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,16 +57,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb Cloud: (<expression> <version>)",
+                  "description": "FortiWeb Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -85,29 +72,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.1,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:P/RL:X/RC:C"
           },
-          "cwe": null,
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-12-07T00:00:00Z",
   "updated": "2021-12-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-168"
 }
-

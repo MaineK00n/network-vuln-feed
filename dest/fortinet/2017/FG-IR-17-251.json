@@ -8,7 +8,9 @@
       "cve": "CVE-2017-12615",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Remote Code Execution (RCE)"
         }
       ]
@@ -18,7 +20,9 @@
       "cve": "CVE-2017-12617",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Remote Code Execution (RCE)"
         }
       ]
@@ -34,4 +38,3 @@
   "updated": "2017-10-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-251"
 }
-

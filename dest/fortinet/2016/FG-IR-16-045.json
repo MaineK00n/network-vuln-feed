@@ -12,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in [4.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.2.4"
                   },
-                  "fixed_in": "4.2.5"
+                  "fixed_in": [
+                    "4.2.5"
+                  ]
                 }
               ]
             }
@@ -35,12 +37,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in [4.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.2.4"
                   },
-                  "fixed_in": "4.2.5"
+                  "fixed_in": [
+                    "4.2.5"
+                  ]
                 }
               ]
             }
@@ -52,19 +56,20 @@
     {
       "id": "FG-IR-16-045",
       "cve": "CVE-2016-4967",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
               "operating_system": [
                 {
-                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in [4.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.2.4"
                   },
-                  "fixed_in": "4.2.5"
+                  "fixed_in": [
+                    "4.2.5"
+                  ]
                 }
               ]
             }
@@ -76,19 +81,20 @@
     {
       "id": "FG-IR-16-045",
       "cve": "CVE-2016-4968",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
               "operating_system": [
                 {
-                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in [4.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.2.4"
                   },
-                  "fixed_in": "4.2.5"
+                  "fixed_in": [
+                    "4.2.5"
+                  ]
                 }
               ]
             }
@@ -100,19 +106,20 @@
     {
       "id": "FG-IR-16-045",
       "cve": "CVE-2016-4969",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
               "operating_system": [
                 {
-                  "description": "FortiWAN: less equal 4.2.4, fixed in 4.2.5",
+                  "description": "FortiWAN: less equal 4.2.4, fixed in [4.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.2.4"
                   },
-                  "fixed_in": "4.2.5"
+                  "fixed_in": [
+                    "4.2.5"
+                  ]
                 }
               ]
             }
@@ -132,4 +139,3 @@
   "updated": "2016-09-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-045"
 }
-

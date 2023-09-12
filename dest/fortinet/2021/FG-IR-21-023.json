@@ -2,20 +2,17 @@
   "id": "FG-IR-21-023",
   "title": "FortiMail - Multiple buffer overflows",
   "summary": "Multiple instances of incorrect calculation of buffer size in FortiMail Webmail and Administrative interface may allow an authenticated attacker with regular webmail access to trigger a buffer overflow and to possibly execute unauthorized code or commands via specifically crafted HTTP requests.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-023",
       "cve": "CVE-2021-22129",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail Cloud: (<expression> <version>)",
+                  "description": "FortiMail Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,29 +57,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 8.3,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
           },
-          "cwe": null,
-          "impact": "Remote code execution",
-          "exploit_status": ""
+          "impact": "Remote code execution"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-07-07T00:00:00Z",
   "updated": "2021-07-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-023"
 }
-

@@ -12,85 +12,59 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.0.14, fixed in [5.2.13, 5.4.6, 5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.0.14"
                   },
-                  "fixed_in": "5.2.13"
+                  "fixed_in": [
+                    "5.2.13",
+                    "5.4.6",
+                    "5.6.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.0.14"
-                  },
-                  "fixed_in": "5.4.6"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.0.14"
-                  },
-                  "fixed_in": "5.6.1"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.2.0, less equal 5.2.12, fixed in [5.2.13, 5.4.6, 5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.12"
                   },
-                  "fixed_in": "5.2.13"
+                  "fixed_in": [
+                    "5.2.13",
+                    "5.4.6",
+                    "5.6.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.12"
-                  },
-                  "fixed_in": "5.4.6"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.12"
-                  },
-                  "fixed_in": "5.6.1"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.5, fixed in [5.4.6, 5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.5"
                   },
-                  "fixed_in": "5.4.6"
+                  "fixed_in": [
+                    "5.4.6",
+                    "5.6.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.4.0",
-                    "le": "5.4.5"
-                  },
-                  "fixed_in": "5.6.1"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:5.6.0:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Man-in-the-Middle (MitM) Attacks"
         }
       ]
@@ -100,4 +74,3 @@
   "updated": "2017-11-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-137"
 }
-

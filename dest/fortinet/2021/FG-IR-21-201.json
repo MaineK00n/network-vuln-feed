@@ -12,40 +12,54 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.13, fiexd in 6.0.14, 6.2.10, 6.4.8, 7.0.3",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.13, fixed in [6.0.14, 6.2.10, 6.4.8, 7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.13"
                   },
-                  "fixed_ins": ["6.0.14", "6.2.10", "6.4.8", "7.0.3"]
+                  "fixed_in": [
+                    "6.0.14",
+                    "6.2.10",
+                    "6.4.8",
+                    "7.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.9, fiexd in 6.2.10, 6.4.8, 7.0.3",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.9, fixed in [6.2.10, 6.4.8, 7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.9"
                   },
-                  "fixed_ins": ["6.2.10", "6.4.8", "7.0.3"]
+                  "fixed_in": [
+                    "6.2.10",
+                    "6.4.8",
+                    "7.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.7, fiexd in 6.4.8, 7.0.3",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.7, fixed in [6.4.8, 7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.7"
                   },
-                  "fixed_ins": ["6.4.8", "7.0.3"]
+                  "fixed_in": [
+                    "6.4.8",
+                    "7.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.2, fiexd in 7.0.3",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.2, fixed in [7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.2"
                   },
-                  "fixed_ins": ["7.0.3"]
+                  "fixed_in": [
+                    "7.0.3"
+                  ]
                 }
               ]
             }
@@ -54,7 +68,9 @@
             "base_score": 3.2,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:P/RL:U/RC:C"
           },
-          "cwe": "CWE-494",
+          "cwe": [
+            "CWE-494"
+          ],
           "impact": "Execute unauthorized code or commands",
           "exploit_status": "Fortinet is aware of an instance where this vulnerability was abused and recommends immediately validating your systems for indicators of compromise."
         }
@@ -65,4 +81,3 @@
   "updated": "2021-12-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-201"
 }
-

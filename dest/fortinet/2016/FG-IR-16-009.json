@@ -12,13 +12,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWeb: greater equal 4.4.6, less equal 5.5.2, fixed in 5.5.3",
+                  "description": "FortiWeb: greater equal 4.4.6, less equal 5.5.2, fixed in [5.5.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.4.6",
                     "le": "5.5.2"
                   },
-                  "fixed_in": "5.5.3"
+                  "fixed_in": [
+                    "5.5.3"
+                  ]
                 }
               ]
             }
@@ -32,4 +34,3 @@
   "updated": "2016-05-26T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-009"
 }
-

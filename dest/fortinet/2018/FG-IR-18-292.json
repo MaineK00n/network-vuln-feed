@@ -12,146 +12,128 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 6.4.7, fixed in [6.4.8, 7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "6.4.7"
                   },
-                  "fixed_in": "6.4.8"
+                  "fixed_in": [
+                    "6.4.8",
+                    "7.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "6.4.7"
-                  },
-                  "fixed_in": "7.0.3"
-                },
-                {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: greater equal 7.0.0, less equal 7.0.2, fixed in [7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.2"
                   },
-                  "fixed_in": "7.0.3"
+                  "fixed_in": [
+                    "7.0.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: less equal 6.4.6, fixed in [6.4.7, 7.0.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "6.4.6"
                   },
-                  "fixed_in": "6.4.7"
+                  "fixed_in": [
+                    "6.4.7",
+                    "7.0.2"
+                  ]
                 },
                 {
-                  "description": "FortiManager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "6.4.6"
-                  },
-                  "fixed_in": "7.0.2"
-                },
-                {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: greater equal 7.0.0, less equal 7.0.1, fixed in [7.0.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.1"
                   },
-                  "fixed_in": "7.0.2"
+                  "fixed_in": [
+                    "7.0.2"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.14, fixed in [6.4.0, 7.0.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
                     "le": "5.6.14"
                   },
-                  "fixed_in": "6.4.0"
+                  "fixed_in": [
+                    "6.4.0",
+                    "7.0.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.6.0",
-                    "le": "5.6.14"
-                  },
-                  "fixed_in": "7.0.0"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.17, fixed in [6.4.0, 7.0.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.17"
                   },
-                  "fixed_in": "6.4.0"
+                  "fixed_in": [
+                    "6.4.0",
+                    "7.0.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.0.0",
-                    "le": "6.0.17"
-                  },
-                  "fixed_in": "7.0.0"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.15, fixed in [6.4.0, 7.0.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.15"
                   },
-                  "fixed_in": "6.4.0"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.2.0",
-                    "le": "6.2.15"
-                  },
-                  "fixed_in": "7.0.0"
+                  "fixed_in": [
+                    "6.4.0",
+                    "7.0.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox: less equal 3.1.5, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.1.5"
                   },
-                  "fixed_in": "4.2.0"
+                  "fixed_in": [
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox: greater equal 3.2.0, less equal 3.2.4, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.2.0",
                     "le": "3.2.4"
                   },
-                  "fixed_in": "4.2.0"
+                  "fixed_in": [
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox: greater equal 4.0.0, less equal 4.0.2, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.0.0",
                     "le": "4.0.2"
                   },
-                  "fixed_in": "4.2.0"
+                  "fixed_in": [
+                    "4.2.0"
+                  ]
                 }
               ]
             }
@@ -160,7 +142,9 @@
             "base_score": 5.8,
             "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:X/RL:U/RC:C"
           },
-          "cwe": "CWE-295",
+          "cwe": [
+            "CWE-295"
+          ],
           "impact": "Information disclosure"
         }
       ]
@@ -170,4 +154,3 @@
   "updated": "2022-06-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-292"
 }
-

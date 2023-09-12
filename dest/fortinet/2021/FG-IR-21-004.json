@@ -7,15 +7,13 @@
     {
       "id": "FG-IR-21-004",
       "cve": "CVE-2021-42759",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +21,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,43 +34,30 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "Meru AP: (<expression> <version>)",
+                  "description": "Meru AP:",
                   "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 6.3,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-12-07T00:00:00Z",
   "updated": "2021-12-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-004"
 }
-

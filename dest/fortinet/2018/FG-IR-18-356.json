@@ -12,29 +12,26 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S: less than 5.6.4, fixed in [5.6.4, 6.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "5.6.4"
                   },
-                  "fixed_in": "5.6.4"
+                  "fixed_in": [
+                    "5.6.4",
+                    "6.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiAP-S: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "lt": "5.6.4"
-                  },
-                  "fixed_in": "6.0.4"
-                },
-                {
-                  "description": "FortiAP-S: (<expression> <version>)",
+                  "description": "FortiAP-S: greater equal 6.0.0, less than 6.0.4, fixed in [6.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "lt": "6.0.4"
                   },
-                  "fixed_in": "6.0.4"
+                  "fixed_in": [
+                    "6.0.4"
+                  ]
                 }
               ],
               "hardware": [
@@ -57,29 +54,26 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2: less than 5.6.4, fixed in [5.6.4, 6.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "5.6.4"
                   },
-                  "fixed_in": "5.6.4"
+                  "fixed_in": [
+                    "5.6.4",
+                    "6.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiAP-W2: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "lt": "5.6.4"
-                  },
-                  "fixed_in": "6.0.4"
-                },
-                {
-                  "description": "FortiAP-W2: (<expression> <version>)",
+                  "description": "FortiAP-W2: greater equal 6.0.0, less than 6.0.4, fixed in [6.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "lt": "6.0.4"
                   },
-                  "fixed_in": "6.0.4"
+                  "fixed_in": [
+                    "6.0.4"
+                  ]
                 }
               ],
               "hardware": [
@@ -107,6 +101,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
+          },
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -122,4 +120,3 @@
   "updated": "2019-04-15T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-356"
 }
-

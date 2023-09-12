@@ -11,16 +11,22 @@
             {
               "application": [
                 {
-                  "description": "FortiCloud: (<expression> <version>)",
+                  "description": "FortiCloud: less equal 3.2.1, fixed in [3.3.0]",
                   "cpe": "cpe:2.3:a:fortinet:forticloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.2.1"
                   },
-                  "fixed_in": "3.3.0"
+                  "fixed_in": [
+                    "3.3.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 4.2,
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Improper Access Control"
         }
       ]
@@ -30,4 +36,3 @@
   "updated": "2018-08-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-074"
 }
-

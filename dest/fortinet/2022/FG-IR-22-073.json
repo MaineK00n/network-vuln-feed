@@ -7,71 +7,86 @@
     {
       "id": "FG-IR-22-073",
       "cve": "CVE-2022-27491",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "operating_system": [
                 {
-                  "description": "FortiOS version 6.0.0 through 6.0.14",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.14, fixed in [6.2.11, 6.4.9, 7.0.6, 7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.14"
                   },
-                  "fixed_ins": [ "6.2.11", "6.4.9", "7.0.6", "7.2.1" ]
+                  "fixed_in": [
+                    "6.2.11",
+                    "6.4.9",
+                    "7.0.6",
+                    "7.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS version 6.2.0 through 6.2.10",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.10, fixed in [6.2.11, 6.4.9, 7.0.6, 7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.10"
                   },
-                  "fixed_ins": [ "6.2.11", "6.4.9", "7.0.6", "7.2.1" ]
+                  "fixed_in": [
+                    "6.2.11",
+                    "6.4.9",
+                    "7.0.6",
+                    "7.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS version 6.4.0 through 6.4.8",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in [6.4.9, 7.0.6, 7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.8"
                   },
-                  "fixed_ins": [ "6.4.9", "7.0.6", "7.2.1" ]
+                  "fixed_in": [
+                    "6.4.9",
+                    "7.0.6",
+                    "7.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS version 7.0.0 through 7.0.5",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.5, fixed in [7.0.6, 7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.5"
                   },
-                  "fixed_ins": [ "7.0.6", "7.2.1" ]
+                  "fixed_in": [
+                    "7.0.6",
+                    "7.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS version 7.2.0",
+                  "description": "FortiOS: greater equal 7.2.0, less than 7.2.1, fixed in [7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.2.0",
                     "lt": "7.2.1"
                   },
-                  "fixed_ins": [ "7.2.1" ]
+                  "fixed_in": [
+                    "7.2.1"
+                  ]
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 6.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H/E:F/RL:U/RC:C"
           },
-          "cwe": "CWE-940",
-          "impact": "Denial of service",
-          "exploit_status": ""
+          "cwe": [
+            "CWE-940"
+          ],
+          "impact": "Denial of service"
         }
       ]
     }
@@ -86,4 +101,3 @@
   "updated": "2022-09-06T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-073"
 }
-

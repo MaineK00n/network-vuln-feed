@@ -12,30 +12,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Open redirect"
         }
       ]
@@ -45,4 +52,3 @@
   "updated": "2017-04-26T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-014"
 }
-

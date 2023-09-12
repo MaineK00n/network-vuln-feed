@@ -12,34 +12,33 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.5, fixed in [5.4.6, 5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.5"
                   },
-                  "fixed_in": "5.4.6"
+                  "fixed_in": [
+                    "5.4.6",
+                    "5.6.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.4.0",
-                    "le": "5.4.5"
-                  },
-                  "fixed_in": "5.6.1"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:5.6.0:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Cross-site scripting (XSS)"
         }
       ]
@@ -49,4 +48,3 @@
   "updated": "2017-10-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-113"
 }
-

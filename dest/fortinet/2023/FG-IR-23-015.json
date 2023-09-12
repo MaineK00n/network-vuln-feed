@@ -12,126 +12,80 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 6.4.13",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in [6.4.13, 7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.12"
                   },
-                  "fixed_in": "6.4.13"
+                  "fixed_in": [
+                    "6.4.13",
+                    "7.0.11",
+                    "7.2.5",
+                    "7.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 7.0.11",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.12"
-                  },
-                  "fixed_in": "7.0.11"
-                },
-                {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 7.2.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.12"
-                  },
-                  "fixed_in": "7.2.5"
-                },
-                {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 7.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.12"
-                  },
-                  "fixed_in": "7.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in 7.0.11",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in [7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.10"
                   },
-                  "fixed_in": "7.0.11"
+                  "fixed_in": [
+                    "7.0.11",
+                    "7.2.5",
+                    "7.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in 7.2.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.10"
-                  },
-                  "fixed_in": "7.2.5"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in 7.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.10"
-                  },
-                  "fixed_in": "7.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.2.0, less equal 7.2.4, fixed in 7.2.5",
+                  "description": "FortiOS: greater equal 7.2.0, less equal 7.2.4, fixed in [7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.2.0",
                     "le": "7.2.4"
                   },
-                  "fixed_in": "7.2.5"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.2.0, less equal 7.2.4, fixed in 7.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.2.0",
-                    "le": "7.2.4"
-                  },
-                  "fixed_in": "7.4.0"
+                  "fixed_in": [
+                    "7.2.5",
+                    "7.4.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in 7.0.10",
+                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in [7.0.10, 7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.9"
                   },
-                  "fixed_in": "7.0.10"
+                  "fixed_in": [
+                    "7.0.10",
+                    "7.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in 7.2.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.9"
-                  },
-                  "fixed_in": "7.2.4"
-                },
-                {
-                  "description": "FortiProxy: greater equal 7.2.0, less equal 7.2.3, fixed in 7.2.4",
+                  "description": "FortiProxy: greater equal 7.2.0, less equal 7.2.3, fixed in [7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.2.0",
                     "le": "7.2.3"
                   },
-                  "fixed_in": "7.2.4"
+                  "fixed_in": [
+                    "7.2.4"
+                  ]
                 }
               ]
             }
           ],
           "cvssv3": {
             "base_score": 6.4,
-            "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:F/RL:X/RC:C&version=3.1"
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:F/RL:X/RC:C"
           },
           "cwe": [
-            476
+            "CWE-476"
           ],
           "impact": "Denial of service"
         }
@@ -146,126 +100,80 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 6.4.13",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in [6.4.13, 7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.12"
                   },
-                  "fixed_in": "6.4.13"
+                  "fixed_in": [
+                    "6.4.13",
+                    "7.0.11",
+                    "7.2.5",
+                    "7.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 7.0.11",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.12"
-                  },
-                  "fixed_in": "7.0.11"
-                },
-                {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 7.2.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.12"
-                  },
-                  "fixed_in": "7.2.5"
-                },
-                {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in 7.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.12"
-                  },
-                  "fixed_in": "7.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in 7.0.11",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in [7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.10"
                   },
-                  "fixed_in": "7.0.11"
+                  "fixed_in": [
+                    "7.0.11",
+                    "7.2.5",
+                    "7.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in 7.2.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.10"
-                  },
-                  "fixed_in": "7.2.5"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.10, fixed in 7.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.10"
-                  },
-                  "fixed_in": "7.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.2.0, less equal 7.2.4, fixed in 7.2.5",
+                  "description": "FortiOS: greater equal 7.2.0, less equal 7.2.4, fixed in [7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.2.0",
                     "le": "7.2.4"
                   },
-                  "fixed_in": "7.2.5"
-                },
-                {
-                  "description": "FortiOS: greater equal 7.2.0, less equal 7.2.4, fixed in 7.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.2.0",
-                    "le": "7.2.4"
-                  },
-                  "fixed_in": "7.4.0"
+                  "fixed_in": [
+                    "7.2.5",
+                    "7.4.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in 7.0.10",
+                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in [7.0.10, 7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.9"
                   },
-                  "fixed_in": "7.0.10"
+                  "fixed_in": [
+                    "7.0.10",
+                    "7.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in 7.2.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.9"
-                  },
-                  "fixed_in": "7.2.4"
-                },
-                {
-                  "description": "FortiProxy: greater equal 7.2.0, less equal 7.2.3, fixed in 7.2.4",
+                  "description": "FortiProxy: greater equal 7.2.0, less equal 7.2.3, fixed in [7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.2.0",
                     "le": "7.2.3"
                   },
-                  "fixed_in": "7.2.4"
+                  "fixed_in": [
+                    "7.2.4"
+                  ]
                 }
               ]
             }
           ],
           "cvssv3": {
             "base_score": 6.4,
-            "vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:F/RL:X/RC:C&version=3.1"
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:F/RL:X/RC:C"
           },
           "cwe": [
-            476
+            "CWE-476"
           ],
           "impact": "Denial of service"
         }

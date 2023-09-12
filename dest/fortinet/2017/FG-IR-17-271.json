@@ -12,11 +12,17 @@
               "hardware": [
                 {
                   "description": "FortiGate: equal FortiGate 500E",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-500e:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-500e:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 501E",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-501e:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-501e:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             },
@@ -24,11 +30,17 @@
               "hardware": [
                 {
                   "description": "FortiWeb: equal FortiWeb 1000E",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-1000e:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiweb-1000e:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Privilege Escalation"
         }
       ]
@@ -44,4 +56,3 @@
   "updated": "2018-01-18T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-271"
 }
-

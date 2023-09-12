@@ -12,16 +12,21 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLM: (<expression> <version>)",
+                  "description": "FortiWLM: less equal 8.3.0, fixed in [8.3.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "8.3.0"
                   },
-                  "fixed_in": "8.3.1"
+                  "fixed_in": [
+                    "8.3.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Hardcoded credentials"
         }
       ]
@@ -31,4 +36,3 @@
   "updated": "2017-06-30T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-115"
 }
-

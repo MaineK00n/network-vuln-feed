@@ -12,12 +12,11 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: equal ANY",
+                  "description": "FortiOS: equal ANY,",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
@@ -26,7 +25,9 @@
             "base_score": 2.6,
             "vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
           },
-          "cwe": "CWE-200",
+          "cwe": [
+            "CWE-200"
+          ],
           "impact": "Improper access control"
         }
       ]
@@ -42,4 +43,3 @@
   "updated": "2022-03-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-091"
 }
-

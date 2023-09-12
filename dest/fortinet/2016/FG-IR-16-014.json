@@ -12,80 +12,56 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.11, fixed in 5.2.6",
+                  "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.11, fixed in [5.2.6, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.11"
                   },
-                  "fixed_in": "5.2.6"
+                  "fixed_in": [
+                    "5.2.6",
+                    "5.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.11, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "le": "5.0.11"
-                  },
-                  "fixed_in": "5.4.0"
-                },
-                {
-                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.5, fixed in 5.2.6",
+                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.5, fixed in [5.2.6, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.5"
                   },
-                  "fixed_in": "5.2.6"
-                },
-                {
-                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.5, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.5"
-                  },
-                  "fixed_in": "5.4.0"
+                  "fixed_in": [
+                    "5.2.6",
+                    "5.4.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiManager: greater equal 5.0.0, less equal 5.0.11, fixed in 5.2.6",
+                  "description": "FortiManager: greater equal 5.0.0, less equal 5.0.11, fixed in [5.2.6, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.11"
                   },
-                  "fixed_in": "5.2.6"
+                  "fixed_in": [
+                    "5.2.6",
+                    "5.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiManager: greater equal 5.0.0, less equal 5.0.11, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "le": "5.0.11"
-                  },
-                  "fixed_in": "5.4.0"
-                },
-                {
-                  "description": "FortiManager: greater equal 5.2.0, less equal 5.2.5, fixed in 5.2.6",
+                  "description": "FortiManager: greater equal 5.2.0, less equal 5.2.5, fixed in [5.2.6, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.5"
                   },
-                  "fixed_in": "5.2.6"
-                },
-                {
-                  "description": "FortiManager: greater equal 5.2.0, less equal 5.2.5, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.5"
-                  },
-                  "fixed_in": "5.4.0"
+                  "fixed_in": [
+                    "5.2.6",
+                    "5.4.0"
+                  ]
                 }
               ]
             }

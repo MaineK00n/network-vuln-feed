@@ -11,16 +11,21 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiDDoS: less equal 4.2.2, fixed in 4.2.3",
+                  "description": "FortiDDoS: less equal 4.2.2, fixed in [4.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.2.2"
                   },
-                  "fixed_in": "4.2.3"
+                  "fixed_in": [
+                    "4.2.3"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Escalation of Privilege"
         }
       ]
@@ -30,4 +35,3 @@
   "updated": "2016-09-28T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-037"
 }
-

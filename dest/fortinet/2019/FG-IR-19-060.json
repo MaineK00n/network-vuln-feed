@@ -2,20 +2,17 @@
   "id": "FG-IR-19-060",
   "title": "FortiClient - installer DLL Hijacking Vulnerability",
   "summary": "Multiple unsafe search path vulnerabilities in FortiClient online installers may allow an attacker with control over the directory in which the installers reside to execute arbitrary code on the system via uploading malicious .dll files in that directory.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-19-060",
       "cve": "CVE-2019-5589",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "eq": "",
@@ -23,11 +20,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "description": "FortiClient for MacOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "eq": "",
@@ -35,11 +31,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "description": "FortiClient for MacOSX:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "eq": "",
@@ -47,11 +42,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "description": "FortiClient for Linux:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "eq": "",
@@ -59,11 +53,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "eq": "",
@@ -71,11 +64,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
                     "eq": "",
@@ -83,16 +75,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -100,16 +90,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "description": "FortiClientEMS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -117,16 +105,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "description": "FortiClient Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -134,37 +120,29 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 8.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Unauthorized code execution",
-          "exploit_status": ""
+          "impact": "Unauthorized code execution"
         }
       ]
     },
     {
       "id": "FG-IR-19-060",
       "cve": "CVE-2020-9287",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "eq": "",
@@ -172,11 +150,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "description": "FortiClient for MacOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "eq": "",
@@ -184,11 +161,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "description": "FortiClient for MacOSX:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "eq": "",
@@ -196,11 +172,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "description": "FortiClient for Linux:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "eq": "",
@@ -208,11 +183,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "eq": "",
@@ -220,11 +194,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
                     "eq": "",
@@ -232,16 +205,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -249,16 +220,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "description": "FortiClientEMS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -266,16 +235,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "description": "FortiClient Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -283,37 +250,29 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 8.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Unauthorized code execution",
-          "exploit_status": ""
+          "impact": "Unauthorized code execution"
         }
       ]
     },
     {
       "id": "FG-IR-19-060",
       "cve": "CVE-2020-9290",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "eq": "",
@@ -321,11 +280,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "description": "FortiClient for MacOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "eq": "",
@@ -333,11 +291,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "description": "FortiClient for MacOSX:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "eq": "",
@@ -345,11 +302,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Linux: (<expression> <version>)",
+                  "description": "FortiClient for Linux:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "eq": "",
@@ -357,11 +313,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for iOS: (<expression> <version>)",
+                  "description": "FortiClient for iOS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "eq": "",
@@ -369,11 +324,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiClient for Android: (<expression> <version>)",
+                  "description": "FortiClient for Android:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:android:*:*",
                   "affected": {
                     "eq": "",
@@ -381,16 +335,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient SSL VPN: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -398,16 +350,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClientEMS: (<expression> <version>)",
+                  "description": "FortiClientEMS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -415,16 +365,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiClient Cloud: (<expression> <version>)",
+                  "description": "FortiClient Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -432,29 +380,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 8.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Unauthorized code execution",
-          "exploit_status": ""
+          "impact": "Unauthorized code execution"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2020-03-09T00:00:00Z",
   "updated": "2020-03-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-060"
 }
-

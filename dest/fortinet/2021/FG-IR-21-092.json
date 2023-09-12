@@ -2,20 +2,17 @@
   "id": "FG-IR-21-092",
   "title": "FortiPortal - Unrestricted file upload vulnerability",
   "summary": "An unrestricted file upload vulnerability (CWE-434) in the web interface of FortiPortal may allow a low-privileged user to potentially tamper with the underlying system's files via the upload of specifically crafted files.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-092",
       "cve": "CVE-2021-32594",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal:",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,29 +20,20 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 5.1,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:P/RL:U/RC:C"
-          },
-          "cwe": null,
-          "impact": "",
-          "exploit_status": ""
+          }
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-08-03T00:00:00Z",
   "updated": "2021-08-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-092"
 }
-

@@ -6,45 +6,35 @@
   "vulnerabilities": [
     {
       "id": "FG-IR-22-419",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
-              "application": [
-              ],
               "operating_system": [
                 {
-                  "description": "FortiOS: 7.2.1 to 7.2.2",
+                  "description": "FortiOS: greater equal 7.2.1, less equal 7.2.2, fixed in [7.2.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.2.1",
                     "le": "7.2.2"
                   },
-                  "fixed_in": "7.2.3"
+                  "fixed_in": [
+                    "7.2.3"
+                  ]
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 7.5,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-10-28T00:00:00Z",
   "updated": "2022-10-28T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-419"
 }
-

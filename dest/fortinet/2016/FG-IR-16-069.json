@@ -12,7 +12,7 @@
             {
               "application": [
                 {
-                  "description": "FortiClient SSL VPN for Linux: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN for Linux: equal ANY",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -21,16 +21,21 @@
               ],
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Potential execution of unauthorized code or commands"
         }
       ]
@@ -40,4 +45,3 @@
   "updated": "2017-04-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-069"
 }
-

@@ -12,12 +12,14 @@
             {
               "application": [
                 {
-                  "description": "FSSO: less than 5.0.0237, fixed in 5.0.0237",
+                  "description": "FSSO: less than 5.0.0237, fixed in [5.0.0237]",
                   "cpe": "cpe:2.3:a:fortinet:fortinet_single_sign-on:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "5.0.0237"
                   },
-                  "fixed_in": "5.0.0237"
+                  "fixed_in": [
+                    "5.0.0237"
+                  ]
                 }
               ]
             }
@@ -37,4 +39,3 @@
   "updated": "2015-02-27T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-006"
 }
-

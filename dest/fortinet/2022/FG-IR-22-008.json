@@ -12,31 +12,27 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: greater equal 7.0.0, less equal 7.0.2, fixed in 7.0.3",
+                  "description": "FortiAnalyzer: greater equal 7.0.0, less equal 7.0.2, fixed in [7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.2"
                   },
-                  "fixed_in": "7.0.3"
+                  "fixed_in": [
+                    "7.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: greater equal 6.4.0, less equal 6.4.7, fixed in 6.4.8",
+                  "description": "FortiAnalyzer: greater equal 6.4.0, less equal 6.4.7, fixed in [6.4.8, 7.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.7"
                   },
-                  "fixed_in": "6.4.8"
-                },
-                {
-                  "description": "FortiAnalyzer: greater equal 6.4.0, less equal 6.4.7, fixed in 7.0.3",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.4.0",
-                    "le": "6.4.7"
-                  },
-                  "fixed_in": "7.0.3"
+                  "fixed_in": [
+                    "6.4.8",
+                    "7.0.3"
+                  ]
                 }
               ]
             }
@@ -84,4 +80,3 @@
   "updated": "2022-06-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-008"
 }
-

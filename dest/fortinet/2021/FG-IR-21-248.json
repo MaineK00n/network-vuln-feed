@@ -12,40 +12,55 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.0.7, less equal 6.0.15, fixed in 6.4.10, 7.0.7, 7.2.2",
+                  "description": "FortiOS: greater equal 6.0.7, less equal 6.0.15, fixed in [6.4.10, 7.0.7, 7.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.7",
                     "le": "6.0.15"
                   },
-                  "fixed_ins": ["6.4.10", "7.0.7", "7.2.2"]
+                  "fixed_in": [
+                    "6.4.10",
+                    "7.0.7",
+                    "7.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.2.2, less equal 6.2.12, fixed in 6.4.10, 7.0.7, 7.2.2",
+                  "description": "FortiOS: greater equal 6.2.2, less equal 6.2.12, fixed in [6.4.10, 7.0.7, 7.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.2",
                     "le": "6.2.12"
                   },
-                  "fixed_ins": ["6.4.10", "7.0.7", "7.2.2"]
+                  "fixed_in": [
+                    "6.4.10",
+                    "7.0.7",
+                    "7.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.9, fixed in 6.4.10, 7.0.7, 7.2.2",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.9, fixed in [6.4.10, 7.0.7, 7.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.9"
                   },
-                  "fixed_ins": ["6.4.10", "7.0.7", "7.2.2"]
+                  "fixed_in": [
+                    "6.4.10",
+                    "7.0.7",
+                    "7.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in 6.4.10, 7.0.7, 7.2.2",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in [7.0.7, 7.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.3"
                   },
-                  "fixed_ins": ["7.0.7", "7.2.2"]
+                  "fixed_in": [
+                    "7.0.7",
+                    "7.2.2"
+                  ]
                 }
               ]
             }
@@ -54,7 +69,9 @@
             "base_score": 3.8,
             "vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:L/A:N/E:P/RL:X/RC:C"
           },
-          "cwe": "CWE-79",
+          "cwe": [
+            "CWE-79"
+          ],
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -64,4 +81,3 @@
   "updated": "2022-12-06T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-248"
 }
-

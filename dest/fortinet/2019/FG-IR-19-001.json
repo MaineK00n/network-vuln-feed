@@ -2,20 +2,16 @@
   "id": "FG-IR-19-001",
   "title": "FortiCASB data pattern name XSS vulnerability",
   "summary": "Failure to sanitize input in the customized data pattern webpage of FortiCASB may allow an authenticated attacker to conduct a stored XSS attack via the name parameter.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-19-001",
-      "cve": "",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiCASB: (<expression> <version>)",
+                  "description": "FortiCASB:",
                   "cpe": "cpe:2.3:a:fortinet:forticasb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,24 +19,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Cross-site Scripting (XSS)",
-          "exploit_status": ""
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:F/RL:X/RC:X"
+          },
+          "impact": "Cross-site Scripting (XSS)"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2019-05-15T00:00:00Z",
   "updated": "2019-05-15T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-001"
 }
-

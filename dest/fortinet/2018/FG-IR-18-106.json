@@ -7,7 +7,9 @@
       "id": "FG-IR-18-106",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -27,4 +29,3 @@
   "updated": "2018-08-27T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-106"
 }
-
