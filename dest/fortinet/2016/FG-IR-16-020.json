@@ -12,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiVoice: less equal 5.0.4, fixed in 5.0.5",
+                  "description": "FortiVoice: less equal 5.0.4, fixed in [5.0.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.0.4"
                   },
-                  "fixed_in": "5.0.5"
+                  "fixed_in": [
+                    "5.0.5"
+                  ]
                 }
               ]
             }
@@ -31,4 +33,3 @@
   "updated": "2016-08-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-16-020"
 }
-

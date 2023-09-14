@@ -2,20 +2,17 @@
   "id": "FG-IR-19-294",
   "title": "CVE-2019-9193 PostgreSQL allows OS level commands via COPY SQL function",
   "summary": "An OS command injection vulnerability in FortiAnalyzer, FortiAuthenticator and FortiManager may allow a privileged system administrator to run OS level commands on the system via injecting commands in SQL queries.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-19-294",
       "cve": "CVE-2019-9193",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer:",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer:",
                   "cpe": "cpe:2.3:h:fortinet:fortianalyzer-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAnalyzer-BigData: (<expression> <version>)",
+                  "description": "FortiAnalyzer-BigData:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,13 +57,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer-BigData: (<expression> <version>)",
+                  "description": "FortiAnalyzer-BigData:",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -82,30 +70,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAnalyzer-BigData: (<expression> <version>)",
+                  "description": "FortiAnalyzer-BigData:",
                   "cpe": "cpe:2.3:h:fortinet:fortianalyzer-bigdata-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAnalyzer Cloud: (<expression> <version>)",
+                  "description": "FortiAnalyzer Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -113,16 +94,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator:",
                   "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -130,13 +109,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator:",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -144,30 +122,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator:",
                   "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -175,13 +146,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager:",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -189,30 +159,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager:",
                   "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiManager Cloud: (<expression> <version>)",
+                  "description": "FortiManager Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -220,17 +183,16 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Escalation of privilege, OS Command Injection",
-          "exploit_status": ""
+          "cvssv3": {
+            "base_score": 8.6,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
+          },
+          "impact": "Escalation of privilege, OS Command Injection"
         }
       ]
     }
@@ -245,4 +207,3 @@
   "updated": "2020-06-26T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-294"
 }
-

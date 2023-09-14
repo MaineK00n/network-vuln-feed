@@ -11,20 +11,22 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: (<expression> <version>)",
+                  "description": "FortiAuthenticator: greater equal 5.0.0, less equal 5.0.0, fixed in [5.1.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.0"
                   },
-                  "fixed_in": "5.1.0"
+                  "fixed_in": [
+                    "5.1.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -464,28 +466,25 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.6.5, fixed in [5.6.6, 6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.6.5"
                   },
-                  "fixed_in": "5.6.6"
+                  "fixed_in": [
+                    "5.6.6",
+                    "6.0.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: equal 6.0.0, fixed in [6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.6.5"
-                  },
-                  "fixed_in": "6.0.1"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:6.0.0:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "6.0.0"
                   },
-                  "fixed_in": "6.0.1"
+                  "fixed_in": [
+                    "6.0.1"
+                  ]
                 }
               ],
               "hardware": [
@@ -816,44 +815,47 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.6.5, fixed in [5.6.6, 6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:virual_machine:*:*:*:*:*",
                   "affected": {
                     "le": "5.6.5"
                   },
-                  "fixed_in": "5.6.6"
+                  "fixed_in": [
+                    "5.6.6",
+                    "6.0.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:virual_machine:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.6.5"
-                  },
-                  "fixed_in": "6.0.1"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:6.0.0:*:virtual_machine:*:*:*:*:*",
+                  "description": "FortiOS: equal 6.0.0, fixed in [6.0.1]",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:virtual_machine:*:*:*:*:*",
                   "affected": {
                     "eq": "6.0.0"
                   },
-                  "fixed_in": "6.0.1"
+                  "fixed_in": [
+                    "6.0.1"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:5.3.13:*:*:*:*:*:*:*",
+                  "description": "FortiMail: equal 5.3.13, fixed in [5.4.0]",
+                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.3.13"
                   },
-                  "fixed_in": "5.4.0"
+                  "fixed_in": [
+                    "5.4.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Insecure Protocol Support"
         }
       ]
@@ -873,4 +875,3 @@
   "updated": "2023-04-20T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-103"
 }
-

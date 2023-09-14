@@ -12,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: equal 5.2.3, fixed in 5.2.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:5.2.3:*:*:*:*:*:*:*",
+                  "description": "FortiOS: equal 5.2.3, fixed in [5.2.4]",
+                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }

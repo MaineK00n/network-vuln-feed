@@ -12,36 +12,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -55,36 +56,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -98,36 +100,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -141,36 +144,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -184,36 +188,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -227,36 +232,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -270,36 +276,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -313,36 +320,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -356,36 +364,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -399,36 +408,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -442,36 +452,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -485,36 +496,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -528,36 +540,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
+                  "fixed_in": [
+                    "5.4.3"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service, potential buffer and Integer overflows"
         }
       ]
@@ -573,4 +586,3 @@
   "updated": "2017-07-26T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-051"
 }
-

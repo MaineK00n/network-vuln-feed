@@ -7,15 +7,13 @@
     {
       "id": "FG-IR-22-464",
       "cve": "CVE-2022-45860",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiNAC: (<expression> <version>)",
+                  "description": "FortiNAC:",
                   "cpe": "cpe:2.3:a:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +21,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiNAC: (<expression> <version>)",
+                  "description": "FortiNAC:",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,43 +34,30 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiNAC: (<expression> <version>)",
+                  "description": "FortiNAC:",
                   "cpe": "cpe:2.3:h:fortinet:fortinac-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 5,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:R"
           },
-          "cwe": null,
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-05-03T00:00:00Z",
   "updated": "2023-05-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-464"
 }
-

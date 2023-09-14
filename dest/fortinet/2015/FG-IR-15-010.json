@@ -11,13 +11,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.3.4, fixed in 5.3.5",
+                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.3.4, fixed in [5.3.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.3.4"
                   },
-                  "fixed_in": "5.3.5"
+                  "fixed_in": [
+                    "5.3.5"
+                  ]
                 }
               ]
             }
@@ -34,12 +36,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWeb: less than 5.3.5, fixed in 5.3.5",
+                  "description": "FortiWeb: less than 5.3.5, fixed in [5.3.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "5.3.5"
                   },
-                  "fixed_in": "5.3.5"
+                  "fixed_in": [
+                    "5.3.5"
+                  ]
                 }
               ]
             }
@@ -53,4 +57,3 @@
   "updated": "2015-04-16T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-010"
 }
-

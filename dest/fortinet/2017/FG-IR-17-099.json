@@ -12,51 +12,45 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail: less equal 5.1.7, fixed in [5.2.10, 5.3.10]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.1.7"
                   },
-                  "fixed_in": "5.2.10"
+                  "fixed_in": [
+                    "5.2.10",
+                    "5.3.10"
+                  ]
                 },
                 {
-                  "description": "FortiMail: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.1.7"
-                  },
-                  "fixed_in": "5.3.10"
-                },
-                {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail: greater equal 5.2.0, less equal 5.2.9, fixed in [5.2.10, 5.3.10]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.9"
                   },
-                  "fixed_in": "5.2.10"
+                  "fixed_in": [
+                    "5.2.10",
+                    "5.3.10"
+                  ]
                 },
                 {
-                  "description": "FortiMail: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.9"
-                  },
-                  "fixed_in": "5.3.10"
-                },
-                {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail: greater equal 5.3.0, less equal 5.3.9, fixed in [5.3.10]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.3.0",
                     "le": "5.3.9"
                   },
-                  "fixed_in": "5.3.10"
+                  "fixed_in": [
+                    "5.3.10"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Cross-site scripting (XSS)"
         }
       ]
@@ -66,4 +60,3 @@
   "updated": "2017-10-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-099"
 }
-

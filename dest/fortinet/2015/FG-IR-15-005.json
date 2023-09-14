@@ -13,13 +13,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 5.2.0, less than 5.2.3, fixed in 5.2.3",
+                  "description": "FortiOS: greater equal 5.2.0, less than 5.2.3, fixed in [5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "lt": "5.2.3"
                   },
-                  "fixed_in": "5.2.3"
+                  "fixed_in": [
+                    "5.2.3"
+                  ]
                 }
               ]
             }
@@ -37,90 +39,53 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiMail: less than 4.3.9, fixed in 4.3.9",
+                  "description": "FortiMail: less than 4.3.9, fixed in [4.3.9, 5.0.8, 5.1.5, 5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "4.3.9"
                   },
-                  "fixed_in": "4.3.9"
+                  "fixed_in": [
+                    "4.3.9",
+                    "5.0.8",
+                    "5.1.5",
+                    "5.2.3"
+                  ]
                 },
                 {
-                  "description": "FortiMail: less than 4.3.9, fixed in 5.0.8",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "lt": "4.3.9"
-                  },
-                  "fixed_in": "5.0.8"
-                },
-                {
-                  "description": "FortiMail: less than 4.3.9, fixed in 5.1.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "lt": "4.3.9"
-                  },
-                  "fixed_in": "5.1.5"
-                },
-                {
-                  "description": "FortiMail: less than 4.3.9, fixed in 5.2.3",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "lt": "4.3.9"
-                  },
-                  "fixed_in": "5.2.3"
-                },
-                {
-                  "description": "FortiMail: greater equal 5.0.0, less than 5.0.8, fixed in 5.0.8",
+                  "description": "FortiMail: greater equal 5.0.0, less than 5.0.8, fixed in [5.0.8, 5.1.5, 5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "lt": "5.0.8"
                   },
-                  "fixed_in": "5.0.8"
+                  "fixed_in": [
+                    "5.0.8",
+                    "5.1.5",
+                    "5.2.3"
+                  ]
                 },
                 {
-                  "description": "FortiMail: greater equal 5.0.0, less than 5.0.8, fixed in 5.1.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "lt": "5.0.8"
-                  },
-                  "fixed_in": "5.1.5"
-                },
-                {
-                  "description": "FortiMail: greater equal 5.0.0, less than 5.0.8, fixed in 5.2.3",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "lt": "5.0.8"
-                  },
-                  "fixed_in": "5.2.3"
-                },
-                {
-                  "description": "FortiMail: greater equal 5.1.0, less than 5.1.5, fixed in 5.1.5",
+                  "description": "FortiMail: greater equal 5.1.0, less than 5.1.5, fixed in [5.1.5, 5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.1.0",
                     "lt": "5.1.5"
                   },
-                  "fixed_in": "5.1.5"
+                  "fixed_in": [
+                    "5.1.5",
+                    "5.2.3"
+                  ]
                 },
                 {
-                  "description": "FortiMail: greater equal 5.1.0, less than 5.1.5, fixed in 5.2.3",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.1.0",
-                    "lt": "5.1.5"
-                  },
-                  "fixed_in": "5.2.3"
-                },
-                {
-                  "description": "FortiMail: greater equal 5.2.0, less than 5.2.3, fixed in 5.2.3",
+                  "description": "FortiMail: greater equal 5.2.0, less than 5.2.3, fixed in [5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "lt": "5.2.3"
                   },
-                  "fixed_in": "5.2.3"
+                  "fixed_in": [
+                    "5.2.3"
+                  ]
                 }
               ]
             }
@@ -138,42 +103,65 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiADC: less than 4.2.0, fixed in 4.2.0",
+                  "description": "FortiADC: less than 4.2.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "4.2.0"
                   },
-                  "fixed_in": "4.2.0"
+                  "fixed_in": [
+                    "4.2.0"
+                  ]
                 }
               ],
               "hardware": [
                 {
                   "description": "FortiADC: equal FortiADC 200D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiADC: equal FortiADC 300D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiADC: equal FortiADC 400D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiADC: equal FortiADC 700D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiADC: equal FortiADC 1500D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiADC: equal FortiADC 2000D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiADC: equal FortiADC 4000D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -191,13 +179,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWeb: greater equal 5.1.2, less equal 5.3.4, fixed in 5.3.5",
+                  "description": "FortiWeb: greater equal 5.1.2, less equal 5.3.4, fixed in [5.3.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.1.2",
                     "le": "5.3.4"
                   },
-                  "fixed_in": "5.3.5"
+                  "fixed_in": [
+                    "5.3.5"
+                  ]
                 }
               ]
             }
@@ -215,13 +205,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 5.2.0, less than 5.2.3, fixed in 5.2.3",
+                  "description": "FortiOS: greater equal 5.2.0, less than 5.2.3, fixed in [5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "lt": "5.2.3"
                   },
-                  "fixed_in": "5.2.3"
+                  "fixed_in": [
+                    "5.2.3"
+                  ]
                 }
               ]
             }
@@ -239,62 +231,54 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.10, fixed in 5.0.11",
+                  "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.10, fixed in [5.0.11, 5.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.10"
                   },
-                  "fixed_in": "5.0.11"
+                  "fixed_in": [
+                    "5.0.11",
+                    "5.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.10, fixed in 5.2.2",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "le": "5.0.10"
-                  },
-                  "fixed_in": "5.2.2"
-                },
-                {
-                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.1, fixed in 5.2.2",
+                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.1, fixed in [5.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.1"
                   },
-                  "fixed_in": "5.2.2"
+                  "fixed_in": [
+                    "5.2.2"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiManager: greater equal 5.0.3, less equal 5.0.10, fixed in 5.0.11",
+                  "description": "FortiManager: greater equal 5.0.3, less equal 5.0.10, fixed in [5.0.11, 5.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.3",
                     "le": "5.0.10"
                   },
-                  "fixed_in": "5.0.11"
+                  "fixed_in": [
+                    "5.0.11",
+                    "5.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiManager: greater equal 5.0.3, less equal 5.0.10, fixed in 5.2.2",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.3",
-                    "le": "5.0.10"
-                  },
-                  "fixed_in": "5.2.2"
-                },
-                {
-                  "description": "FortiManager: greater equal 5.2.0, less equal 5.2.1, fixed in 5.2.2",
+                  "description": "FortiManager: greater equal 5.2.0, less equal 5.2.1, fixed in [5.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.1"
                   },
-                  "fixed_in": "5.2.2"
+                  "fixed_in": [
+                    "5.2.2"
+                  ]
                 }
               ]
             }

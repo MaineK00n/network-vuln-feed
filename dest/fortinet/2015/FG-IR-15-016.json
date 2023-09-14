@@ -11,28 +11,16 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: less equal 4.3.12, fixed in 4.3.13",
+                  "description": "FortiOS: less equal 4.3.12, fixed in [4.3.13, 5.0.0, 5.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.3.12"
                   },
-                  "fixed_in": "4.3.13"
-                },
-                {
-                  "description": "FortiOS: less equal 4.3.12, fixed in 5.0.x",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "4.3.12"
-                  },
-                  "fixed_in": "5.0.x"
-                },
-                {
-                  "description": "FortiOS: less equal 4.3.12, fixed in 5.2.x",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "4.3.12"
-                  },
-                  "fixed_in": "5.2.x"
+                  "fixed_in": [
+                    "4.3.13",
+                    "5.0.0",
+                    "5.2.0"
+                  ]
                 }
               ]
             }
@@ -52,4 +40,3 @@
   "updated": "2015-07-15T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-016"
 }
-

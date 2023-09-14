@@ -12,28 +12,36 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: less equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+          },
           "impact": "Cross-site Scripting (XSS)"
         }
       ]
@@ -43,4 +51,3 @@
   "updated": "2018-11-16T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-121"
 }
-

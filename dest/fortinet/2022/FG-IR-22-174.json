@@ -7,50 +7,49 @@
     {
       "id": "FG-IR-22-174",
       "cve": "CVE-2022-38380",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "operating_system": [
                 {
-                  "description": "FortiOS version 6.4.0 all versions, 7.0.0 through 7.0.7",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 7.0.7, fixed in [7.0.8, 7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "7.0.7"
                   },
-                  "fixed_ins": ["7.0.8", "7.2.1"]
+                  "fixed_in": [
+                    "7.0.8",
+                    "7.2.1"
+                  ]
                 },
                 {
-                  "description": "FortiOS version 7.2.0",
+                  "description": "FortiOS: equal 7.2.0, fixed in [7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "7.2.0"
                   },
-                  "fixed_ins": ["7.2.1"]
+                  "fixed_in": [
+                    "7.2.1"
+                  ]
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.2,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
           },
-          "cwe": "CWE-284",
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "cwe": [
+            "CWE-284"
+          ],
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-11-01T00:00:00Z",
   "updated": "2022-11-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-174"
 }
-

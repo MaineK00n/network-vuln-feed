@@ -2,20 +2,17 @@
   "id": "FG-IR-21-003",
   "title": "FortiMail - Unauthenticated encryption in IBE leads to email plaintext recovery",
   "summary": "A missing cryptographic step in FortiMail IBE may allow an unauthenticated attacker who intercepts the encrypted messages to manipulate them in such a way that makes the tampering and the recovery of the plaintexts possible.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-003",
       "cve": "CVE-2021-26100",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail Cloud: (<expression> <version>)",
+                  "description": "FortiMail Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,29 +57,20 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 5.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:X/RC:X"
-          },
-          "cwe": null,
-          "impact": "",
-          "exploit_status": ""
+          }
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-07-07T00:00:00Z",
   "updated": "2021-07-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-003"
 }
-

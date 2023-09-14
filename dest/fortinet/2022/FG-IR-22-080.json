@@ -7,36 +7,38 @@
     {
       "id": "FG-IR-22-080",
       "cve": "CVE-2022-29054",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "operating_system": [
                 {
-                  "description": "FortiOS less than 7.0.7",
+                  "description": "FortiOS: less equal 7.0.7, fixed in [7.2.1, 7.0.8]",
                   "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "7.0.7"
                   },
-                  "fixed_ins": ["7.2.1", "7.0.8"]
+                  "fixed_in": [
+                    "7.2.1",
+                    "7.0.8"
+                  ]
                 },
                 {
-                  "description": "FortiOS version 7.2.0",
+                  "description": "FortiOS: equal 7.2.0, fixed in [7.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "7.2.0"
                   },
-                  "fixed_ins": ["7.2.1"]
+                  "fixed_in": [
+                    "7.2.1"
+                  ]
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -44,13 +46,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -58,43 +59,33 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 3.1,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:U/RC:X"
           },
-          "cwe": "CWE-325",
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "cwe": [
+            "CWE-325"
+          ],
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-02-16T00:00:00Z",
   "updated": "2023-02-16T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-080"
 }
-

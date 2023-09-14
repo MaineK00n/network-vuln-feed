@@ -12,120 +12,76 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiADC: equal 7.1.0, fixed in 7.1.1",
+                  "description": "FortiADC: equal 7.1.0, fixed in [7.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "7.1.0"
                   },
-                  "fixed_in": "7.1.1"
+                  "fixed_in": [
+                    "7.1.1"
+                  ]
                 },
                 {
-                  "description": "FortiADC: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "description": "FortiADC: greater equal 7.0.0, less equal 7.0.3, fixed in [7.0.4, 7.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.3"
                   },
-                  "fixed_in": "7.0.4"
+                  "fixed_in": [
+                    "7.0.4",
+                    "7.1.1"
+                  ]
                 },
                 {
-                  "description": "FortiADC: greater equal 7.0.0, less equal 7.0.3, fixed in 7.1.1",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.3"
-                  },
-                  "fixed_in": "7.1.1"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in 6.2.5",
+                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in [6.2.5, 7.0.4, 7.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.4"
                   },
-                  "fixed_in": "6.2.5"
+                  "fixed_in": [
+                    "6.2.5",
+                    "7.0.4",
+                    "7.1.1"
+                  ]
                 },
                 {
-                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in 7.0.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.2.0",
-                    "le": "6.2.4"
-                  },
-                  "fixed_in": "7.0.4"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.2.0, less equal 6.2.4, fixed in 7.1.1",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.2.0",
-                    "le": "6.2.4"
-                  },
-                  "fixed_in": "7.1.1"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in 6.2.5",
+                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in [6.2.5, 7.0.4, 7.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.1.0",
                     "le": "6.1.6"
                   },
-                  "fixed_in": "6.2.5"
+                  "fixed_in": [
+                    "6.2.5",
+                    "7.0.4",
+                    "7.1.1"
+                  ]
                 },
                 {
-                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in 7.0.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.1.0",
-                    "le": "6.1.6"
-                  },
-                  "fixed_in": "7.0.4"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.6, fixed in 7.1.1",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.1.0",
-                    "le": "6.1.6"
-                  },
-                  "fixed_in": "7.1.1"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in 6.2.5",
+                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in [6.2.5, 7.0.4, 7.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.4"
                   },
-                  "fixed_in": "6.2.5"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in 7.0.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.0.0",
-                    "le": "6.0.4"
-                  },
-                  "fixed_in": "7.0.4"
-                },
-                {
-                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.4, fixed in 7.1.1",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.0.0",
-                    "le": "6.0.4"
-                  },
-                  "fixed_in": "7.1.1"
+                  "fixed_in": [
+                    "6.2.5",
+                    "7.0.4",
+                    "7.1.1"
+                  ]
                 }
               ]
             }
           ],
           "cvssv3": {
             "base_score": 6.3,
-            "vector": "AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:R&version=3.1"
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:R"
           },
-          "cwe": "CWE-78",
+          "cwe": [
+            "CWE-78"
+          ],
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -135,4 +91,3 @@
   "updated": "2023-06-12T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-107"
 }
-

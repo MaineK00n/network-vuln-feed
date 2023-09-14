@@ -12,13 +12,15 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 5.0.3, less equal 5.0.5, fixed in 5.0.10",
+                  "description": "FortiOS: greater equal 5.0.3, less equal 5.0.5, fixed in [5.0.10]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.3",
                     "le": "5.0.5"
                   },
-                  "fixed_in": "5.0.10"
+                  "fixed_in": [
+                    "5.0.10"
+                  ]
                 }
               ]
             }
@@ -42,4 +44,3 @@
   "updated": "2020-02-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-186"
 }
-

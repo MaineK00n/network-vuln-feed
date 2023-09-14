@@ -12,21 +12,25 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiEDR: equal 4.0.0, fixed in 5.0.3",
+                  "description": "FortiEDR: equal 4.0.0, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiedr:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "4.0.0"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiEDR: greater equal 5.0.0, less equal 5.0.2, fixed in 5.0.3",
+                  "description": "FortiEDR: greater equal 5.0.0, less equal 5.0.2, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiedr:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.2"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 }
               ]
             }
@@ -35,7 +39,9 @@
             "base_score": 5.4,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
           },
-          "cwe": "CWE-321",
+          "cwe": [
+            "CWE-321"
+          ],
           "impact": "Denial of service"
         }
       ]
@@ -45,4 +51,3 @@
   "updated": "2022-04-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-018"
 }
-

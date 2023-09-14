@@ -7,15 +7,13 @@
     {
       "id": "FG-IR-21-210",
       "cve": "CVE-2021-44166",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiTokenAndroid: (<expression> <version>)",
+                  "description": "FortiTokenAndroid:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:android:*:*",
                   "affected": {
                     "eq": "",
@@ -23,11 +21,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiTokenIOS: (<expression> <version>)",
+                  "description": "FortiTokenIOS:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
                   "affected": {
                     "eq": "",
@@ -35,11 +32,10 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 },
                 {
-                  "description": "FortiTokenMobileWP: (<expression> <version>)",
+                  "description": "FortiTokenMobileWP:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "eq": "",
@@ -47,16 +43,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiToken Cloud: (<expression> <version>)",
+                  "description": "FortiToken Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -64,29 +58,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 3.9,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N/E:F/RL:U/RC:R"
           },
-          "cwe": null,
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-03-01T00:00:00Z",
   "updated": "2022-03-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-210"
 }
-

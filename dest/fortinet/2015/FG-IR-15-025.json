@@ -12,12 +12,14 @@
             {
               "application": [
                 {
-                  "description": "FortiClient: less equal 5.2.3, fixed in 5.2.4",
+                  "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }
@@ -35,12 +37,14 @@
             {
               "application": [
                 {
-                  "description": "FortiClient: less equal 5.2.3, fixed in 5.2.4",
+                  "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }
@@ -58,12 +62,14 @@
             {
               "application": [
                 {
-                  "description": "FortiClient: less equal 5.2.3, fixed in 5.2.4",
+                  "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }
@@ -81,12 +87,14 @@
             {
               "application": [
                 {
-                  "description": "FortiClient: less equal 5.2.3, fixed in 5.2.4",
+                  "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.3"
                   },
-                  "fixed_in": "5.2.4"
+                  "fixed_in": [
+                    "5.2.4"
+                  ]
                 }
               ]
             }
@@ -100,4 +108,3 @@
   "updated": "2015-09-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-15-025"
 }
-

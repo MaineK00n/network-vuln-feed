@@ -12,69 +12,57 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:6.1.2:*:*:*:*:*:*:*",
+                  "description": "FortiWLC: equal 6.1.2, fixed in [7.0.11, 8.3.3]",
+                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "6.1.2"
                   },
-                  "fixed_in": "7.0.11"
+                  "fixed_in": [
+                    "7.0.11",
+                    "8.3.3"
+                  ]
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:6.1.2:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "6.1.2"
-                  },
-                  "fixed_in": "8.3.3"
-                },
-                {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 6.1.4, less equal 6.1.5, fixed in [7.0.11, 8.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.1.4",
                     "le": "6.1.5"
                   },
-                  "fixed_in": "7.0.11"
+                  "fixed_in": [
+                    "7.0.11",
+                    "8.3.3"
+                  ]
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.1.4",
-                    "le": "6.1.5"
-                  },
-                  "fixed_in": "8.3.3"
-                },
-                {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 7.0.7, less equal 7.0.10, fixed in [7.0.11, 8.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.7",
                     "le": "7.0.10"
                   },
-                  "fixed_in": "7.0.11"
+                  "fixed_in": [
+                    "7.0.11",
+                    "8.3.3"
+                  ]
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.7",
-                    "le": "7.0.10"
-                  },
-                  "fixed_in": "8.3.3"
-                },
-                {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.3.2, fixed in [8.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
                     "le": "8.3.2"
                   },
-                  "fixed_in": "8.3.3"
+                  "fixed_in": [
+                    "8.3.3"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Cross-site scripting (XSS)"
         }
       ]
@@ -84,4 +72,3 @@
   "updated": "2017-10-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-106"
 }
-

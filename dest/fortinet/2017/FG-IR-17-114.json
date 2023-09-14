@@ -12,16 +12,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -35,16 +41,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -58,16 +70,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -81,16 +99,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -104,16 +128,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -127,16 +157,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -150,16 +186,22 @@
             {
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal: less equal 4.0.0, fixed in [4.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.0.0"
                   },
-                  "fixed_in": "4.0.1"
+                  "fixed_in": [
+                    "4.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 3.4,
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:X/RL:X/RC:X"
+          },
           "impact": "Information disclosure, Execute unauthorized code or commands, Improper Access Control"
         }
       ]
@@ -169,4 +211,3 @@
   "updated": "2017-05-15T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-114"
 }
-

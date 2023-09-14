@@ -12,21 +12,25 @@
             {
               "application": [
                 {
-                  "description": "FortiWeb: less equal 4.4.7, fixed in 5.0.3",
+                  "description": "FortiWeb: less equal 4.4.7, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.4.7"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.0.2, fixed in 5.0.3",
+                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.0.2, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.2"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 }
               ]
             }
@@ -44,21 +48,25 @@
             {
               "application": [
                 {
-                  "description": "FortiWeb: less equal 4.4.7, fixed in 5.0.3",
+                  "description": "FortiWeb: less equal 4.4.7, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.4.7"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.0.2, fixed in 5.0.3",
+                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.0.2, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.2"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 }
               ]
             }
@@ -76,21 +84,25 @@
             {
               "application": [
                 {
-                  "description": "FortiWeb: less equal 4.4.7, fixed in 5.0.3",
+                  "description": "FortiWeb: less equal 4.4.7, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "4.4.7"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 },
                 {
-                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.0.2, fixed in 5.0.3",
+                  "description": "FortiWeb: greater equal 5.0.0, less equal 5.0.2, fixed in [5.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.2"
                   },
-                  "fixed_in": "5.0.3"
+                  "fixed_in": [
+                    "5.0.3"
+                  ]
                 }
               ]
             }
@@ -104,4 +116,3 @@
   "updated": "2014-02-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-13-009"
 }
-

@@ -22,19 +22,31 @@
               "hardware": [
                 {
                   "description": "FortiBalancer: equal FortiBalancer 400",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 1000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 2000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 3000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -62,19 +74,31 @@
               "hardware": [
                 {
                   "description": "FortiBalancer: equal FortiBalancer 400",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 1000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 2000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 3000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -86,7 +110,6 @@
     {
       "id": "FG-IR-14-010",
       "cve": "CVE-2014-2723",
-      "description": "",
       "definitions": [
         {
           "configurations": [
@@ -103,19 +126,31 @@
               "hardware": [
                 {
                   "description": "FortiBalancer: equal FortiBalancer 400",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 1000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 2000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiBalancer: equal FortiBalancer 3000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -129,4 +164,3 @@
   "updated": "2014-04-02T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-010"
 }
-

@@ -11,16 +11,21 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb: less equal 6.0.0, fixed in [6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "6.0.0"
                   },
-                  "fixed_in": "6.0.1"
+                  "fixed_in": [
+                    "6.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "WAF bypass (URL based attack)"
         }
       ]
@@ -36,4 +41,3 @@
   "updated": "2018-08-23T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-058"
 }
-

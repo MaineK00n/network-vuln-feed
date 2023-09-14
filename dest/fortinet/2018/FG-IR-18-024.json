@@ -12,26 +12,34 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox: greater equal 2.4.0, less equal 2.4.1, fixed in [3.0.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "2.4.0",
                     "le": "2.4.1"
                   },
-                  "fixed_in": "3.0.0"
+                  "fixed_in": [
+                    "3.0.0"
+                  ]
                 },
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox: greater equal 2.5.0, less equal 2.5.2, fixed in [3.0.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "2.5.0",
                     "le": "2.5.2"
                   },
-                  "fixed_in": "3.0.0"
+                  "fixed_in": [
+                    "3.0.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -41,4 +49,3 @@
   "updated": "2019-04-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-024"
 }
-

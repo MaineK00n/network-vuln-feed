@@ -7,15 +7,13 @@
     {
       "id": "FG-IR-20-183",
       "cve": "CVE-2021-36178",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSDNConnector: (<expression> <version>)",
+                  "description": "FortiSDNConnector:",
                   "cpe": "cpe:2.3:a:fortinet:fortisdnconnector:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,29 +21,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.2,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-10-05T00:00:00Z",
   "updated": "2021-10-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-183"
 }
-

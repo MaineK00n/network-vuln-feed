@@ -2,20 +2,17 @@
   "id": "FG-IR-20-202",
   "title": "FortiSandbox - Multiple path traversals",
   "summary": "Improper limitation of a pathname to a restricted directory (CWE-22) vulnerabilities in FortiSandbox may allow an authenticated user to obtain unauthorized access to files and data via specifially crafted web requests.c",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-202",
       "cve": "CVE-2021-24010",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox:",
                   "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox:",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiSandbox: (<expression> <version>)",
+                  "description": "FortiSandbox:",
                   "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSandbox Cloud: (<expression> <version>)",
+                  "description": "FortiSandbox Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,29 +57,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 7.9,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Unauthorized access to files",
-          "exploit_status": ""
+          "impact": "Unauthorized access to files"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-08-03T00:00:00Z",
   "updated": "2021-08-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-202"
 }
-

@@ -8,7 +8,9 @@
       "cve": "CVE-2017-9805",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Remote Code Execution (RCE)"
         }
       ]
@@ -24,4 +26,3 @@
   "updated": "2017-09-29T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-205"
 }
-

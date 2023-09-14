@@ -2,20 +2,17 @@
   "id": "FG-IR-20-045",
   "title": "Authentication bypass in FortiMail and FortiVoiceEntreprise",
   "summary": "An improper authentication vulnerability in FortiMail and FortiVoiceEntreprise may allow a remote unauthenticated attacker to access the system as a legitimate user by requesting a password change via the user interface.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-045",
       "cve": "CVE-2020-9294",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiMail: (<expression> <version>)",
+                  "description": "FortiMail:",
                   "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiMail Cloud: (<expression> <version>)",
+                  "description": "FortiMail Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,16 +57,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
+                  "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
                   "affected": {
                     "eq": "",
@@ -85,13 +72,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
+                  "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
                   "affected": {
                     "eq": "",
@@ -99,30 +85,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
+                  "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiVoice Cloud Unified Communications: (<expression> <version>)",
+                  "description": "FortiVoice Cloud Unified Communications:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice_cloud_unified_communications:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -130,29 +109,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 9.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Improper Access Control",
-          "exploit_status": ""
+          "impact": "Improper Access Control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2020-04-27T00:00:00Z",
   "updated": "2020-04-27T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-045"
 }
-

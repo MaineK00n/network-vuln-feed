@@ -11,7 +11,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -22,7 +22,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -33,7 +33,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -44,7 +44,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -53,6 +53,9 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Information Disclosure, Privilege Escalation"
         }
       ]
@@ -68,4 +71,3 @@
   "updated": "2018-04-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-067"
 }
-

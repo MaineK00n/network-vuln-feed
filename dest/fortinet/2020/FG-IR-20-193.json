@@ -11,7 +11,7 @@
             {
               "application": [
                 {
-                  "description": "FortiGate Cloud: (<expression> <version>)",
+                  "description": "FortiGate Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -19,8 +19,7 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
@@ -38,4 +37,3 @@
   "updated": "2021-02-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-193"
 }
-

@@ -12,12 +12,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiFone: (<expression> <version>)",
+                  "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.0.11"
                   },
-                  "fixed_in": "3.0.12"
+                  "fixed_in": [
+                    "3.0.12"
+                  ]
                 }
               ]
             }
@@ -39,12 +41,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiFone: (<expression> <version>)",
+                  "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.0.11"
                   },
-                  "fixed_in": "3.0.12"
+                  "fixed_in": [
+                    "3.0.12"
+                  ]
                 }
               ]
             }
@@ -66,12 +70,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiFone: (<expression> <version>)",
+                  "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.0.11"
                   },
-                  "fixed_in": "3.0.12"
+                  "fixed_in": [
+                    "3.0.12"
+                  ]
                 }
               ]
             }
@@ -93,12 +99,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiFone: (<expression> <version>)",
+                  "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.0.11"
                   },
-                  "fixed_in": "3.0.12"
+                  "fixed_in": [
+                    "3.0.12"
+                  ]
                 }
               ]
             }
@@ -120,12 +128,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiFone: (<expression> <version>)",
+                  "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.0.11"
                   },
-                  "fixed_in": "3.0.12"
+                  "fixed_in": [
+                    "3.0.12"
+                  ]
                 }
               ]
             }
@@ -147,12 +157,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiFone: (<expression> <version>)",
+                  "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.0.11"
                   },
-                  "fixed_in": "3.0.12"
+                  "fixed_in": [
+                    "3.0.12"
+                  ]
                 }
               ]
             }
@@ -196,4 +208,3 @@
   "updated": "2022-05-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-007"
 }
-

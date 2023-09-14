@@ -2,20 +2,17 @@
   "id": "FG-IR-20-061",
   "title": "FortiManager- Improper access control in  SD-WAN Orchestrator",
   "summary": "An improper access control vulnerability in FortiManager may allow an authenticated attacker with a restricted user profile to access the SD-WAN Orchestrator panel via directly visiting its URL.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-061",
       "cve": "CVE-2021-24006",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager:",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager:",
                   "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiManager Cloud: (<expression> <version>)",
+                  "description": "FortiManager Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,29 +57,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 6.2,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Improper Access Control",
-          "exploit_status": ""
+          "impact": "Improper Access Control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-08-03T00:00:00Z",
   "updated": "2021-08-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-061"
 }
-

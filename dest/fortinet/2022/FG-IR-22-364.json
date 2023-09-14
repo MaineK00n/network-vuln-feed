@@ -7,47 +7,53 @@
     {
       "id": "FG-IR-22-364",
       "cve": "CVE-2022-41329",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "operating_system": [
                 {
-                  "description": "FortiOS: 6.2.3 to 6.4.11",
+                  "description": "FortiOS: greater equal 6,2.3, less than 6.4.12, fixed in [6.4.12, 7.0.10, 7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6,2.3",
                     "lt": "6.4.12"
                   },
-                  "fixed_ins": ["6.4.12", "7.0.10", "7.2.4"]
+                  "fixed_in": [
+                    "6.4.12",
+                    "7.0.10",
+                    "7.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: 7.0.0 to 7.0.9",
+                  "description": "FortiOS: greater equal 7.0.0, less than 7.0.10, fixed in [7.0.10, 7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "lt": "7.0.10"
                   },
-                  "fixed_ins": ["7.0.10", "7.2.4"]
+                  "fixed_in": [
+                    "7.0.10",
+                    "7.2.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: 7.2.0 to 7.2.3",
+                  "description": "FortiOS: greater equal 7,2.0, less than 7.2.4, fixed in [7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7,2.0",
                     "lt": "7.2.4"
                   },
-                  "fixed_ins": ["7.2.4"]
+                  "fixed_in": [
+                    "7.2.4"
+                  ]
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -55,13 +61,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -69,43 +74,33 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 5.2,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:C"
           },
-          "cwe": "CWE-200",
-          "impact": "Improper access control",
-          "exploit_status": ""
+          "cwe": [
+            "CWE-200"
+          ],
+          "impact": "Improper access control"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2023-03-07T00:00:00Z",
   "updated": "2023-03-07T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-364"
 }
-

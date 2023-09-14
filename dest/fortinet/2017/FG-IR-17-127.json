@@ -12,26 +12,24 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.4.0",
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 4.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+          },
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -45,53 +43,37 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.2.0, less equal 5.2.11, fixed in [5.2.12, 5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.11"
                   },
-                  "fixed_in": "5.2.12"
+                  "fixed_in": [
+                    "5.2.12",
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.11"
-                  },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.2.0",
-                    "le": "5.2.11"
-                  },
-                  "fixed_in": "5.6.0"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.4, fixed in [5.4.5, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.4.0",
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.5",
+                    "5.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 4.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+          },
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -101,4 +83,3 @@
   "updated": "2017-06-15T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-127"
 }
-

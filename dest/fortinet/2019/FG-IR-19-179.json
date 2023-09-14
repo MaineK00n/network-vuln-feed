@@ -12,40 +12,51 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.11, fixed in 6.0.9, 6.2.2",
+                  "description": "FortiOS: greater equal 5.4.0, less equal 5.4.11, fixed in [6.0.9, 6.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.4.0",
                     "le": "5.4.11"
                   },
-                  "fixed_ins": ["6.0.9", "6.2.2"]
+                  "fixed_in": [
+                    "6.0.9",
+                    "6.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.9, fixed in 6.0.9, 6.2.2",
+                  "description": "FortiOS: greater equal 5.6.0, less equal 5.6.9, fixed in [6.0.9, 6.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.6.0",
                     "le": "5.6.9"
                   },
-                  "fixed_ins": ["6.0.9", "6.2.2"]
+                  "fixed_in": [
+                    "6.0.9",
+                    "6.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.5, fixed in 6.0.9, 6.2.2",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.5, fixed in [6.0.9, 6.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.5"
                   },
-                  "fixed_ins": ["6.0.9", "6.2.2"]
+                  "fixed_in": [
+                    "6.0.9",
+                    "6.2.2"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.1, fixed in 6.2.2",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.1, fixed in [6.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.1"
                   },
-                  "fixed_ins": ["6.2.2"]
+                  "fixed_in": [
+                    "6.2.2"
+                  ]
                 }
               ]
             }
@@ -63,4 +74,3 @@
   "updated": "2020-02-18T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-179"
 }
-

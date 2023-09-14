@@ -12,16 +12,21 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows: less equal 6.0.2, fixed in [6.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "le": "6.0.2"
                   },
-                  "fixed_in": "6.0.3"
+                  "fixed_in": [
+                    "6.0.3"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Denial of service"
         }
       ]
@@ -31,4 +36,3 @@
   "updated": "2019-01-11T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-092"
 }
-

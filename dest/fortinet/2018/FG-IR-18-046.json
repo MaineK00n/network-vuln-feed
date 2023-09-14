@@ -8,7 +8,9 @@
       "cve": "CVE-2018-8930",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -18,7 +20,9 @@
       "cve": "CVE-2018-8931",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -28,7 +32,9 @@
       "cve": "CVE-2018-8932",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -38,7 +44,9 @@
       "cve": "CVE-2018-8933",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -48,7 +56,9 @@
       "cve": "CVE-2018-8934",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -58,7 +68,9 @@
       "cve": "CVE-2018-8935",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -68,7 +80,9 @@
       "cve": "CVE-2018-8936",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Execute unauthorized code or commands, Escalation of privilege, Information Disclosure"
         }
       ]
@@ -92,4 +106,3 @@
   "updated": "2018-04-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-046"
 }
-

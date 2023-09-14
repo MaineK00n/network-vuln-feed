@@ -8,7 +8,9 @@
       "cve": "CVE-2017-15361",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Breaking RSA encryption"
         }
       ]
@@ -28,4 +30,3 @@
   "updated": "2017-11-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-249"
 }
-

@@ -7,15 +7,13 @@
     {
       "id": "FG-IR-22-216",
       "cve": "CVE-2022-42473",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSOAR: (<expression> <version>)",
+                  "description": "FortiSOAR:",
                   "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,29 +21,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.8,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:P/RL:U/RC:R"
           },
-          "cwe": null,
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-11-01T00:00:00Z",
   "updated": "2022-11-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-216"
 }
-

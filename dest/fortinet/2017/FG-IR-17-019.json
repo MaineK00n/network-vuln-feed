@@ -12,64 +12,53 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.4.2, fixed in [5.4.3, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
-                },
-                {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.2"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.3",
+                    "5.6.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.5, fixed in [5.4.6, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.5"
                   },
-                  "fixed_in": "5.4.6"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.5"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.6",
+                    "5.6.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: less equal 3.5.2, fixed in [3.5.3, 3.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.5.2"
                   },
-                  "fixed_in": "3.5.3"
-                },
-                {
-                  "description": "FortiSwitch: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "3.5.2"
-                  },
-                  "fixed_in": "3.6.0"
+                  "fixed_in": [
+                    "3.5.3",
+                    "3.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service"
         }
       ]
@@ -79,7 +68,10 @@
       "cve": "CVE-2017-3730",
       "definitions": [
         {
-          "configurations": [],
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service"
         }
       ]
@@ -93,64 +85,53 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
-                },
-                {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.2"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.3",
+                    "5.6.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: less equal 5.4.2, fixed in [5.4.3, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
-                },
-                {
-                  "description": "FortiAP: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.2"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.3",
+                    "5.6.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: less equal 3.5.2, fixed in [3.5.3, 3.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.5.2"
                   },
-                  "fixed_in": "3.5.3"
-                },
-                {
-                  "description": "FortiSwitch: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "3.5.2"
-                  },
-                  "fixed_in": "3.6.0"
+                  "fixed_in": [
+                    "3.5.3",
+                    "3.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service"
         }
       ]
@@ -164,64 +145,53 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.4.2, fixed in [5.4.3, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.2"
                   },
-                  "fixed_in": "5.4.3"
-                },
-                {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.2"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.3",
+                    "5.6.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 5.4.5, fixed in [5.4.6, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.5"
                   },
-                  "fixed_in": "5.4.6"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.5"
-                  },
-                  "fixed_in": "5.6.0"
+                  "fixed_in": [
+                    "5.4.6",
+                    "5.6.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: less equal 3.5.2, fixed in [3.5.3, 3.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.5.2"
                   },
-                  "fixed_in": "3.5.3"
-                },
-                {
-                  "description": "FortiSwitch: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "3.5.2"
-                  },
-                  "fixed_in": "3.6.0"
+                  "fixed_in": [
+                    "3.5.3",
+                    "3.6.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 5.3,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Denial of Service"
         }
       ]
@@ -237,4 +207,3 @@
   "updated": "2018-07-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-019"
 }
-

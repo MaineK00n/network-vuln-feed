@@ -7,15 +7,13 @@
     {
       "id": "FG-IR-21-128",
       "cve": "CVE-2021-43075",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWLM: (<expression> <version>)",
+                  "description": "FortiWLM:",
                   "cpe": "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +21,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiWLM: (<expression> <version>)",
+                  "description": "FortiWLM:",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,43 +34,30 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiWLM: (<expression> <version>)",
+                  "description": "FortiWLM:",
                   "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 8.3,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
           },
-          "cwe": null,
-          "impact": "Execute unauthorized code or commands",
-          "exploit_status": ""
+          "impact": "Execute unauthorized code or commands"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2022-03-01T00:00:00Z",
   "updated": "2022-03-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-128"
 }
-

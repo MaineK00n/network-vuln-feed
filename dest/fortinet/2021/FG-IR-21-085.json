@@ -2,20 +2,17 @@
   "id": "FG-IR-21-085",
   "title": "FortiPortal - Path traversal in controller",
   "summary": "A protection mechanism failure vulnerability (CWE-693) resulting in improperly limiting pathname to a restricted directory in FortiPortal may allow an authenticated attacker to perform a path traversal attack via maliciously crafted GET parameters.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-21-085",
       "cve": "CVE-2021-36168",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiPortal: (<expression> <version>)",
+                  "description": "FortiPortal:",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,29 +20,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 6.2,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:P/RL:X/RC:C"
           },
-          "cwe": null,
-          "impact": "Information Disclosure",
-          "exploit_status": ""
+          "impact": "Information Disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-08-03T00:00:00Z",
   "updated": "2021-08-03T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-085"
 }
-

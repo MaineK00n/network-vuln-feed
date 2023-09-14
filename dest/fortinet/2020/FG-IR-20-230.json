@@ -2,20 +2,17 @@
   "id": "FG-IR-20-230",
   "title": "FortiProxy  multiple pre-auth XSS vulnerabilities on SSL VPN",
   "summary": "An Improper Neutralization of Input During Web Page Generation in the SSL VPN portal of FortiProxy may allow an unauthenticated, remote attacker to perform a reflected Cross Site Scripting attack (XSS) by injecting malicious payload in the error, message or redir parameters.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-230",
       "cve": "CVE-2018-13380",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,43 +33,30 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.6,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Cross-site scripting (XSS)",
-          "exploit_status": ""
+          "impact": "Cross-site scripting (XSS)"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-03-02T00:00:00Z",
   "updated": "2021-03-02T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-230"
 }
-

@@ -12,60 +12,57 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: less equal 5.6.5, fixed in [5.6.6, 6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.6.5"
                   },
-                  "fixed_in": "5.6.6"
+                  "fixed_in": [
+                    "5.6.6",
+                    "6.0.1"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.6.5"
-                  },
-                  "fixed_in": "6.0.1"
-                },
-                {
-                  "description": "FortiAnalyzer: (<expression> <version>)",
+                  "description": "FortiAnalyzer: equal 6.0.0, fixed in [6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "6.0.0"
                   },
-                  "fixed_in": "6.0.1"
+                  "fixed_in": [
+                    "6.0.1"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: less equal 5.6.5, fixed in [5.6.6, 6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.6.5"
                   },
-                  "fixed_in": "5.6.6"
+                  "fixed_in": [
+                    "5.6.6",
+                    "6.0.1"
+                  ]
                 },
                 {
-                  "description": "FortiManager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.6.5"
-                  },
-                  "fixed_in": "6.0.1"
-                },
-                {
-                  "description": "FortiManager: (<expression> <version>)",
+                  "description": "FortiManager: equal 6.0.0, fixed in [6.0.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "6.0.0"
                   },
-                  "fixed_in": "6.0.1"
+                  "fixed_in": [
+                    "6.0.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Open redirection"
         }
       ]
@@ -75,4 +72,3 @@
   "updated": "2018-09-26T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-022"
 }
-

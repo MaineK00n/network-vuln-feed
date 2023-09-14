@@ -12,35 +12,34 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 7.0.0, less equal 7.0.11, fixed in [7.0.13, 8.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.11"
                   },
-                  "fixed_in": "7.0.13"
+                  "fixed_in": [
+                    "7.0.13",
+                    "8.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.11"
-                  },
-                  "fixed_in": "8.4.0"
-                },
-                {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.3.3, fixed in [8.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
                     "le": "8.3.3"
                   },
-                  "fixed_in": "8.4.0"
+                  "fixed_in": [
+                    "8.4.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Unauthorized read/write remote access"
         }
       ]
@@ -54,35 +53,34 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 7.0.0, less equal 7.0.11, fixed in [7.0.13, 8.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.11"
                   },
-                  "fixed_in": "7.0.13"
+                  "fixed_in": [
+                    "7.0.13",
+                    "8.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiWLC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.11"
-                  },
-                  "fixed_in": "8.4.0"
-                },
-                {
-                  "description": "FortiWLC: (<expression> <version>)",
+                  "description": "FortiWLC: greater equal 8.0.0, less equal 8.3.3, fixed in [8.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.0.0",
                     "le": "8.3.3"
                   },
-                  "fixed_in": "8.4.0"
+                  "fixed_in": [
+                    "8.4.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Unauthorized read/write remote access"
         }
       ]
@@ -92,4 +90,3 @@
   "updated": "2018-05-04T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-274"
 }
-

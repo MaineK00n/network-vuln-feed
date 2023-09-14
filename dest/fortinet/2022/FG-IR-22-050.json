@@ -12,145 +12,86 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAuthenticator: greater equal 6.4.0, less equal 6.4.1, fixed in 6.4.2",
+                  "description": "FortiAuthenticator: greater equal 6.3.0, less equal 6.3.3, fixed in [6.4.2, 6.5.0, 6.3.4, 6.4.2, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.3.0",
                     "le": "6.3.3"
                   },
-                  "fixed_in": "6.4.2"
-                },
-                {
-                  "description": "FortiAuthenticator: greater equal 6.4.0, less equal 6.4.1, fixed in 6.5.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.3.0",
-                    "le": "6.3.3"
-                  },
-                  "fixed_in": "6.5.0"
-                },
-                {
-                  "description": "FortiAuthenticator: greater equal 6.3.0, less equal 6.3.3, fixed in 6.3.4",
-                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.3.0",
-                    "le": "6.3.3"
-                  },
-                  "fixed_in": "6.3.4"
-                },
-                {
-                  "description": "FortiAuthenticator: greater equal 6.3.0, less equal 6.3.3, fixed in 6.4.2",
-                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.3.0",
-                    "le": "6.3.3"
-                  },
-                  "fixed_in": "6.4.2"
-                },
-                {
-                  "description": "FortiAuthenticator: greater equal 6.3.0, less equal 6.3.3, fixed in 6.5.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.3.0",
-                    "le": "6.3.3"
-                  },
-                  "fixed_in": "6.5.0"
+                  "fixed_in": [
+                    "6.4.2",
+                    "6.5.0",
+                    "6.3.4",
+                    "6.4.2",
+                    "6.5.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.3, fixed in [7.0.4, 7.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.3"
                   },
-                  "fixed_in": "7.0.4"
-                },
-                {
-                  "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.3, fixed in 7.2.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "7.0.0",
-                    "le": "7.0.3"
-                  },
-                  "fixed_in": "7.2.0"
+                  "fixed_in": [
+                    "7.0.4",
+                    "7.2.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSIEM: greater equal 6.1.0, less equal 6.1.2 fixed in 6.4.1",
+                  "description": "FortiSIEM: greater equal 6.1.0, less equal 6.1.2, fixed in [6.4.1, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.1.0",
                     "le": "6.1.2"
                   },
-                  "fixed_in": "6.4.1"
+                  "fixed_in": [
+                    "6.4.1",
+                    "6.5.0"
+                  ]
                 },
                 {
-                  "description": "FortiSIEM: greater equal 6.1.0, less equal 6.1.2 fixed in 6.5.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.1.0",
-                    "le": "6.1.2"
-                  },
-                  "fixed_in": "6.5.0"
-                },
-                {
-                  "description": "FortiSIEM: greater equal 6.2.0, less equal 6.2.1 fixed in 6.4.1",
+                  "description": "FortiSIEM: greater equal 6.2.0, less equal 6.2.1, fixed in [6.4.1, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.1"
                   },
-                  "fixed_in": "6.4.1"
+                  "fixed_in": [
+                    "6.4.1",
+                    "6.5.0"
+                  ]
                 },
                 {
-                  "description": "FortiSIEM: greater equal 6.2.0, less equal 6.2.1 fixed in 6.5.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.2.0",
-                    "le": "6.2.1"
-                  },
-                  "fixed_in": "6.5.0"
-                },
-                {
-                  "description": "FortiSIEM: greater equal 6.3.0, less equal 6.3.3 fixed in 6.4.1",
+                  "description": "FortiSIEM: greater equal 6.3.0, less equal 6.3.3, fixed in [6.4.1, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.3.0",
                     "le": "6.3.3"
                   },
-                  "fixed_in": "6.4.1"
+                  "fixed_in": [
+                    "6.4.1",
+                    "6.5.0"
+                  ]
                 },
                 {
-                  "description": "FortiSIEM: greater equal 6.3.0, less equal 6.3.3 fixed in 6.5.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.3.0",
-                    "le": "6.3.3"
-                  },
-                  "fixed_in": "6.5.0"
-                },
-                {
-                  "description": "FortiSIEM: equal 6.4.0, fixed in 6.4.1",
+                  "description": "FortiSIEM: equal 6.4.0, fixed in [6.4.1, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "6.4.0"
                   },
-                  "fixed_in": "6.4.1"
-                },
-                {
-                  "description": "FortiSIEM: equal 6.4.0, fixed in 6.5.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "6.4.0"
-                  },
-                  "fixed_in": "6.5.0"
+                  "fixed_in": [
+                    "6.4.1",
+                    "6.5.0"
+                  ]
                 }
               ]
             }
@@ -174,4 +115,3 @@
   "updated": "2023-04-11T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-050"
 }
-

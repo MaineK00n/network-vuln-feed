@@ -12,22 +12,26 @@
             {
               "application": [
                 {
-                  "description": "FortiAuthenticator: greater equal 1.0.0, less than 1.3.1, fixed in 3.0.0",
+                  "description": "FortiAuthenticator: greater equal 1.0.0, less equal 1.3.1, fixed in [3.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "1.0.0",
                     "le": "1.3.1"
                   },
-                  "fixed_in": "3.0.0"
+                  "fixed_in": [
+                    "3.0.0"
+                  ]
                 },
                 {
-                  "description": "FortiAuthenticator: greater equal 2.0.0, less than 2.2.0, fixed in 3.0.0",
+                  "description": "FortiAuthenticator: greater equal 2.0.0, less equal 2.2.0, fixed in [3.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "2.0.0",
                     "le": "2.2.0"
                   },
-                  "fixed_in": "3.0.0"
+                  "fixed_in": [
+                    "3.0.0"
+                  ]
                 }
               ]
             }
@@ -41,4 +45,3 @@
   "updated": "2013-12-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-13-016"
 }
-

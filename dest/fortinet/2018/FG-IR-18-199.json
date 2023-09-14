@@ -11,7 +11,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAP: (<expression> <version>)",
+                  "description": "FortiAP: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -22,7 +22,7 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "ANY"
@@ -31,6 +31,10 @@
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 7.1,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+          },
           "impact": "Information Disclosure"
         }
       ]
@@ -46,4 +50,3 @@
   "updated": "2020-01-27T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-199"
 }
-

@@ -12,75 +12,54 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC: less equal 5.4.4, fixed in [5.4.5, 6.0.2, 6.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.4.4"
                   },
-                  "fixed_in": "5.4.5"
+                  "fixed_in": [
+                    "5.4.5",
+                    "6.0.2",
+                    "6.1.1"
+                  ]
                 },
                 {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "6.0.2"
-                },
-                {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.4"
-                  },
-                  "fixed_in": "6.1.1"
-                },
-                {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC: greater equal 6.0.0, less equal 6.0.1, fixed in [6.0.2, 6.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.1"
                   },
-                  "fixed_in": "6.0.2"
+                  "fixed_in": [
+                    "6.0.2",
+                    "6.1.1"
+                  ]
                 },
                 {
-                  "description": "FortiADC: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "6.0.0",
-                    "le": "6.0.1"
-                  },
-                  "fixed_in": "6.1.1"
-                },
-                {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC: greater equal 6.1.0, less equal 6.1.0, fixed in [6.1.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.1.0",
                     "le": "6.1.0"
                   },
-                  "fixed_in": "6.1.1"
+                  "fixed_in": [
+                    "6.1.1"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less equal 6.0.2, fixed in [6.0.3, 6.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "6.0.2"
                   },
-                  "fixed_in": "6.0.3"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "6.0.2"
-                  },
-                  "fixed_in": "6.2.0"
+                  "fixed_in": [
+                    "6.0.3",
+                    "6.2.0"
+                  ]
                 }
               ]
             }
@@ -98,4 +77,3 @@
   "updated": "2021-06-01T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-157"
 }
-

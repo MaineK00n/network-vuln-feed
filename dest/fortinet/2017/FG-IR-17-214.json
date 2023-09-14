@@ -12,36 +12,45 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows: less equal 5.6.0, fixed in [5.6.11]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "le": "5.6.0"
                   },
-                  "fixed_in": "5.6.11"
+                  "fixed_in": [
+                    "5.6.11"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "description": "FortiClient for MacOSX: less equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "le": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             },
             {
               "application": [
                 {
-                  "description": "FortiClient SSL VPN for Linux: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN for Linux: less equal 4.4.2334, fixed in [4.4.2335]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "le": "4.4.2334"
                   },
-                  "fixed_in": "4.4.2335"
+                  "fixed_in": [
+                    "4.4.2335"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Information Disclosure"
         }
       ]
@@ -55,36 +64,45 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows: less equal 5.6.0, fixed in [5.6.11]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "le": "5.6.0"
                   },
-                  "fixed_in": "5.6.11"
+                  "fixed_in": [
+                    "5.6.11"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOSX: (<expression> <version>)",
+                  "description": "FortiClient for MacOSX: less equal 5.6.0, fixed in [5.6.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:mac_os_x:*:*",
                   "affected": {
                     "le": "5.6.0"
                   },
-                  "fixed_in": "5.6.1"
+                  "fixed_in": [
+                    "5.6.1"
+                  ]
                 }
               ]
             },
             {
               "application": [
                 {
-                  "description": "FortiClient SSL VPN for Linux: (<expression> <version>)",
+                  "description": "FortiClient SSL VPN for Linux: less equal 4.4.2335, fixed in [4.4.2336]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:linux:*:*",
                   "affected": {
                     "le": "4.4.2335"
                   },
-                  "fixed_in": "4.4.2336"
+                  "fixed_in": [
+                    "4.4.2336"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Information Disclosure"
         }
       ]
@@ -100,4 +118,3 @@
   "updated": "2018-04-20T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-214"
 }
-

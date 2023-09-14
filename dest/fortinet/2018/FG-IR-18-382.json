@@ -12,16 +12,22 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiSIEM: (<expression> <version>)",
+                  "description": "FortiSIEM: less equal 5.2.0, fixed in [5.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "5.2.0"
                   },
-                  "fixed_in": "5.2.1"
+                  "fixed_in": [
+                    "5.2.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 4.2,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
+          },
           "impact": "Information Disclosure"
         }
       ]
@@ -31,4 +37,3 @@
   "updated": "2019-03-29T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-382"
 }
-

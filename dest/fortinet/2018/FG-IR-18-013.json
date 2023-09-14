@@ -12,33 +12,34 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: less equal 3.6.8, fixed in [3.6.9, 6.0.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.6.8"
                   },
-                  "fixed_in": "3.6.9"
+                  "fixed_in": [
+                    "3.6.9",
+                    "6.0.2"
+                  ]
                 },
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "3.6.8"
-                  },
-                  "fixed_in": "6.0.2"
-                },
-                {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: greater equal 6.0.0, less equal 6.0.1, fixed in [6.0.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.1"
                   },
-                  "fixed_in": "6.0.2"
+                  "fixed_in": [
+                    "6.0.2"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 4.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Cross-site Scripting (XSS)"
         }
       ]
@@ -52,16 +53,22 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch: less equal 3.6.8, fixed in [3.6.9]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "3.6.8"
                   },
-                  "fixed_in": "3.6.9"
+                  "fixed_in": [
+                    "3.6.9"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 4.7,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N/E:X/RL:X/RC:X"
+          },
           "impact": "Cross-site Scripting (XSS)"
         }
       ]
@@ -71,4 +78,3 @@
   "updated": "2019-04-10T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-013"
 }
-

@@ -12,16 +12,21 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiWLC-SD: (<expression> <version>)",
+                  "description": "FortiWLC-SD: less equal 8.2.4, fixed in [8.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc-sd:*:*:*:*:*:*:*:*",
                   "affected": {
                     "le": "8.2.4"
                   },
-                  "fixed_in": "8.3.0"
+                  "fixed_in": [
+                    "8.3.0"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Escalation of Privilege"
         }
       ]
@@ -31,4 +36,3 @@
   "updated": "2017-04-12T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-097"
 }
-

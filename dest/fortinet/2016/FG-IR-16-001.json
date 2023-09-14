@@ -12,232 +12,120 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.5, less equal 5.0.11, fixed in 5.0.12",
+                  "description": "FortiAnalyzer: greater equal 5.0.5, less equal 5.0.11, fixed in [5.0.12, 5.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.5",
                     "le": "5.0.11"
                   },
-                  "fixed_in": "5.0.12"
+                  "fixed_in": [
+                    "5.0.12",
+                    "5.2.5"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.5, less equal 5.0.11, fixed in 5.2.5",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.5",
-                    "le": "5.0.11"
-                  },
-                  "fixed_in": "5.2.5"
-                },
-                {
-                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.4, fixed in 5.2.5",
+                  "description": "FortiAnalyzer: greater equal 5.2.0, less equal 5.2.4, fixed in [5.2.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.2.0",
                     "le": "5.2.4"
                   },
-                  "fixed_in": "5.2.5"
+                  "fixed_in": [
+                    "5.2.5"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiCache: greater equal 3.0.0, less equal 3.0.7, fixed in 3.0.8",
+                  "description": "FortiCache: greater equal 3.0.0, less equal 3.0.7, fixed in [3.0.8, 3.1.0]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.0.0",
                     "le": "3.0.7"
                   },
-                  "fixed_in": "3.0.8"
-                },
-                {
-                  "description": "FortiCache: greater equal 3.0.0, less equal 3.0.7, fixed in 3.1.0",
-                  "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "3.0.0",
-                    "le": "3.0.7"
-                  },
-                  "fixed_in": "3.1.0"
+                  "fixed_in": [
+                    "3.0.8",
+                    "3.1.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in 4.1.11",
+                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in [4.1.11, 4.2.16, 4.3.17, 5.0.8, 5.2.0, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.1.0",
                     "le": "4.1.10"
                   },
-                  "fixed_in": "4.1.11"
+                  "fixed_in": [
+                    "4.1.11",
+                    "4.2.16",
+                    "4.3.17",
+                    "5.0.8",
+                    "5.2.0",
+                    "5.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in 4.2.16",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.1.0",
-                    "le": "4.1.10"
-                  },
-                  "fixed_in": "4.2.16"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in 4.3.17",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.1.0",
-                    "le": "4.1.10"
-                  },
-                  "fixed_in": "4.3.17"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in 5.0.8",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.1.0",
-                    "le": "4.1.10"
-                  },
-                  "fixed_in": "5.0.8"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in 5.2.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.1.0",
-                    "le": "4.1.10"
-                  },
-                  "fixed_in": "5.2.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.1.0, less equal 4.1.10, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.1.0",
-                    "le": "4.1.10"
-                  },
-                  "fixed_in": "5.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.2.0, less equal 4.2.15, fixed in 4.2.16",
+                  "description": "FortiOS: greater equal 4.2.0, less equal 4.2.15, fixed in [4.2.16, 4.3.17, 5.0.8, 5.2.0, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.2.0",
                     "le": "4.2.15"
                   },
-                  "fixed_in": "4.2.16"
+                  "fixed_in": [
+                    "4.2.16",
+                    "4.3.17",
+                    "5.0.8",
+                    "5.2.0",
+                    "5.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 4.2.0, less equal 4.2.15, fixed in 4.3.17",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.2.0",
-                    "le": "4.2.15"
-                  },
-                  "fixed_in": "4.3.17"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.2.0, less equal 4.2.15, fixed in 5.0.8",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.2.0",
-                    "le": "4.2.15"
-                  },
-                  "fixed_in": "5.0.8"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.2.0, less equal 4.2.15, fixed in 5.2.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.2.0",
-                    "le": "4.2.15"
-                  },
-                  "fixed_in": "5.2.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.2.0, less equal 4.2.15, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.2.0",
-                    "le": "4.2.15"
-                  },
-                  "fixed_in": "5.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.3.0, less equal 4.3.16, fixed in 4.3.17",
+                  "description": "FortiOS: greater equal 4.3.0, less equal 4.3.16, fixed in [4.3.17, 5.0.8, 5.2.0, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.3.0",
                     "le": "4.3.16"
                   },
-                  "fixed_in": "4.3.17"
+                  "fixed_in": [
+                    "4.3.17",
+                    "5.0.8",
+                    "5.2.0",
+                    "5.4.0"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 4.3.0, less equal 4.3.16, fixed in 5.0.8",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.3.0",
-                    "le": "4.3.16"
-                  },
-                  "fixed_in": "5.0.8"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.3.0, less equal 4.3.16, fixed in 5.2.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.3.0",
-                    "le": "4.3.16"
-                  },
-                  "fixed_in": "5.2.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 4.3.0, less equal 4.3.16, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.3.0",
-                    "le": "4.3.16"
-                  },
-                  "fixed_in": "5.4.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 5.0.0, less equal 5.0.7, fixed in 5.0.8",
+                  "description": "FortiOS: greater equal 5.0.0, less equal 5.0.7, fixed in [5.0.8, 5.2.0, 5.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "le": "5.0.7"
                   },
-                  "fixed_in": "5.0.8"
-                },
-                {
-                  "description": "FortiOS: greater equal 5.0.0, less equal 5.0.7, fixed in 5.2.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "le": "5.0.7"
-                  },
-                  "fixed_in": "5.2.0"
-                },
-                {
-                  "description": "FortiOS: greater equal 5.0.0, less equal 5.0.7, fixed in 5.4.0",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "5.0.0",
-                    "le": "5.0.7"
-                  },
-                  "fixed_in": "5.4.0"
+                  "fixed_in": [
+                    "5.0.8",
+                    "5.2.0",
+                    "5.4.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSwitch: greater equal 3.3.0, less equal 3.3.2, fixed in 3.3.3",
+                  "description": "FortiSwitch: greater equal 3.3.0, less equal 3.3.2, fixed in [3.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.3.0",
                     "le": "3.3.2"
                   },
-                  "fixed_in": "3.3.3"
+                  "fixed_in": [
+                    "3.3.3"
+                  ]
                 }
               ]
             }

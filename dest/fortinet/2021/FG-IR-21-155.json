@@ -12,48 +12,60 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.17, fixed in 6.2.11, 6.4.9, 7.0.4",
+                  "description": "FortiOS: greater equal 6.0.0, less equal 6.0.17, fixed in [6.2.11, 6.4.9, 7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "le": "6.0.17"
                   },
-                  "fixed_ins": ["6.2.11", "6.4.9", "7.0.4"]
+                  "fixed_in": [
+                    "6.2.11",
+                    "6.4.9",
+                    "7.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.10, fixed in 6.2.11, 6.4.9, 7.0.4",
+                  "description": "FortiOS: greater equal 6.2.0, less equal 6.2.10, fixed in [6.2.11, 6.4.9, 7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.2.0",
                     "le": "6.2.10"
                   },
-                  "fixed_ins": ["6.2.11", "6.4.9", "7.0.4"]
+                  "fixed_in": [
+                    "6.2.11",
+                    "6.4.9",
+                    "7.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in 6.4.9, 7.0.4",
+                  "description": "FortiOS: greater equal 6.4.0, less equal 6.4.8, fixed in [6.4.9, 7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.4.0",
                     "le": "6.4.8"
                   },
-                  "fixed_ins": ["6.4.9", "7.0.4"]
+                  "fixed_in": [
+                    "6.4.9",
+                    "7.0.4"
+                  ]
                 },
                 {
-                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in 7.0.4",
+                  "description": "FortiOS: greater equal 7.0.0, less equal 7.0.3, fixed in [7.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "7.0.0",
                     "le": "7.0.3"
                   },
-                  "fixed_ins": ["7.0.4"]
+                  "fixed_in": [
+                    "7.0.4"
+                  ]
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -61,13 +73,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -75,30 +86,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiProxy: (<expression> <version>)",
+                  "description": "FortiProxy:",
                   "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiRecorder: (<expression> <version>)",
+                  "description": "FortiRecorder:",
                   "cpe": "cpe:2.3:a:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -106,13 +110,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiRecorder: (<expression> <version>)",
+                  "description": "FortiRecorder:",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -120,30 +123,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiRecorder: (<expression> <version>)",
+                  "description": "FortiRecorder:",
                   "cpe": "cpe:2.3:h:fortinet:fortirecorder-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -151,13 +147,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch:",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -165,30 +160,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiSwitch: (<expression> <version>)",
+                  "description": "FortiSwitch:",
                   "cpe": "cpe:2.3:h:fortinet:fortiswitch-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSwitch Manager: (<expression> <version>)",
+                  "description": "FortiSwitch Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch_manager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -196,16 +184,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSwitch Cloud: (<expression> <version>)",
+                  "description": "FortiSwitch Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -213,16 +199,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
+                  "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
                   "affected": {
                     "eq": "",
@@ -230,13 +214,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
+                  "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
                   "affected": {
                     "eq": "",
@@ -244,30 +227,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiVoice Enterprise: (<expression> <version>)",
+                  "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiVoice Cloud Unified Communications: (<expression> <version>)",
+                  "description": "FortiVoice Cloud Unified Communications:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice_cloud_unified_communications:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -275,8 +251,7 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
@@ -285,7 +260,9 @@
             "base_score": 4.2,
             "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:F/RL:U/RC:C"
           },
-          "cwe": "CWE-190",
+          "cwe": [
+            "CWE-190"
+          ],
           "impact": "Denial of service"
         }
       ]
@@ -295,4 +272,3 @@
   "updated": "2022-07-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-21-155"
 }
-

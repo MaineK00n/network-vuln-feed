@@ -12,53 +12,58 @@
             {
               "application": [
                 {
-                  "description": "FortiClient for Windows: (<expression> <version>)",
+                  "description": "FortiClient for Windows: less than 6.2.0, fixed in [6.2.0]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
                   "affected": {
                     "lt": "6.2.0"
                   },
-                  "fixed_in": "6.2.0"
+                  "fixed_in": [
+                    "6.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiClient for MacOS: (<expression> <version>)",
+                  "description": "FortiClient for MacOS: less than 6.2.2, fixed in [6.2.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:macos:*:*",
                   "affected": {
                     "lt": "6.2.2"
                   },
-                  "fixed_in": "6.2.2"
+                  "fixed_in": [
+                    "6.2.2"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: less than 5.6.12, fixed in [5.6.12, 6.0.8]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "5.6.12"
                   },
-                  "fixed_in": "5.6.12"
+                  "fixed_in": [
+                    "5.6.12",
+                    "6.0.8"
+                  ]
                 },
                 {
-                  "description": "FortiOS: (<expression> <version>)",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "lt": "5.6.12"
-                  },
-                  "fixed_in": "6.0.8"
-                },
-                {
-                  "description": "FortiOS: (<expression> <version>)",
+                  "description": "FortiOS: greater equal 6.0.0, less than 6.0.8, fixed in [6.0.8]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "6.0.0",
                     "lt": "6.0.8"
                   },
-                  "fixed_in": "6.0.8"
+                  "fixed_in": [
+                    "6.0.8"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 6.2,
+            "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+          },
           "impact": "Information disclosure"
         }
       ]
@@ -68,4 +73,3 @@
   "updated": "2019-12-05T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-18-100"
 }
-

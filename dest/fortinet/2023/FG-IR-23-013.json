@@ -12,61 +12,73 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiNAC-F: equal 7.2.0, fixed in 7.2.1",
+                  "description": "FortiNAC-F: equal 7.2.0, fixed in [7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac-f:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "7.2.0"
                   },
-                  "fixed_in": "7.2.1"
+                  "fixed_in": [
+                    "7.2.1"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiNAC: greater equal 9.4.0, less equal 9.4.2, fixed in 9.4.3",
+                  "description": "FortiNAC: greater equal 9.4.0, less equal 9.4.2, fixed in [9.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "9.4.0",
                     "le": "9.4.2"
                   },
-                  "fixed_in": "9.4.3"
+                  "fixed_in": [
+                    "9.4.3"
+                  ]
                 },
                 {
-                  "description": "FortiNAC: equal 9.2.0, less equal 9.2.8, fixed in 9.4.3",
+                  "description": "FortiNAC: greater equal 9.2.0, less equal 9.2.8, fixed in [9.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "9.2.0",
                     "le": "9.2.8"
                   },
-                  "fixed_in": "9.4.3"
+                  "fixed_in": [
+                    "9.4.3"
+                  ]
                 },
                 {
-                  "description": "FortiNAC: greater equal 9.1.0, less equal 9.1.10, fixed in 9.4.3",
+                  "description": "FortiNAC: greater equal 9.1.0, less equal 9.1.10, fixed in [9.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "9.1.0",
                     "le": "9.1.10"
                   },
-                  "fixed_in": "9.4.3"
+                  "fixed_in": [
+                    "9.4.3"
+                  ]
                 },
                 {
-                  "description": "FortiNAC: greater equal 8.8.0, less equal 8.8.11, fixed in 9.4.3",
+                  "description": "FortiNAC: greater equal 8.8.0, less equal 8.8.11, fixed in [9.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.8.0",
                     "le": "8.8.11"
                   },
-                  "fixed_in": "9.4.3"
+                  "fixed_in": [
+                    "9.4.3"
+                  ]
                 },
                 {
-                  "description": "FortiNAC: greater equal 8.7.0, less equal 8.7.6, fixed in 9.4.3",
+                  "description": "FortiNAC: greater equal 8.7.0, less equal 8.7.6, fixed in [9.4.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "8.7.0",
                     "le": "8.7.6"
                   },
-                  "fixed_in": "9.4.3"
+                  "fixed_in": [
+                    "9.4.3"
+                  ]
                 }
               ]
             }
@@ -75,7 +87,9 @@
             "base_score": 5.9,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
           },
-          "cwe": "CWE-79",
+          "cwe": [
+            "CWE-79"
+          ],
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -85,4 +99,3 @@
   "updated": "2023-04-13T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-23-013"
 }
-

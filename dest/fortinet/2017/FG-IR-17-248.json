@@ -12,16 +12,21 @@
             {
               "application": [
                 {
-                  "description": "FortiWeb Manager: (<expression> <version>)",
-                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:5.8.0:*:*:*:*:*:*:*",
+                  "description": "FortiWeb Manager: equal 5.8.0, fixed in [5.8.1]",
+                  "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "5.8.0"
                   },
-                  "fixed_in": "5.8.1"
+                  "fixed_in": [
+                    "5.8.1"
+                  ]
                 }
               ]
             }
           ],
+          "cvssv3": {
+            "base_score": 0
+          },
           "impact": "Improper Access Control"
         }
       ]
@@ -31,4 +36,3 @@
   "updated": "2017-11-22T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-17-248"
 }
-

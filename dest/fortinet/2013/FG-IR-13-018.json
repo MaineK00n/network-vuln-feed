@@ -12,22 +12,26 @@
             {
               "application": [
                 {
-                  "description": "FortiAnalyzer: greater equal 4.0.0, less than 4.3.7, fixed in 4.3.7",
+                  "description": "FortiAnalyzer: greater equal 4.0.0, less than 4.3.7, fixed in [4.3.7]",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.0.0",
                     "lt": "4.3.7"
                   },
-                  "fixed_in": "4.3.7"
+                  "fixed_in": [
+                    "4.3.7"
+                  ]
                 },
                 {
-                  "description": "FortiAnalyzer: greater equal 5.0.0, less than 5.0.5, fixed in 5.0.5",
+                  "description": "FortiAnalyzer: greater equal 5.0.0, less than 5.0.5, fixed in [5.0.5]",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "5.0.0",
                     "lt": "5.0.5"
                   },
-                  "fixed_in": "5.0.5"
+                  "fixed_in": [
+                    "5.0.5"
+                  ]
                 }
               ]
             }
@@ -51,4 +55,3 @@
   "updated": "2013-11-22T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-13-018"
 }
-

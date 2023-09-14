@@ -11,12 +11,14 @@
             {
               "application": [
                 {
-                  "description": "FortiGate Cloud: equal 4.4",
+                  "description": "FortiGate Cloud: equal 4.4, fixed in [20.1]",
                   "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "4.4"
                   },
-                  "fixed_in": "20.1"
+                  "fixed_in": [
+                    "20.1"
+                  ]
                 }
               ]
             }
@@ -34,4 +36,3 @@
   "updated": "2020-05-25T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-306"
 }
-

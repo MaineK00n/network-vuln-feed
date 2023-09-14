@@ -12,112 +12,153 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiDeceptor version 4.1.0",
+                  "description": "FortiDeceptor: equal 4.1.0, fixed in [4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "4.1.0"
                   },
-                  "fixed_ins": ["4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor version 4.0.0 through 4.0.2",
+                  "description": "FortiDeceptor: greater equal 4.0.0, less than 4.0.2, fixed in [4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.0.0",
                     "lt": "4.0.2"
                   },
-                  "fixed_ins": ["4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor version 3.3.0 through 3.3.3",
+                  "description": "FortiDeceptor: greater equal 3.3.0, less than 3.3.3, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.3.0",
                     "lt": "3.3.3"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 3.2 all versions",
+                  "description": "FortiDeceptor: greater equal 3.2.0, less equal 3.2.2, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.2.0",
                     "le": "3.2.2"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 3.1 all versions",
+                  "description": "FortiDeceptor: greater equal 3.1.1, less equal 3.1.0, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.1.1",
                     "le": "3.1.0"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 3.0 all versions",
+                  "description": "FortiDeceptor: greater equal 3.0.2, less equal 3.0.0, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "3.0.2",
                     "le": "3.0.0"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 2.1 all versions",
+                  "description": "FortiDeceptor: equal 2.1.0, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "2.1.0"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 2.0 all versions",
+                  "description": "FortiDeceptor: equal 2.0.0, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "2.0.0"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 1.1 all versions",
+                  "description": "FortiDeceptor: equal 1.1.0, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "1.1.0"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 },
                 {
-                  "description": "FortiDeceptor 1.0 all versions",
+                  "description": "FortiDeceptor: greater equal 1.0.0, less equal 1.0.1, fixed in [3.3.3, 4.0.2, 4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "1.0.0",
                     "le": "1.0.1"
                   },
-                  "fixed_ins": ["3.3.3", "4.0.2", "4.1.1", "4.2.0"]
+                  "fixed_in": [
+                    "3.3.3",
+                    "4.0.2",
+                    "4.1.1",
+                    "4.2.0"
+                  ]
                 }
               ]
             },
             {
               "operating_system": [
                 {
-                  "description": "FortiSandbox version 4.2.0 through 4.2.2",
+                  "description": "FortiSandbox: greater equal 4.2.0, less equal 4.2.2, fixed in [4.2.3, 4.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
                   "affected": {
                     "ge": "4.2.0",
                     "le": "4.2.2"
                   },
-                  "fixed_in": "4.2.3"
-                },
-                {
-                  "description": "FortiSandbox version 4.0.0 through 4.0.2",
-                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "ge": "4.2.0",
-                    "le": "4.2.2"
-                  },
-                  "fixed_in": "4.2.3"
+                  "fixed_in": [
+                    "4.2.3",
+                    "4.2.3"
+                  ]
                 }
               ]
             }
@@ -126,7 +167,9 @@
             "base_score": 8.3,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
           },
-          "cwe": "CWE-269",
+          "cwe": [
+            "CWE-269"
+          ],
           "impact": "Execute unauthorized code or commands"
         }
       ]
@@ -136,4 +179,3 @@
   "updated": "2023-04-11T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-22-056"
 }
-

@@ -2,20 +2,17 @@
   "id": "FG-IR-20-126",
   "title": "FortiWeb is vulnerable to a buffer overflow",
   "summary": "A stack-based buffer overflow vulnerability in FortiWeb may allow a remote, unauthenticated attacker to crash the httpd daemon thread by sending a request with a crafted cookie header.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-126",
       "cve": "CVE-2020-29019",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb:",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiWeb: (<expression> <version>)",
+                  "description": "FortiWeb:",
                   "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb Manager: (<expression> <version>)",
+                  "description": "FortiWeb Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,16 +57,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiWeb Cloud: (<expression> <version>)",
+                  "description": "FortiWeb Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -85,29 +72,20 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
-            "base_score": 6.4,
-            "temporal_score": null,
-            "environmental_score": null,
-            "vector": ""
+            "base_score": 6.4
           },
-          "cwe": null,
-          "impact": "Denial of service",
-          "exploit_status": ""
+          "impact": "Denial of service"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-01-04T00:00:00Z",
   "updated": "2021-01-04T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-126"
 }
-

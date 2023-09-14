@@ -11,12 +11,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiOS: equal 6.2.0, fixed in 6.2.1",
+                  "description": "FortiOS: equal 6.2.0, fixed in [6.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "6.2.0"
                   },
-                  "fixed_ins": ["6.2.1"]
+                  "fixed_in": [
+                    "6.2.1"
+                  ]
                 }
               ]
             }
@@ -34,4 +36,3 @@
   "updated": "2019-07-24T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-111"
 }
-

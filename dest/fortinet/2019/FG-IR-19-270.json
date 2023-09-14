@@ -2,20 +2,17 @@
   "id": "FG-IR-19-270",
   "title": "XSS vulnerability in the URL Description of URL filter",
   "summary": "An improper neutralization of input vulnerability in the URL Description of FortiIsolator may allow a remote authenticated attacker to perform a stored cross site scripting attack (XSS) via a parameter of the request.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-19-270",
       "cve": "CVE-2020-6643",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiIsolator: (<expression> <version>)",
+                  "description": "FortiIsolator:",
                   "cpe": "cpe:2.3:a:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiIsolator: (<expression> <version>)",
+                  "description": "FortiIsolator:",
                   "cpe": "cpe:2.3:o:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,38 +33,30 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiIsolator: (<expression> <version>)",
+                  "description": "FortiIsolator:",
                   "cpe": "cpe:2.3:h:fortinet:fortiisolator-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
-          "cvssv3": null,
-          "cwe": null,
-          "impact": "Unauthorized code execution",
-          "exploit_status": ""
+          "cvssv3": {
+            "base_score": 4,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:N/E:F/RL:X/RC:X"
+          },
+          "impact": "Unauthorized code execution"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2020-03-09T00:00:00Z",
   "updated": "2020-03-09T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-19-270"
 }
-

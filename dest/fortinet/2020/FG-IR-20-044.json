@@ -2,20 +2,17 @@
   "id": "FG-IR-20-044",
   "title": "Multiple Products - Retrieval of sensitive information in cleartext via GUI",
   "summary": "A cleartext storage of sensitive information in the GUI of FortiADC, FortiSIEM, FortiDDoS, FortiDDoS-CM and FortiDDoS-F may allow a remote authenticated attacker to retrieve some sensitive information such as users LDAP passwords, RADIUS shared secret and the Elastic Cloud database password by deobfuscating the passwords entry fields.",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-20-044",
       "cve": "CVE-2020-15935",
-      "description": "",
       "definitions": [
         {
           "configurations": [
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC:",
                   "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -23,13 +20,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC:",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -37,30 +33,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiADC: (<expression> <version>)",
+                  "description": "FortiADC:",
                   "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiADC Manager: (<expression> <version>)",
+                  "description": "FortiADC Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -68,16 +57,14 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiDDoS: (<expression> <version>)",
+                  "description": "FortiDDoS:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -85,13 +72,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiDDoS: (<expression> <version>)",
+                  "description": "FortiDDoS:",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -99,30 +85,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiDDoS: (<expression> <version>)",
+                  "description": "FortiDDoS:",
                   "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiDDoS-F: (<expression> <version>)",
+                  "description": "FortiDDoS-F:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -130,13 +109,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiDDoS-F: (<expression> <version>)",
+                  "description": "FortiDDoS-F:",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -144,30 +122,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiDDoS-F: (<expression> <version>)",
+                  "description": "FortiDDoS-F:",
                   "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiDDoS-CM: (<expression> <version>)",
+                  "description": "FortiDDoS-CM:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -175,13 +146,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiDDoS-CM: (<expression> <version>)",
+                  "description": "FortiDDoS-CM:",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -189,30 +159,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiDDoS-CM: (<expression> <version>)",
+                  "description": "FortiDDoS-CM:",
                   "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSIEM: (<expression> <version>)",
+                  "description": "FortiSIEM:",
                   "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -220,13 +183,12 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "operating_system": [
                 {
-                  "description": "FortiSIEM: (<expression> <version>)",
+                  "description": "FortiSIEM:",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -234,30 +196,23 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ],
               "hardware": [
                 {
-                  "description": "FortiSIEM: (<expression> <version>)",
+                  "description": "FortiSIEM:",
                   "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
                   "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
-                  },
-                  "fixed_in": ""
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "",
               "application": [
                 {
-                  "description": "FortiSIEMWindowsAgent: (<expression> <version>)",
+                  "description": "FortiSIEMWindowsAgent:",
                   "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "",
@@ -265,29 +220,21 @@
                     "ge": "",
                     "lt": "",
                     "le": ""
-                  },
-                  "fixed_in": ""
+                  }
                 }
               ]
             }
           ],
-          "cvssv2": null,
           "cvssv3": {
             "base_score": 4.2,
-            "temporal_score": null,
-            "environmental_score": null,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
           },
-          "cwe": null,
-          "impact": "Information disclosure",
-          "exploit_status": ""
+          "impact": "Information disclosure"
         }
       ]
     }
   ],
-  "references": null,
   "published": "2021-11-02T00:00:00Z",
   "updated": "2021-11-02T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-20-044"
 }
-

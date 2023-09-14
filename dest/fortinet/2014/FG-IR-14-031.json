@@ -1,13 +1,10 @@
 {
   "id": "FG-IR-14-031",
   "title": "SSL v3 \"POODLE\" Vulnerability",
-  "summary": "",
-  "description": "",
   "vulnerabilities": [
     {
       "id": "FG-IR-14-031",
       "cve": "CVE-2014-3566",
-      "description": "",
       "definitions": [
         {
           "configurations": [
@@ -91,12 +88,14 @@
             {
               "operating_system": [
                 {
-                  "description": "FortiDDoS: less than 4.1.3, fixed in 4.1.3",
+                  "description": "FortiDDoS: less than 4.1.3, fixed in [4.1.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
                   "affected": {
                     "lt": "4.1.3"
                   },
-                  "fixed_in": "4.1.3"
+                  "fixed_in": [
+                    "4.1.3"
+                  ]
                 }
               ]
             },
@@ -219,4 +218,3 @@
   "updated": "2014-10-15T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-14-031"
 }
-

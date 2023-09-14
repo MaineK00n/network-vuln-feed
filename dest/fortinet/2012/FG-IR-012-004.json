@@ -13,53 +13,81 @@
               "hardware": [
                 {
                   "description": "FortiGate: equal FortiGate 5020",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5020:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5020:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5060",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5060:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5060:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5140B",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5140b:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5140b:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5144C",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5144c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5144c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5001B",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001b:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001b:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5001C",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5101C",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5101c:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5101c:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 },
                 {
                   "description": "FortiGate: equal FortiGate 5001D",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001d:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-5001d:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "FortiGate: equal FortiGate 3950B",
               "hardware": [
                 {
                   "description": "FortiGate: equal FortiGate 3950B",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-3950b:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-3950b:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             },
             {
-              "description": "FortiGate: equal FortiGate-3810A",
               "hardware": [
                 {
                   "description": "FortiGate: equal FortiGate-3810A",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-3810a:-:*:*:*:*:*:*:*"
+                  "cpe": "cpe:2.3:h:fortinet:fortigate-3810a:-:*:*:*:*:*:*:*",
+                  "affected": {
+                    "eq": "NA"
+                  }
                 }
               ]
             }
@@ -87,4 +115,3 @@
   "updated": "2012-09-14T00:00:00Z",
   "advisory_url": "https://www.fortiguard.com/psirt/FG-IR-012-004"
 }
-
