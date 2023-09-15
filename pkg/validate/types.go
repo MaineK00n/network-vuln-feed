@@ -1,0 +1,62 @@
+package validate
+
+import "time"
+
+type Advisory struct {
+	ID              string          `json:"id"`
+	Title           string          `json:"title"`
+	Summary         string          `json:"summary"`
+	Description     string          `json:"description"`
+	Vulnerabilities []Vulnerability `json:"vulnerabilities"`
+	References      []Reference     `json:"references"`
+	Published       time.Time       `json:"published"`
+	Updated         time.Time       `json:"updated"`
+	AdvisoryURL     string          `json:"advisory_url"`
+}
+
+type Vulnerability struct {
+	ID          string       `json:"id"`
+	CVE         string       `json:"cve"`
+	Definitions []Definition `json:"definitions"`
+}
+
+type Definition struct {
+	Configurations []Configurations `json:"configurations"`
+	CVSSv2         *CVSS            `json:"cvssv2"`
+	CVSSv3         *CVSS            `json:"cvssv3"`
+	CWE            []string         `json:"cwe"`
+	Impact         string           `json:"impact"`
+	ExploitStatus  string           `json:"exploit_status"`
+}
+
+type Configurations struct {
+	Nodes    []Element       `json:"nodes"`
+	Children *Configurations `json:"children"`
+}
+
+type Element struct {
+	Description string     `json:"description"`
+	CPE         string     `json:"cpe"`
+	Affected    Expression `json:"affected"`
+	FixedIn     []string   `json:"fixed_in"`
+}
+
+type Expression struct {
+	Eqaul        *string `json:"eq,omitempty"`
+	GreaterThan  *string `json:"gt,omitempty"`
+	GreaterEqaul *string `json:"ge,omitempty"`
+	LessThan     *string `json:"lt,omitempty"`
+	LessEqual    *string `json:"le,omitempty"`
+}
+
+type CVSS struct {
+	BaseScore          *float64 `json:"base_score"`
+	TemporalScore      *float64 `json:"temporal_score"`
+	EnvironmentalScore *float64 `json:"environmental_score"`
+	Vector             string   `json:"vector"`
+}
+
+type Reference struct {
+	Description string `json:"description"`
+	URL         string `json:"url"`
+}
