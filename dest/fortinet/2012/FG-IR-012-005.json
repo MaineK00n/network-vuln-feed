@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "hardware": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal FortiMail 200D",
                   "cpe": "cpe:2.3:h:fortinet:fortimail-200d:-:*:*:*:*:*:*:*",

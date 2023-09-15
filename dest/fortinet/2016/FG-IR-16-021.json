@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient: less equal 5.4.0, fixed in [5.4.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",

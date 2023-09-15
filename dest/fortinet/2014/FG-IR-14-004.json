@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: less equal 3.2.0, fixed in [3.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -22,57 +22,59 @@
                   ]
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiADC: equal FortiADC 200D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiADC: equal FortiADC 200D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 300D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 400D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 700D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 1500D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 2000D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 4000D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 300D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 400D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 700D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 1500D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 2000D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 4000D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Cross Site Scripting"

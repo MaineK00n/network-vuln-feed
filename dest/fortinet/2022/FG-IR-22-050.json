@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: greater equal 6.3.0, less equal 6.3.3, fixed in [6.4.2, 6.5.0, 6.3.4, 6.4.2, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -29,7 +29,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.3, fixed in [7.0.4, 7.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -45,7 +45,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSIEM: greater equal 6.1.0, less equal 6.1.2, fixed in [6.4.1, 6.5.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",

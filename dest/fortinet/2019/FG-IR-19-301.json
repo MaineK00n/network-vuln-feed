@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 6.2.0, less equal 6.2.9, fixed in [6.2.10, 6.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for iOS: less than 5.2.1, fixed in [5.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
@@ -45,7 +45,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for iOS: less than 5.2.1, fixed in [5.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",
@@ -80,7 +80,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for iOS: less than 5.2.1, fixed in [5.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:ios:*:*",

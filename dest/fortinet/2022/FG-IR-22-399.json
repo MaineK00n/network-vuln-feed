@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiADC:",
                   "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -24,31 +24,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiADC:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiADC:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiADC:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiADC:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiADC Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
@@ -63,7 +67,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAI:",
                   "cpe": "cpe:2.3:a:fortinet:fortiai:*:*:*:*:*:*:*:*",
@@ -76,31 +80,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAI:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiai:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAI:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiai:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAI:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiai-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAI:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiai-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAIOps:",
                   "cpe": "cpe:2.3:a:fortinet:fortiaiops:*:*:*:*:*:*:*:*",
@@ -115,7 +123,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -128,31 +136,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAnalyzer:",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAnalyzer:",
+                    "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAnalyzer:",
+                      "cpe": "cpe:2.3:h:fortinet:fortianalyzer-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAnalyzer:",
-                  "cpe": "cpe:2.3:h:fortinet:fortianalyzer-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer-BigData:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
@@ -165,31 +177,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAnalyzer-BigData:",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAnalyzer-BigData:",
+                    "cpe": "cpe:2.3:o:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAnalyzer-BigData:",
+                      "cpe": "cpe:2.3:h:fortinet:fortianalyzer-bigdata-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAnalyzer-BigData:",
-                  "cpe": "cpe:2.3:h:fortinet:fortianalyzer-bigdata-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer_cloud:*:*:*:*:*:*:*:*",
@@ -204,7 +220,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -217,31 +233,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
@@ -254,31 +274,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-C:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-C:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-C:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-C:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
@@ -291,31 +315,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-S:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-S:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-S:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-S:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
@@ -328,31 +356,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-U:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-U:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-U:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-U:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -365,31 +397,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-W2:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-W2:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-W2:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-W2:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
@@ -404,7 +440,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator:",
                   "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -417,31 +453,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAuthenticator:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAuthenticator:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAuthenticator:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAuthenticator:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCASB:",
                   "cpe": "cpe:2.3:a:fortinet:forticasb:*:*:*:*:*:*:*:*",
@@ -456,7 +496,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -526,7 +566,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -541,7 +581,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -556,7 +596,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
@@ -571,7 +611,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticloud:*:*:*:*:*:*:*:*",
@@ -586,7 +626,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiConnect:",
                   "cpe": "cpe:2.3:a:fortinet:forticonnect:*:*:*:*:*:*:*:*",
@@ -601,7 +641,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiConverter:",
                   "cpe": "cpe:2.3:a:fortinet:forticonverter:*:*:*:*:*:*:*:*",
@@ -616,7 +656,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCWP:",
                   "cpe": "cpe:2.3:a:fortinet:forticwp:*:*:*:*:*:*:*:*",
@@ -631,7 +671,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDDoS:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -644,31 +684,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDDoS:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDDoS:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDDoS-F:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
@@ -681,31 +725,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS-F:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDDoS-F:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDDoS-F:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS-F:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDDoS-CM:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
@@ -718,31 +766,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS-CM:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDDoS-CM:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDDoS-CM:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS-CM:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDeceptor:",
                   "cpe": "cpe:2.3:a:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
@@ -755,31 +807,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDeceptor:",
-                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDeceptor:",
+                    "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDeceptor:",
+                      "cpe": "cpe:2.3:h:fortinet:fortideceptor-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDeceptor:",
-                  "cpe": "cpe:2.3:h:fortinet:fortideceptor-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiEDR:",
                   "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
@@ -794,7 +850,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiEDR Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
@@ -809,7 +865,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExtender:",
                   "cpe": "cpe:2.3:a:fortinet:fortiextender:*:*:*:*:*:*:*:*",
@@ -822,31 +878,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiExtender:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiExtender:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiExtender:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiExtender:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExtender Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiextender_cloud:*:*:*:*:*:*:*:*",
@@ -861,7 +921,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiFone:",
                   "cpe": "cpe:2.3:a:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -874,31 +934,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiFone:",
-                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiFone:",
+                    "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiFone:",
+                      "cpe": "cpe:2.3:h:fortinet:fortifone-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiFone:",
-                  "cpe": "cpe:2.3:h:fortinet:fortifone-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiGate Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
@@ -913,7 +977,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiInsight:",
                   "cpe": "cpe:2.3:a:fortinet:fortiinsight:*:*:*:*:*:*:*:*",
@@ -928,7 +992,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiIsolator:",
                   "cpe": "cpe:2.3:a:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
@@ -941,31 +1005,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiIsolator:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiIsolator:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiIsolator:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiisolator-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiIsolator:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiisolator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiLAN Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortilan_cloud:*:*:*:*:*:*:*:*",
@@ -980,7 +1048,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiMail:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -993,31 +1061,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiMail:",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiMail:",
+                    "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiMail:",
+                      "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiMail:",
-                  "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiMail Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
@@ -1032,7 +1104,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiManager:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -1045,31 +1117,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiManager:",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiManager:",
+                    "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiManager:",
+                      "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiManager:",
-                  "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiManager Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager_cloud:*:*:*:*:*:*:*:*",
@@ -1084,7 +1160,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiNDR:",
                   "cpe": "cpe:2.3:a:fortinet:fortindr:*:*:*:*:*:*:*:*",
@@ -1097,31 +1173,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiNDR:",
-                  "cpe": "cpe:2.3:o:fortinet:fortindr:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiNDR:",
+                    "cpe": "cpe:2.3:o:fortinet:fortindr:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiNDR:",
+                      "cpe": "cpe:2.3:h:fortinet:fortindr-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiNDR:",
-                  "cpe": "cpe:2.3:h:fortinet:fortindr-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPenTest:",
                   "cpe": "cpe:2.3:a:fortinet:fortipentest:*:*:*:*:*:*:*:*",
@@ -1136,7 +1216,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPhish:",
                   "cpe": "cpe:2.3:a:fortinet:fortiphish:*:*:*:*:*:*:*:*",
@@ -1151,7 +1231,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPhish Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiphish_cloud:*:*:*:*:*:*:*:*",
@@ -1166,7 +1246,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPolicy:",
                   "cpe": "cpe:2.3:a:fortinet:fortipolicy:*:*:*:*:*:*:*:*",
@@ -1181,7 +1261,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPortal:",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
@@ -1196,7 +1276,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -1209,31 +1289,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiProxy:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiProxy:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiRecorder:",
                   "cpe": "cpe:2.3:a:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -1246,31 +1330,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiRecorder:",
-                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiRecorder:",
+                    "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiRecorder:",
+                      "cpe": "cpe:2.3:h:fortinet:fortirecorder-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiRecorder:",
-                  "cpe": "cpe:2.3:h:fortinet:fortirecorder-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSandbox:",
                   "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -1283,31 +1371,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiSandbox:",
-                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSandbox:",
+                    "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiSandbox:",
+                      "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSandbox:",
-                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSandbox Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
@@ -1322,7 +1414,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSASE:",
                   "cpe": "cpe:2.3:a:fortinet:fortisase:*:*:*:*:*:*:*:*",
@@ -1337,7 +1429,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSIEM:",
                   "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
@@ -1350,31 +1442,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiSIEM:",
-                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSIEM:",
+                    "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiSIEM:",
+                      "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSIEM:",
-                  "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSIEMWindowsAgent:",
                   "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
@@ -1389,7 +1485,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSOAR:",
                   "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
@@ -1404,7 +1500,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSwitch:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -1417,31 +1513,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiSwitch:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSwitch:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiSwitch:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiswitch-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSwitch:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSwitch Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch_manager:*:*:*:*:*:*:*:*",
@@ -1456,7 +1556,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSwitch Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch_cloud:*:*:*:*:*:*:*:*",
@@ -1471,7 +1571,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenAndroid:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:android:*:*",
@@ -1508,7 +1608,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiToken Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_cloud:*:*:*:*:*:*:*:*",
@@ -1523,7 +1623,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -1536,31 +1636,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiVoice Enterprise:",
-                  "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiVoice Enterprise:",
+                    "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiVoice Enterprise:",
+                      "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiVoice Enterprise:",
-                  "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiVoice Cloud Unified Communications:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice_cloud_unified_communications:*:*:*:*:*:*:*:*",
@@ -1575,7 +1679,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -1588,31 +1692,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWeb:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWeb:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWeb:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWeb:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
@@ -1627,7 +1735,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
@@ -1642,7 +1750,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWLC:",
                   "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -1655,31 +1763,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWLC:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWLC:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWLC:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWLC:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWLM:",
                   "cpe": "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
@@ -1692,28 +1804,32 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWLM:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWLM:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWLM:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWLM:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             }
           ],
           "cvssv3": {
@@ -1731,7 +1847,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiADC:",
                   "cpe": "cpe:2.3:a:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -1744,31 +1860,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiADC:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiADC:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiADC:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiADC:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiADC Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiadc_manager:*:*:*:*:*:*:*:*",
@@ -1783,7 +1903,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAI:",
                   "cpe": "cpe:2.3:a:fortinet:fortiai:*:*:*:*:*:*:*:*",
@@ -1796,31 +1916,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAI:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiai:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAI:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiai:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAI:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiai-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAI:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiai-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAIOps:",
                   "cpe": "cpe:2.3:a:fortinet:fortiaiops:*:*:*:*:*:*:*:*",
@@ -1835,7 +1959,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -1848,31 +1972,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAnalyzer:",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAnalyzer:",
+                    "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAnalyzer:",
+                      "cpe": "cpe:2.3:h:fortinet:fortianalyzer-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAnalyzer:",
-                  "cpe": "cpe:2.3:h:fortinet:fortianalyzer-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer-BigData:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
@@ -1885,31 +2013,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAnalyzer-BigData:",
-                  "cpe": "cpe:2.3:o:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAnalyzer-BigData:",
+                    "cpe": "cpe:2.3:o:fortinet:fortianalyzer-bigdata:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAnalyzer-BigData:",
+                      "cpe": "cpe:2.3:h:fortinet:fortianalyzer-bigdata-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAnalyzer-BigData:",
-                  "cpe": "cpe:2.3:h:fortinet:fortianalyzer-bigdata-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortianalyzer_cloud:*:*:*:*:*:*:*:*",
@@ -1924,7 +2056,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -1937,31 +2069,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-C:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
@@ -1974,31 +2110,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-C:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-C:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-c:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-C:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-C:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-c:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-S:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
@@ -2011,31 +2151,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-S:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-S:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-S:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-S:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-s:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-U:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
@@ -2048,31 +2192,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-U:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-U:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-u:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-U:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-U:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-u:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -2085,31 +2233,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAP-W2:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-W2:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAP-W2:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAP-W2:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-w2:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAP Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiap_cloud:*:*:*:*:*:*:*:*",
@@ -2124,7 +2276,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator:",
                   "cpe": "cpe:2.3:a:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -2137,31 +2289,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiAuthenticator:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAuthenticator:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiAuthenticator:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiAuthenticator:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiauthenticator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCASB:",
                   "cpe": "cpe:2.3:a:fortinet:forticasb:*:*:*:*:*:*:*:*",
@@ -2176,7 +2332,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -2246,7 +2402,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -2261,7 +2417,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -2276,7 +2432,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_cloud:*:*:*:*:*:*:*:*",
@@ -2291,7 +2447,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCloud:",
                   "cpe": "cpe:2.3:a:fortinet:forticloud:*:*:*:*:*:*:*:*",
@@ -2306,7 +2462,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiConnect:",
                   "cpe": "cpe:2.3:a:fortinet:forticonnect:*:*:*:*:*:*:*:*",
@@ -2321,7 +2477,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiConverter:",
                   "cpe": "cpe:2.3:a:fortinet:forticonverter:*:*:*:*:*:*:*:*",
@@ -2336,7 +2492,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCWP:",
                   "cpe": "cpe:2.3:a:fortinet:forticwp:*:*:*:*:*:*:*:*",
@@ -2351,7 +2507,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDDoS:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -2364,31 +2520,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDDoS:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDDoS:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDDoS-F:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
@@ -2401,31 +2561,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS-F:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDDoS-F:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiddos-f:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDDoS-F:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS-F:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDDoS-CM:",
                   "cpe": "cpe:2.3:a:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
@@ -2438,31 +2602,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDDoS-CM:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDDoS-CM:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiddos-cm:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDDoS-CM:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDDoS-CM:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiddos-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDeceptor:",
                   "cpe": "cpe:2.3:a:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
@@ -2475,31 +2643,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiDeceptor:",
-                  "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDeceptor:",
+                    "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiDeceptor:",
+                      "cpe": "cpe:2.3:h:fortinet:fortideceptor-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiDeceptor:",
-                  "cpe": "cpe:2.3:h:fortinet:fortideceptor-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiEDR:",
                   "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
@@ -2514,7 +2686,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiEDR Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",
@@ -2529,7 +2701,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExtender:",
                   "cpe": "cpe:2.3:a:fortinet:fortiextender:*:*:*:*:*:*:*:*",
@@ -2542,31 +2714,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiExtender:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiExtender:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiExtender:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiExtender:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExtender Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiextender_cloud:*:*:*:*:*:*:*:*",
@@ -2581,7 +2757,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiFone:",
                   "cpe": "cpe:2.3:a:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -2594,31 +2770,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiFone:",
-                  "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiFone:",
+                    "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiFone:",
+                      "cpe": "cpe:2.3:h:fortinet:fortifone-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiFone:",
-                  "cpe": "cpe:2.3:h:fortinet:fortifone-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiGate Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortigate_cloud:*:*:*:*:*:*:*:*",
@@ -2633,7 +2813,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiInsight:",
                   "cpe": "cpe:2.3:a:fortinet:fortiinsight:*:*:*:*:*:*:*:*",
@@ -2648,7 +2828,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiIsolator:",
                   "cpe": "cpe:2.3:a:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
@@ -2661,31 +2841,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiIsolator:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiIsolator:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiisolator:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiIsolator:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiisolator-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiIsolator:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiisolator-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiLAN Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortilan_cloud:*:*:*:*:*:*:*:*",
@@ -2700,7 +2884,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiMail:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -2713,31 +2897,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiMail:",
-                  "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiMail:",
+                    "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiMail:",
+                      "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiMail:",
-                  "cpe": "cpe:2.3:h:fortinet:fortimail-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiMail Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimail_cloud:*:*:*:*:*:*:*:*",
@@ -2752,7 +2940,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiManager:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -2765,31 +2953,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiManager:",
-                  "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiManager:",
+                    "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiManager:",
+                      "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiManager:",
-                  "cpe": "cpe:2.3:h:fortinet:fortimanager-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiManager Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortimanager_cloud:*:*:*:*:*:*:*:*",
@@ -2804,7 +2996,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiNDR:",
                   "cpe": "cpe:2.3:a:fortinet:fortindr:*:*:*:*:*:*:*:*",
@@ -2817,31 +3009,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiNDR:",
-                  "cpe": "cpe:2.3:o:fortinet:fortindr:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiNDR:",
+                    "cpe": "cpe:2.3:o:fortinet:fortindr:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiNDR:",
+                      "cpe": "cpe:2.3:h:fortinet:fortindr-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiNDR:",
-                  "cpe": "cpe:2.3:h:fortinet:fortindr-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPenTest:",
                   "cpe": "cpe:2.3:a:fortinet:fortipentest:*:*:*:*:*:*:*:*",
@@ -2856,7 +3052,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPhish:",
                   "cpe": "cpe:2.3:a:fortinet:fortiphish:*:*:*:*:*:*:*:*",
@@ -2871,7 +3067,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPhish Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiphish_cloud:*:*:*:*:*:*:*:*",
@@ -2886,7 +3082,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPolicy:",
                   "cpe": "cpe:2.3:a:fortinet:fortipolicy:*:*:*:*:*:*:*:*",
@@ -2901,7 +3097,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPortal:",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
@@ -2916,7 +3112,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -2929,31 +3125,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiProxy:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiProxy:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiRecorder:",
                   "cpe": "cpe:2.3:a:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -2966,31 +3166,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiRecorder:",
-                  "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiRecorder:",
+                    "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiRecorder:",
+                      "cpe": "cpe:2.3:h:fortinet:fortirecorder-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiRecorder:",
-                  "cpe": "cpe:2.3:h:fortinet:fortirecorder-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSandbox:",
                   "cpe": "cpe:2.3:a:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -3003,31 +3207,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiSandbox:",
-                  "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSandbox:",
+                    "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiSandbox:",
+                      "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSandbox:",
-                  "cpe": "cpe:2.3:h:fortinet:fortisandbox-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSandbox Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortisandbox_cloud:*:*:*:*:*:*:*:*",
@@ -3042,7 +3250,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSASE:",
                   "cpe": "cpe:2.3:a:fortinet:fortisase:*:*:*:*:*:*:*:*",
@@ -3057,7 +3265,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSIEM:",
                   "cpe": "cpe:2.3:a:fortinet:fortisiem:*:*:*:*:*:*:*:*",
@@ -3070,31 +3278,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiSIEM:",
-                  "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSIEM:",
+                    "cpe": "cpe:2.3:o:fortinet:fortisiem:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiSIEM:",
+                      "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSIEM:",
-                  "cpe": "cpe:2.3:h:fortinet:fortisiem-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSIEMWindowsAgent:",
                   "cpe": "cpe:2.3:a:fortinet:fortisiem_windows_agent:*:*:*:*:*:*:*:*",
@@ -3109,7 +3321,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSOAR:",
                   "cpe": "cpe:2.3:a:fortinet:fortisoar:*:*:*:*:*:*:*:*",
@@ -3124,7 +3336,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSwitch:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -3137,31 +3349,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiSwitch:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSwitch:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiSwitch:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiswitch-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiSwitch:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSwitch Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch_manager:*:*:*:*:*:*:*:*",
@@ -3176,7 +3392,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiSwitch Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiswitch_cloud:*:*:*:*:*:*:*:*",
@@ -3191,7 +3407,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenAndroid:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:android:*:*",
@@ -3228,7 +3444,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiToken Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_cloud:*:*:*:*:*:*:*:*",
@@ -3243,7 +3459,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -3256,31 +3472,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiVoice Enterprise:",
-                  "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiVoice Enterprise:",
+                    "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiVoice Enterprise:",
+                      "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiVoice Enterprise:",
-                  "cpe": "cpe:2.3:h:fortinet:fortivoice-:-:*:*:*:entreprise:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiVoice Cloud Unified Communications:",
                   "cpe": "cpe:2.3:a:fortinet:fortivoice_cloud_unified_communications:*:*:*:*:*:*:*:*",
@@ -3295,7 +3515,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -3308,31 +3528,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWeb:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWeb:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWeb:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWeb:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
@@ -3347,7 +3571,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",
@@ -3362,7 +3586,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWLC:",
                   "cpe": "cpe:2.3:a:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -3375,31 +3599,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWLC:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWLC:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWLC:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWLC:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwlc-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWLM:",
                   "cpe": "cpe:2.3:a:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
@@ -3412,28 +3640,32 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWLM:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWLM:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiwlm:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWLM:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWLM:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiwlm-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             }
           ],
           "cvssv3": {

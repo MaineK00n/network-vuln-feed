@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 6.4.0, less equal 6.4.9, fixed in [6.4.10, 7.0.8, 7.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -50,7 +50,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -63,28 +63,32 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiProxy:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiProxy:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             }
           ],
           "cvssv3": {

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
@@ -35,7 +35,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
@@ -60,7 +60,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",
@@ -85,7 +85,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient: less equal 5.2.3, fixed in [5.2.4]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:*:*:*",

@@ -8,6 +8,7 @@
       "cve": "CVE-2015-1793",
       "definitions": [
         {
+          "configurations": null,
           "impact": "Certificate Forgery"
         }
       ]

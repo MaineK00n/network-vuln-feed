@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: greater equal 8.0.0, less equal 8.0.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -38,7 +38,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "Meru AP: greater equal 8.0.0, less equal 8.0.0",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
@@ -81,7 +81,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -107,7 +107,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -134,7 +134,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -169,7 +169,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
@@ -219,7 +219,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -245,7 +245,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -272,7 +272,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -307,7 +307,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
@@ -357,7 +357,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -383,7 +383,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -410,7 +410,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -445,7 +445,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
@@ -495,7 +495,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -521,7 +521,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -548,7 +548,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -583,7 +583,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "Meru AP: less equal 7.0.11",
                   "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
@@ -633,7 +633,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.2.6",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -659,7 +659,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.11",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -699,6 +699,7 @@
       "cve": "CVE-2017-13084",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 5.9,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
@@ -712,6 +713,7 @@
       "cve": "CVE-2017-13086",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 5.9,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
@@ -725,6 +727,7 @@
       "cve": "CVE-2017-13087",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 5.9,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"
@@ -738,6 +741,7 @@
       "cve": "CVE-2017-13088",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 5.9,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:X/RL:X/RC:X"

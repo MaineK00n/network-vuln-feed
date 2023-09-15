@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less than 7.0.11, fixed in [7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -39,7 +39,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -52,31 +52,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiProxy:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiProxy:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -89,31 +93,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiWeb:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiWeb:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiWeb:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiWeb:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiweb-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb Manager:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_manager:*:*:*:*:*:*:*:*",
@@ -128,7 +136,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiWeb Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiweb_cloud:*:*:*:*:*:*:*:*",

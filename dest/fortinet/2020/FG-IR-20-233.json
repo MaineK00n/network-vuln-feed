@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiProxy:",
                   "cpe": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -23,28 +23,32 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiProxy:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiProxy:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiProxy:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiproxy-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             }
           ],
           "cvssv3": {

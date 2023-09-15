@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExtender:",
                   "cpe": "cpe:2.3:a:fortinet:fortiextender:*:*:*:*:*:*:*:*",
@@ -23,31 +23,35 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiExtender:",
-                  "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiExtender:",
+                    "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiExtender:",
+                      "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiExtender:",
-                  "cpe": "cpe:2.3:h:fortinet:fortiextender-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExtender Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiextender_cloud:*:*:*:*:*:*:*:*",

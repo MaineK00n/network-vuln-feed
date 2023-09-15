@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 5.2.0, less than 5.2.3, fixed in [5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -37,7 +37,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: less than 4.3.9, fixed in [4.3.9, 5.0.8, 5.1.5, 5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -101,7 +101,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: less than 4.2.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -113,57 +113,59 @@
                   ]
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiADC: equal FortiADC 200D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiADC: equal FortiADC 200D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-200d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 300D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 400D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 700D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 1500D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 2000D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiADC: equal FortiADC 4000D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 300D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-300d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 400D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-400d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 700D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-700d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 1500D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-1500d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 2000D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-2000d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiADC: equal FortiADC 4000D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiadc-4000d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Cross-Site Scripting (reflected)"
@@ -177,7 +179,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: greater equal 5.1.2, less equal 5.3.4, fixed in [5.3.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -203,7 +205,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 5.2.0, less than 5.2.3, fixed in [5.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -229,7 +231,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 5.0.0, less equal 5.0.10, fixed in [5.0.11, 5.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -256,7 +258,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 5.0.3, less equal 5.0.10, fixed in [5.0.11, 5.2.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",

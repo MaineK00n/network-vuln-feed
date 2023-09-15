@@ -8,6 +8,7 @@
       "cve": "CVE-2015-4000",
       "definitions": [
         {
+          "configurations": null,
           "impact": "MitM condition"
         }
       ]

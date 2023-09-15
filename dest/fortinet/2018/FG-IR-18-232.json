@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 6.0.0, less equal 6.0.4, fixed in [6.0.5, 6.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -26,7 +26,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 6.0.0, less equal 6.0.4, fixed in [6.0.5, 6.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -42,7 +42,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPortal: greater equal 4.1.0, less equal 4.1.2, fixed in [6.0.10]",
                   "cpe": "cpe:2.3:a:fortinet:fortiportal:*:*:*:*:*:*:*:*",
@@ -123,7 +123,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: greater equal 6.0.0, less equal 6.0.7, fixed in [6.4.11, 7.0.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",

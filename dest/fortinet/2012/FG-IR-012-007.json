@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiDB: less than 4.4.2, fixed in [4.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -23,29 +23,31 @@
                   ]
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiDB: equal FortiDB 2000B",
-                  "cpe": "cpe:2.3:h:fortinet:fortidb-2000b:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiDB: equal FortiDB 2000B",
+                    "cpe": "cpe:2.3:h:fortinet:fortidb-2000b:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiDB: equal FortiDB 1000C",
+                    "cpe": "cpe:2.3:h:fortinet:fortidb-1000c:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiDB: equal FortiDB 400C",
+                    "cpe": "cpe:2.3:h:fortinet:fortidb-400c:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiDB: equal FortiDB 1000C",
-                  "cpe": "cpe:2.3:h:fortinet:fortidb-1000c:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiDB: equal FortiDB 400C",
-                  "cpe": "cpe:2.3:h:fortinet:fortidb-400c:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Cross Site Scripting"

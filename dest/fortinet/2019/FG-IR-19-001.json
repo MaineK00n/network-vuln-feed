@@ -9,7 +9,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCASB:",
                   "cpe": "cpe:2.3:a:fortinet:forticasb:*:*:*:*:*:*:*:*",

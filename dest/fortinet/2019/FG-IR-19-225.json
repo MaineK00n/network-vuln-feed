@@ -8,6 +8,7 @@
       "cve": "CVE-2019-9511",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -21,6 +22,7 @@
       "cve": "CVE-2019-9512",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -34,6 +36,7 @@
       "cve": "CVE-2019-9513",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -47,6 +50,7 @@
       "cve": "CVE-2019-9514",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -60,6 +64,7 @@
       "cve": "CVE-2019-9515",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -73,6 +78,7 @@
       "cve": "CVE-2019-9516",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -86,6 +92,7 @@
       "cve": "CVE-2019-9517",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
@@ -99,6 +106,7 @@
       "cve": "CVE-2019-9518",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0,
             "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"

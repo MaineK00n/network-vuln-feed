@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "Meru AP:",
                   "cpe": "cpe:2.3:a:fortinet:meru:*:*:*:*:*:*:*:*",
@@ -24,28 +24,32 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "Meru AP:",
-                  "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "Meru AP:",
+                    "cpe": "cpe:2.3:o:fortinet:meru:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "Meru AP:",
+                      "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "Meru AP:",
-                  "cpe": "cpe:2.3:h:fortinet:meru:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             }
           ],
           "cvssv3": {

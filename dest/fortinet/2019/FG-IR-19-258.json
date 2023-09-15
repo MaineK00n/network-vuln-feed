@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPresence:",
                   "cpe": "cpe:2.3:a:fortinet:fortipresence:*:*:*:*:*:*:*:*",
@@ -40,7 +40,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiPresence:",
                   "cpe": "cpe:2.3:a:fortinet:fortipresence:*:*:*:*:*:*:*:*",

@@ -8,6 +8,7 @@
       "cve": "CVE-2016-2118",
       "definitions": [
         {
+          "configurations": null,
           "impact": "An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user."
         }
       ]
@@ -17,6 +18,7 @@
       "cve": "CVE-2016-0128",
       "definitions": [
         {
+          "configurations": null,
           "impact": "An MitM attacker could force a downgrade of the authentication level of the SAM and LSAD channels and impersonate an authenticated user."
         }
       ]

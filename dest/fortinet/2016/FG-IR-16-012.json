@@ -8,6 +8,7 @@
       "cve": "CVE-2016-0701",
       "definitions": [
         {
+          "configurations": null,
           "impact": "Information Disclosure"
         }
       ]
@@ -17,6 +18,7 @@
       "cve": "CVE-2015-3197",
       "definitions": [
         {
+          "configurations": null,
           "impact": "Information Disclosure"
         }
       ]

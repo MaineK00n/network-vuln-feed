@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -39,7 +39,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -68,7 +68,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -97,7 +97,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -126,7 +126,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",
@@ -155,7 +155,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiFone: less equal 3.0.11, fixed in [3.0.12]",
                   "cpe": "cpe:2.3:o:fortinet:fortifone:*:*:*:*:*:*:*:*",

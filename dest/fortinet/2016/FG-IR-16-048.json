@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -104,7 +104,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -118,7 +118,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -133,7 +133,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -161,7 +161,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -175,7 +175,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -286,7 +286,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -301,7 +301,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -391,7 +391,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -446,7 +446,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -603,7 +603,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -671,7 +671,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -685,7 +685,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -699,7 +699,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -810,7 +810,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -922,7 +922,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -937,7 +937,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -1054,7 +1054,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -1079,7 +1079,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -1166,7 +1166,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -1266,7 +1266,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -1385,7 +1385,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -1519,7 +1519,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -1571,7 +1571,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -1680,7 +1680,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -1827,7 +1827,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -1921,7 +1921,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -1935,7 +1935,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -1950,7 +1950,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -1978,7 +1978,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -2089,7 +2089,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -2104,7 +2104,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -2194,7 +2194,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -2249,7 +2249,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -2406,7 +2406,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -2474,7 +2474,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -2488,7 +2488,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -2502,7 +2502,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -2613,7 +2613,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -2725,7 +2725,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -2740,7 +2740,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -2857,7 +2857,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -2882,7 +2882,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -2969,7 +2969,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -3069,7 +3069,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -3188,7 +3188,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -3322,7 +3322,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -3374,7 +3374,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -3483,7 +3483,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -3630,7 +3630,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -3724,7 +3724,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -3738,7 +3738,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -3753,7 +3753,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -3781,7 +3781,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -3795,7 +3795,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -3906,7 +3906,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -3921,7 +3921,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -4011,7 +4011,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -4066,7 +4066,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -4223,7 +4223,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -4291,7 +4291,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -4305,7 +4305,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -4319,7 +4319,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -4430,7 +4430,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -4542,7 +4542,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -4557,7 +4557,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -4674,7 +4674,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -4699,7 +4699,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -4786,7 +4786,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -4886,7 +4886,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -5005,7 +5005,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -5139,7 +5139,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -5191,7 +5191,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -5300,7 +5300,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -5447,7 +5447,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -5461,7 +5461,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -5476,7 +5476,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -5504,7 +5504,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -5518,7 +5518,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -5629,7 +5629,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -5644,7 +5644,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -5734,7 +5734,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -5789,7 +5789,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -5946,7 +5946,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -6014,7 +6014,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -6028,7 +6028,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -6042,7 +6042,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -6153,7 +6153,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -6265,7 +6265,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -6280,7 +6280,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -6397,7 +6397,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -6422,7 +6422,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -6509,7 +6509,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -6609,7 +6609,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -6728,7 +6728,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -6862,7 +6862,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -6914,7 +6914,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -7023,7 +7023,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -7170,7 +7170,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -7264,7 +7264,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -7278,7 +7278,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -7293,7 +7293,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -7321,7 +7321,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -7335,7 +7335,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -7446,7 +7446,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -7461,7 +7461,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -7551,7 +7551,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -7606,7 +7606,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -7763,7 +7763,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -7831,7 +7831,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -7845,7 +7845,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -7859,7 +7859,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -7970,7 +7970,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -8082,7 +8082,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -8097,7 +8097,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -8214,7 +8214,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -8239,7 +8239,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -8326,7 +8326,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -8426,7 +8426,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -8545,7 +8545,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -8679,7 +8679,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -8731,7 +8731,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -8840,7 +8840,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -8987,7 +8987,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -9081,7 +9081,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -9095,7 +9095,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -9110,7 +9110,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -9138,7 +9138,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -9152,7 +9152,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -9263,7 +9263,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -9278,7 +9278,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -9368,7 +9368,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -9423,7 +9423,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -9580,7 +9580,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -9648,7 +9648,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -9662,7 +9662,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -9676,7 +9676,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -9787,7 +9787,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -9899,7 +9899,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -9914,7 +9914,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -10031,7 +10031,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -10056,7 +10056,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -10143,7 +10143,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -10243,7 +10243,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -10362,7 +10362,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -10496,7 +10496,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -10548,7 +10548,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -10657,7 +10657,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -10804,7 +10804,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -10898,7 +10898,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -10912,7 +10912,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -10927,7 +10927,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -10955,7 +10955,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -11066,7 +11066,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -11081,7 +11081,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -11171,7 +11171,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -11226,7 +11226,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -11383,7 +11383,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -11451,7 +11451,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -11465,7 +11465,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -11479,7 +11479,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -11590,7 +11590,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -11702,7 +11702,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -11717,7 +11717,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -11834,7 +11834,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -11859,7 +11859,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -11946,7 +11946,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -12046,7 +12046,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -12165,7 +12165,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -12299,7 +12299,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -12351,7 +12351,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -12460,7 +12460,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -12607,7 +12607,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -12701,7 +12701,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -12715,7 +12715,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -12730,7 +12730,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -12758,7 +12758,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -12772,7 +12772,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -12883,7 +12883,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -12898,7 +12898,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -12988,7 +12988,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -13043,7 +13043,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -13200,7 +13200,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -13268,7 +13268,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -13282,7 +13282,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -13296,7 +13296,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -13407,7 +13407,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -13519,7 +13519,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -13534,7 +13534,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -13651,7 +13651,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -13676,7 +13676,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -13763,7 +13763,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -13863,7 +13863,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -13982,7 +13982,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -14116,7 +14116,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -14168,7 +14168,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -14277,7 +14277,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -14424,7 +14424,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -14518,7 +14518,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -14532,7 +14532,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -14547,7 +14547,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -14575,7 +14575,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -14589,7 +14589,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -14700,7 +14700,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -14715,7 +14715,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -14805,7 +14805,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -14860,7 +14860,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -15017,7 +15017,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -15085,7 +15085,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -15099,7 +15099,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -15113,7 +15113,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -15224,7 +15224,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -15336,7 +15336,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -15351,7 +15351,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -15468,7 +15468,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -15493,7 +15493,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -15580,7 +15580,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -15680,7 +15680,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -15799,7 +15799,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -15933,7 +15933,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -15985,7 +15985,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -16094,7 +16094,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -16241,7 +16241,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -16335,7 +16335,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -16349,7 +16349,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -16364,7 +16364,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -16392,7 +16392,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -16406,7 +16406,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -16517,7 +16517,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -16532,7 +16532,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -16622,7 +16622,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -16677,7 +16677,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -16834,7 +16834,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -16902,7 +16902,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -16916,7 +16916,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -16930,7 +16930,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -17041,7 +17041,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -17153,7 +17153,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -17168,7 +17168,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -17285,7 +17285,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -17310,7 +17310,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -17397,7 +17397,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -17497,7 +17497,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -17616,7 +17616,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -17750,7 +17750,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -17802,7 +17802,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -17911,7 +17911,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -18058,7 +18058,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -18152,7 +18152,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -18166,7 +18166,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -18181,7 +18181,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -18195,7 +18195,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -18306,7 +18306,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -18321,7 +18321,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -18411,7 +18411,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -18466,7 +18466,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -18623,7 +18623,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -18691,7 +18691,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -18705,7 +18705,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -18719,7 +18719,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -18830,7 +18830,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -18942,7 +18942,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -18957,7 +18957,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -19074,7 +19074,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -19099,7 +19099,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -19186,7 +19186,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -19286,7 +19286,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -19405,7 +19405,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -19539,7 +19539,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -19591,7 +19591,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -19700,7 +19700,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -19847,7 +19847,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -19941,7 +19941,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -19955,7 +19955,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -19970,7 +19970,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: less equal 5.2.9, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -19998,7 +19998,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -20012,7 +20012,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -20123,7 +20123,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -20138,7 +20138,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -20228,7 +20228,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -20283,7 +20283,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -20440,7 +20440,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -20508,7 +20508,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -20522,7 +20522,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -20536,7 +20536,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -20647,7 +20647,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -20759,7 +20759,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -20774,7 +20774,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -20891,7 +20891,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -20916,7 +20916,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -21003,7 +21003,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -21103,7 +21103,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -21222,7 +21222,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -21356,7 +21356,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -21408,7 +21408,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -21517,7 +21517,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -21664,7 +21664,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -21758,7 +21758,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -21772,7 +21772,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -21787,7 +21787,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -21801,7 +21801,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -21912,7 +21912,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -21927,7 +21927,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -22017,7 +22017,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -22072,7 +22072,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -22229,7 +22229,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -22297,7 +22297,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -22311,7 +22311,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -22325,7 +22325,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -22436,7 +22436,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -22548,7 +22548,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -22563,7 +22563,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -22680,7 +22680,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -22705,7 +22705,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -22792,7 +22792,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -22892,7 +22892,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -23011,7 +23011,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -23145,7 +23145,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -23197,7 +23197,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -23306,7 +23306,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",
@@ -23453,7 +23453,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: greater equal 4.0.0, less equal 4.0.4, fixed in [5.2.10, 5.4.2, 5.6.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortianalyzer:*:*:*:*:*:*:*:*",
@@ -23547,7 +23547,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP: less equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap:*:*:*:*:*:*:*:*",
@@ -23561,7 +23561,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: greater equal 5.4.0, less equal 5.4.2, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -23576,7 +23576,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: less equal 3.5.0, fixed in [3.5.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -23590,7 +23590,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: equal 3.0.0, fixed in [4.6.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc:*:*:*:*:*:*:*:*",
@@ -23701,7 +23701,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClientEMS: greater equal 1.0.0, less equal 1.0.2, fixed in [1.0.3]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_enterprise_management_server:*:*:*:*:*:*:*:*",
@@ -23716,7 +23716,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: equal 1.1.0, fixed in [2.3.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",
@@ -23806,7 +23806,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiTester: equal 2.3.0, fixed in [2.8.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -23861,7 +23861,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal 3.0.0, fixed in [5.6.1, 5.7.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiweb:*:*:*:*:*:*:*:*",
@@ -24018,7 +24018,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDDoS: greater equal 0.4.10, less equal 0.4.23, fixed in [4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiddos:*:*:*:*:*:*:*:*",
@@ -24086,7 +24086,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN: equal 4.0.2328, fixed in [4.0.2332]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:*:*:*",
@@ -24100,7 +24100,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTokenIOS: equal 3.0.5, fixed in [4.0.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortitoken_mobile:*:*:*:*:*:ios:*:*",
@@ -24114,7 +24114,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiCache: equal 0.4.10, fixed in [4.1.2]",
                   "cpe": "cpe:2.3:o:fortinet:forticache:*:*:*:*:*:*:*:*",
@@ -24225,7 +24225,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient for Windows: equal 5.4.1, fixed in [5.4.2]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient:*:*:*:*:*:windows:*:*",
@@ -24337,7 +24337,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "AscenLink: greater equal 7.2.0, less equal 7.2.16, fixed in [7.2.17]",
                   "cpe": "cpe:2.3:o:fortinet:ascenlink:*:*:*:*:*:*:*:*",
@@ -24352,7 +24352,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiMail: equal 2.0.1, fixed in [5.1.7, 5.2.9, 5.3.6]",
                   "cpe": "cpe:2.3:o:fortinet:fortimail:*:*:*:*:*:*:*:*",
@@ -24469,7 +24469,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice Enterprise: equal 5.0.5, fixed in [5.0.6, 5.3.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:entreprise:*:*:*",
@@ -24494,7 +24494,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiManager: greater equal 4.0.0, less equal 4.0.3, fixed in [5.2.10, 5.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortimanager:*:*:*:*:*:*:*:*",
@@ -24581,7 +24581,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO CA for Windows: equal 0.4.20, fixed in [5.2.10]",
                   "cpe": "cpe:2.3:a:fortinet:fsso_ca:*:*:*:*:*:windows:*:*",
@@ -24681,7 +24681,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDB: equal 0.4.10, fixed in [5.1.11]",
                   "cpe": "cpe:2.3:o:fortinet:fortidb:*:*:*:*:*:*:*:*",
@@ -24800,7 +24800,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiExplorer for Windows: equal 1.3.0, fixed in [2.7.0]",
                   "cpe": "cpe:2.3:a:fortinet:fortiexplorer:*:*:*:*:*:windows:*:*",
@@ -24934,7 +24934,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWAN: greater equal 0.4.10, less equal 0.4.24, fixed in [4.2.6, 4.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwan:*:*:*:*:*:*:*:*",
@@ -24986,7 +24986,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiRecorder: equal 1.0.0, fixed in [2.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortirecorder:*:*:*:*:*:*:*:*",
@@ -25095,7 +25095,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAuthenticator: equal 1.0.0, fixed in [4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiauthenticator:*:*:*:*:*:*:*:*",

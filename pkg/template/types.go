@@ -17,7 +17,6 @@ type Advisory struct {
 type Vulnerability struct {
 	ID          string       `json:"id"`
 	CVE         string       `json:"cve"`
-	Description string       `json:"description"`
 	Definitions []Definition `json:"definitions"`
 }
 
@@ -31,16 +30,15 @@ type Definition struct {
 }
 
 type Configurations struct {
-	Application     []Element `json:"application,omitempty"`
-	OperatingSystem []Element `json:"operating_system,omitempty"`
-	Hardware        []Element `json:"hardware,omitempty"`
+	Nodes    []Element       `json:"nodes"`
+	Children *Configurations `json:"children"`
 }
 
 type Element struct {
 	Description string     `json:"description"`
 	CPE         string     `json:"cpe"`
 	Affected    Expression `json:"affected"`
-	FixedIn     string     `json:"fixed_in"`
+	FixedIn     []string   `json:"fixed_in"`
 }
 
 type Expression struct {

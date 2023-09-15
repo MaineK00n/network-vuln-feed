@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 4.2.0, less equal 4.2.16",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -20,18 +20,20 @@
                   }
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiGate: equal FortiGate 60C",
-                  "cpe": "cpe:2.3:h:fortinet:fortigate-60c:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiGate: equal FortiGate 60C",
+                    "cpe": "cpe:2.3:h:fortinet:fortigate-60c:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                }
-              ]
+                ]
+              }
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 4.3.0, less than 4.3.8, fixed in [4.3.9]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC-SD: less equal 8.2.4, fixed in [8.3.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc-sd:*:*:*:*:*:*:*:*",

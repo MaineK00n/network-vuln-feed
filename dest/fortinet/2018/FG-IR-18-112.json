@@ -8,6 +8,7 @@
       "cve": "CVE-2018-5736",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -20,6 +21,7 @@
       "cve": "CVE-2018-5737",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "hardware": [
+              "nodes": [
                 {
                   "description": "FortiWeb: equal FortiWeb 4000C",
                   "cpe": "cpe:2.3:h:fortinet:fortiweb-4000c:-:*:*:*:*:*:*:*",

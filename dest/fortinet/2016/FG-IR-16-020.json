@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiVoice: less equal 5.0.4, fixed in [5.0.5]",
                   "cpe": "cpe:2.3:o:fortinet:fortivoice:*:*:*:*:*:*:*:*",

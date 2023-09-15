@@ -8,6 +8,7 @@
       "cve": "CVE-2017-9805",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },

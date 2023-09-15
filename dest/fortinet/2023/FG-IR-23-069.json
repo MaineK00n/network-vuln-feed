@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiADC: greater equal 5.2.0, less equal 5.2.8, fixed in [7.1.2, 7.2.1]",
                   "cpe": "cpe:2.3:o:fortinet:fortiadc-:-:*:*:*:*:*:*:*",

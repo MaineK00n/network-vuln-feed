@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiDeceptor: equal 4.1.0, fixed in [4.1.1, 4.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortideceptor:*:*:*:*:*:*:*:*",
@@ -147,7 +147,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSandbox: greater equal 4.2.0, less equal 4.2.2, fixed in [4.2.3, 4.2.3]",
                   "cpe": "cpe:2.3:o:fortinet:fortisandbox:*:*:*:*:*:*:*:*",

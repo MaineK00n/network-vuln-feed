@@ -9,7 +9,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiCloud: less equal 3.2.0, fixed in [3.2.1]",
                   "cpe": "cpe:2.3:a:fortinet:forticloud:*:*:*:*:*:*:*:*",

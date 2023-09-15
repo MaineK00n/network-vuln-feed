@@ -8,6 +8,7 @@
       "cve": "CVE-2021-26106",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 7.6,
             "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"

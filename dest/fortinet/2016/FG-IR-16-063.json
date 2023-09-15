@@ -9,6 +9,7 @@
       "cve": "CVE-2016-5195",
       "definitions": [
         {
+          "configurations": null,
           "impact": "Privilege escalation"
         }
       ]

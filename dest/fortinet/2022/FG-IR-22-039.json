@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiExtender: greater equal 3.2.1, less equal 3.2.3, fixed in [3.2.4, 3.3.3, 4.0.3, 4.1.9, 4.2.5, 7.0.4, 7.2.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiextender:*:*:*:*:*:*:*:*",

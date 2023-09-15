@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient Lite for Windows: equal 4.3.3.445, fixed in [4.3.4.461]",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_lite:*:*:*:*:*:windows:*:*",

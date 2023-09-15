@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in [6.4.13, 7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -53,7 +53,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in [7.0.10, 7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
@@ -98,7 +98,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: greater equal 6.4.0, less equal 6.4.12, fixed in [6.4.13, 7.0.11, 7.2.5, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -141,7 +141,7 @@
               ]
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiProxy: greater equal 7.0.0, less equal 7.0.9, fixed in [7.0.10, 7.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiproxy:*:*:*:*:*:*:*:*",

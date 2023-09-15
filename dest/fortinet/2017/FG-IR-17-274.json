@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: greater equal 7.0.0, less equal 7.0.11, fixed in [7.0.13, 8.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",
@@ -51,7 +51,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiWLC: greater equal 7.0.0, less equal 7.0.11, fixed in [7.0.13, 8.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortiwlc:*:*:*:*:*:*:*:*",

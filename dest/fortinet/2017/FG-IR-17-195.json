@@ -9,7 +9,7 @@
         {
           "configurations": [
             {
-              "hardware": [
+              "nodes": [
                 {
                   "description": "FortiAnalyzer: equal FortiAnalyzer 400E",
                   "cpe": "cpe:2.3:h:fortinet:fortianalyzer-400e:-:*:*:*:*:*:*:*",
@@ -55,7 +55,7 @@
               ]
             },
             {
-              "hardware": [
+              "nodes": [
                 {
                   "description": "FortiManager: equal FortiManager 300E",
                   "cpe": "cpe:2.3:h:fortinet:fortimanager-300e:-:*:*:*:*:*:*:*",

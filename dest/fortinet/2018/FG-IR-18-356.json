@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-S: less than 5.6.4, fixed in [5.6.4, 6.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-s:*:*:*:*:*:*:*:*",
@@ -34,25 +34,27 @@
                   ]
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiAP-S: equal FortiAP S221E",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-s221e:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-S: equal FortiAP S221E",
+                    "cpe": "cpe:2.3:h:fortinet:fortiap-s221e:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiAP-S: equal FortiAP S223E",
+                    "cpe": "cpe:2.3:h:fortinet:fortiap-s223e:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiAP-S: equal FortiAP S223E",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-s223e:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             },
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiAP-W2: less than 5.6.4, fixed in [5.6.4, 6.0.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortiap-w2:*:*:*:*:*:*:*:*",
@@ -76,29 +78,31 @@
                   ]
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiAP-W2: equal FortiAP 221E",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-221e:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiAP-W2: equal FortiAP 221E",
+                    "cpe": "cpe:2.3:h:fortinet:fortiap-221e:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiAP-W2: equal FortiAP 222E",
+                    "cpe": "cpe:2.3:h:fortinet:fortiap-222e:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiAP-W2: equal FortiAP 223E",
+                    "cpe": "cpe:2.3:h:fortinet:fortiap-223e:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiAP-W2: equal FortiAP 222E",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-222e:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiAP-W2: equal FortiAP 223E",
-                  "cpe": "cpe:2.3:h:fortinet:fortiap-223e:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "cvssv3": {

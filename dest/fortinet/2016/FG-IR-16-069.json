@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiClient SSL VPN for Linux: equal ANY",
                   "cpe": "cpe:2.3:a:fortinet:forticlient_ssl_vpn:*:*:*:*:*:linux:*:*",
@@ -19,18 +19,20 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiOS: less equal 5.4.2, fixed in [5.4.3]",
-                  "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "le": "5.4.2"
-                  },
-                  "fixed_in": [
-                    "5.4.3"
-                  ]
-                }
-              ]
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiOS: less equal 5.4.2, fixed in [5.4.3]",
+                    "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "le": "5.4.2"
+                    },
+                    "fixed_in": [
+                      "5.4.3"
+                    ]
+                  }
+                ]
+              }
             }
           ],
           "cvssv3": {

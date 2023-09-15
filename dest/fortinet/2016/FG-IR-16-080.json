@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "Connect: greater equal 14.2.0.0, less than 14.2.0.12, fixed in [14.2.0.12, 14.10.0.5, 15.10.0.3, 16.7.0.1]",
                   "cpe": "cpe:2.3:a:fortinet:connect:*:*:*:*:*:*:*:*",

@@ -7,6 +7,7 @@
       "cve": "CVE-2015-0235",
       "definitions": [
         {
+          "configurations": null,
           "impact": "Remote Code Execution"
         }
       ]

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiOS: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
@@ -33,6 +33,7 @@
       "cve": "CVE-2018-0131",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },

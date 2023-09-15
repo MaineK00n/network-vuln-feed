@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiEDR:",
                   "cpe": "cpe:2.3:a:fortinet:fortiedr:*:*:*:*:*:*:*:*",
@@ -26,7 +26,7 @@
               ]
             },
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiEDR Cloud:",
                   "cpe": "cpe:2.3:a:fortinet:fortiedr_cloud:*:*:*:*:*:*:*:*",

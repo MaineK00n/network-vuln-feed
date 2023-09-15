@@ -8,6 +8,7 @@
       "id": "FG-IR-16-022",
       "definitions": [
         {
+          "configurations": null,
           "impact": "XSS attacks"
         }
       ]

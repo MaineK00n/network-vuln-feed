@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "hardware": [
+              "nodes": [
                 {
                   "description": "FortiGate: equal FortiGate 5020",
                   "cpe": "cpe:2.3:h:fortinet:fortigate-5020:-:*:*:*:*:*:*:*",
@@ -66,22 +66,14 @@
                   "affected": {
                     "eq": "NA"
                   }
-                }
-              ]
-            },
-            {
-              "hardware": [
+                },
                 {
                   "description": "FortiGate: equal FortiGate 3950B",
                   "cpe": "cpe:2.3:h:fortinet:fortigate-3950b:-:*:*:*:*:*:*:*",
                   "affected": {
                     "eq": "NA"
                   }
-                }
-              ]
-            },
-            {
-              "hardware": [
+                },
                 {
                   "description": "FortiGate: equal FortiGate-3810A",
                   "cpe": "cpe:2.3:h:fortinet:fortigate-3810a:-:*:*:*:*:*:*:*",

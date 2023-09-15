@@ -11,7 +11,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FortiTester:",
                   "cpe": "cpe:2.3:a:fortinet:fortitester:*:*:*:*:*:*:*:*",
@@ -24,28 +24,32 @@
                   }
                 }
               ],
-              "operating_system": [
-                {
-                  "description": "FortiTester:",
-                  "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "",
-                    "gt": "",
-                    "ge": "",
-                    "lt": "",
-                    "le": ""
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiTester:",
+                    "cpe": "cpe:2.3:o:fortinet:fortitester:*:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "",
+                      "gt": "",
+                      "ge": "",
+                      "lt": "",
+                      "le": ""
+                    }
                   }
+                ],
+                "children": {
+                  "nodes": [
+                    {
+                      "description": "FortiTester:",
+                      "cpe": "cpe:2.3:h:fortinet:fortitester-:-:*:*:*:*:*:*:*",
+                      "affected": {
+                        "eq": "NA"
+                      }
+                    }
+                  ]
                 }
-              ],
-              "hardware": [
-                {
-                  "description": "FortiTester:",
-                  "cpe": "cpe:2.3:h:fortinet:fortitester-:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+              }
             }
           ],
           "cvssv3": {

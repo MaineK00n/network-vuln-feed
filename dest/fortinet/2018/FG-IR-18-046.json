@@ -8,6 +8,7 @@
       "cve": "CVE-2018-8930",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -20,6 +21,7 @@
       "cve": "CVE-2018-8931",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -32,6 +34,7 @@
       "cve": "CVE-2018-8932",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -44,6 +47,7 @@
       "cve": "CVE-2018-8933",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -56,6 +60,7 @@
       "cve": "CVE-2018-8934",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -68,6 +73,7 @@
       "cve": "CVE-2018-8935",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -80,6 +86,7 @@
       "cve": "CVE-2018-8936",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },

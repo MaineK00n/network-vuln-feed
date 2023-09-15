@@ -8,6 +8,7 @@
       "cve": "CVE-2017-12615",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },
@@ -20,6 +21,7 @@
       "cve": "CVE-2017-12617",
       "definitions": [
         {
+          "configurations": null,
           "cvssv3": {
             "base_score": 0
           },

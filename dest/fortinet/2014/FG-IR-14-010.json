@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiBalancer: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortibalancer:*:*:*:*:*:*:*:*",
@@ -19,36 +19,38 @@
                   }
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 400",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 400",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 1000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 2000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 3000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 1000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 2000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 3000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Remote Access"
@@ -62,7 +64,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiBalancer: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortibalancer:*:*:*:*:*:*:*:*",
@@ -71,36 +73,38 @@
                   }
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 400",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 400",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 1000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 2000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 3000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 1000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 2000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 3000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Remote Access"
@@ -114,7 +118,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiBalancer: equal ANY",
                   "cpe": "cpe:2.3:o:fortinet:fortibalancer:*:*:*:*:*:*:*:*",
@@ -123,36 +127,38 @@
                   }
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 400",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 400",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-400:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 1000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 2000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiBalancer: equal FortiBalancer 3000",
+                    "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 1000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-1000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 2000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-2000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiBalancer: equal FortiBalancer 3000",
-                  "cpe": "cpe:2.3:h:fortinet:fortibalancer-3000:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Remote Access"

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiNAC: less equal 8.3.7, fixed in [9.1.6, 9.2.4]",
                   "cpe": "cpe:2.3:o:fortinet:fortinac:*:*:*:*:*:*:*:*",

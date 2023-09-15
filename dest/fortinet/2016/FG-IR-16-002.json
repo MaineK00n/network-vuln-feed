@@ -8,6 +8,7 @@
       "cve": "CVE-2015-7547",
       "definitions": [
         {
+          "configurations": null,
           "impact": "Software using this function may be exploited with attacker-controlled domain names, attacker-controlled DNS servers, or through a man-in-the-middle attack."
         }
       ]

@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSOAR: greater equal 7.3.0, less equal 7.3.1, fixed in [7.3.2, 7.4.0]",
                   "cpe": "cpe:2.3:o:fortinet:fortisoar:*:*:*:*:*:*:*:*",

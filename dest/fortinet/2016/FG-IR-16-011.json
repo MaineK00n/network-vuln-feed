@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "operating_system": [
+              "nodes": [
                 {
                   "description": "FortiSwitch: equal 3.4.1, fixed in [3.4.2]",
                   "cpe": "cpe:2.3:o:fortinet:fortiswitch:*:*:*:*:*:*:*:*",
@@ -22,155 +22,157 @@
                   ]
                 }
               ],
-              "hardware": [
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 108D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-108d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
+              "children": {
+                "nodes": [
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 108D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-108d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 124D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-124d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 124D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-124d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 224D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-224d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 224D-FPOE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-224d-fpoe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 248D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-248d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 248D-FPOE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-248d-fpoe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 424D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-424d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 424D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-424d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 424D-FPOE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-424d-fpoe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 448D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-448d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 448D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-448d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 448D-FPOE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-448d-fpoe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 524D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-524d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 524D-FPOE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-524d-fpoe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 548D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-548d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 548D-FPOE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-548d-fpoe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 1024D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-1024d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 1048D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-1048d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch 3032D",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-3032d:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
+                  },
+                  {
+                    "description": "FortiSwitch: equal FortiSwitch R-112D-POE",
+                    "cpe": "cpe:2.3:h:fortinet:fortiswitch-r-112d-poe:-:*:*:*:*:*:*:*",
+                    "affected": {
+                      "eq": "NA"
+                    }
                   }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 124D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-124d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 124D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-124d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 224D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-224d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 224D-FPOE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-224d-fpoe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 248D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-248d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 248D-FPOE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-248d-fpoe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 424D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-424d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 424D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-424d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 424D-FPOE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-424d-fpoe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 448D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-448d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 448D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-448d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 448D-FPOE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-448d-fpoe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 524D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-524d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 524D-FPOE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-524d-fpoe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 548D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-548d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 548D-FPOE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-548d-fpoe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 1024D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-1024d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 1048D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-1048d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch 3032D",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-3032d:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                },
-                {
-                  "description": "FortiSwitch: equal FortiSwitch R-112D-POE",
-                  "cpe": "cpe:2.3:h:fortinet:fortiswitch-r-112d-poe:-:*:*:*:*:*:*:*",
-                  "affected": {
-                    "eq": "NA"
-                  }
-                }
-              ]
+                ]
+              }
             }
           ],
           "impact": "Remote administrative access"

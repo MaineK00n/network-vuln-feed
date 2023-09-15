@@ -10,7 +10,7 @@
         {
           "configurations": [
             {
-              "application": [
+              "nodes": [
                 {
                   "description": "FSSO: equal ANY,",
                   "cpe": "cpe:2.3:a:fortinet:fortinet_single_sign-on:*:*:*:*:*:*:*:*",
